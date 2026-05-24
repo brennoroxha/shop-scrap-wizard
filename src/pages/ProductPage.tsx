@@ -23,8 +23,8 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 
-const SITE_URL = "https://gcomerciosuplementos.com";
-const SITE_NAME = "Gago Suplementos";
+const SITE_URL = "https://tendenciacosmeticos.com.br";
+const SITE_NAME = "Tendencia Cosmeticos";
 
 const stripHtml = (html: string) =>
   html
@@ -402,7 +402,7 @@ const ProductPage = () => {
             <div className="mt-4 rounded-lg border border-border bg-card p-4">
               <div className="mb-2 text-xs leading-tight">
                 <p className="font-bold uppercase text-muted-foreground">Vendido e entregue por</p>
-                <p className="font-semibold text-[#0d6efd]">Gago Suplementos</p>
+                <p className="font-semibold text-[#0d6efd]">Tendencia Cosmeticos</p>
               </div>
 
               {/* Price */}

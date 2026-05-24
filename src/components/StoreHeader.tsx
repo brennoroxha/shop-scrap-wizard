@@ -52,7 +52,7 @@ const StoreHeader = ({ onToggleMobileMenu, mobileMenuOpen }: StoreHeaderProps) =
             <Menu className="h-7 w-7" />
           </button>
           <Link to="/" className="no-underline">
-            <img src={logoMobile} alt="Gago Suplementos" className="h-[44px] w-auto"  loading="lazy"/>
+            <img src={logoMobile} alt="Tendencia Cosmeticos" className="h-[44px] w-auto"  loading="lazy"/>
           </Link>
           <button
             onClick={() => setIsOpen(true)}
@@ -119,7 +119,7 @@ const StoreHeader = ({ onToggleMobileMenu, mobileMenuOpen }: StoreHeaderProps) =
         <div className="container-page">
           <div className="relative flex items-center justify-between">
             <Link to="/" className="no-underline flex-shrink-0">
-              <img src={logo} alt="Gago Suplementos" className="h-[52px] w-auto"  loading="lazy"/>
+              <img src={logo} alt="Tendencia Cosmeticos" className="h-[52px] w-auto"  loading="lazy"/>
             </Link>
 
             <div className="mx-8 max-w-xl flex-1">

@@ -27,8 +27,8 @@ export function ProductSEO({
   marca = "",
   gtin = "",
 }: ProductSEOProps) {
-  const url = `https://gcomerciosuplementos.com/products/${slug}`;
-  const titulo = `${nome} | Gago Suplementos`;
+  const url = `https://tendenciacosmeticos.com.br/products/${slug}`;
+  const titulo = `${nome} | Tendencia Cosmeticos`;
   const descricaoMeta = descricao.length > 155
     ? descricao.substring(0, 152) + "..."
     : descricao;
@@ -51,7 +51,7 @@ export function ProductSEO({
         : "https://schema.org/OutOfStock",
       seller: {
         "@type": "Organization",
-        name: "Gago Suplementos",
+        name: "Tendencia Cosmeticos",
       },
     },
   };
@@ -68,7 +68,7 @@ export function ProductSEO({
       <meta property="og:description" content={descricaoMeta} />
       <meta property="og:image" content={imagem} />
       <meta property="og:url" content={url} />
-      <meta property="og:site_name" content="Gago Suplementos" />
+      <meta property="og:site_name" content="Tendencia Cosmeticos" />
 
       {/* Twitter Card */}
       <meta name="twitter:card" content="summary_large_image" />

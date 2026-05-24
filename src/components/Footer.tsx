@@ -62,14 +62,14 @@ const Footer = () => {
         <div className="grid grid-cols-3 gap-8">
           {/* Sobre */}
           <div>
-            <img src={logo} alt="Gago Suplementos" className="h-10 w-auto mb-4" loading="lazy" />
+            <img src={logo} alt="Tendencia Cosmeticos" className="h-10 w-auto mb-4" loading="lazy" />
             <h3 className="font-bold text-foreground text-sm mb-4">INFORMAÇÕES DA EMPRESA</h3>
             <div className="text-sm text-muted-foreground leading-relaxed space-y-1">
-              <p>Gago Suplementos</p>
-              <p>CNPJ: 64.816.985/0001-00</p>
-              <p>Telefone: (47) 99650-3232</p>
-              <p>E-mail: contato@gagosuplementos.com.br</p>
-              <p>Endereço: AV CORONEL MARCOS KONDER, 805 - Bairro Centro - CEP 88301-303 - Itajaí/SC</p>
+              <p>Tendencia Cosmeticos</p>
+              <p>CNPJ: 22.556.253/0002-60</p>
+              <p>Telefone: (48) 98400-0000</p>
+              <p>E-mail: contato@tendenciacosmeticos.com.br</p>
+              <p>Endereço: Rua Madre Maria Vilac, 1271, Loja Amalia, Canasvieiras, Florianópolis - SC, 88054-000</p>
               <p>Segunda a Sexta das 09h às 18h</p>
             </div>
           </div>
@@ -90,14 +90,14 @@ const Footer = () => {
 
           {/* Contato */}
           <div className="flex flex-col gap-3">
-            <a href="tel:+5547996503232" className="flex items-center justify-between py-3 border-b border-gray-100 last:border-b-0">
+            <a href="tel:+5548984000000" className="flex items-center justify-between py-3 border-b border-gray-100 last:border-b-0">
               <div>
                 <p className="text-xs font-bold text-foreground uppercase tracking-wide">Central de Atendimento</p>
-                <p className="text-base font-bold text-black mt-1">(47) 99650-3232</p>
+                <p className="text-base font-bold text-black mt-1">(48) 98400-0000</p>
               </div>
               <Phone className="w-7 h-7 text-black" strokeWidth={2} />
             </a>
-            <a href="https://wa.me/5547996503232" target="_blank" rel="noopener noreferrer" className="flex items-center justify-between py-3 border-b border-gray-100 last:border-b-0">
+            <a href="https://wa.me/5548984000000" target="_blank" rel="noopener noreferrer" className="flex items-center justify-between py-3 border-b border-gray-100 last:border-b-0">
               <div>
                 <p className="text-xs font-bold text-foreground uppercase tracking-wide">Atendimento via WhatsApp</p>
                 <p className="text-base font-bold text-black mt-1">Inicie uma conversa</p>
@@ -132,10 +132,10 @@ const Footer = () => {
           <div>
             <p className="text-sm font-bold text-foreground mb-3 uppercase">Compre com Segurança</p>
             <div className="flex items-center gap-6">
-              <a href="https://transparencyreport.google.com/safe-browsing/search?url=https:%2F%2Fgcomerciosuplementos.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://transparencyreport.google.com/safe-browsing/search?url=https:%2F%2Ftendenciacosmeticos.com.br" target="_blank" rel="noopener noreferrer">
                 <img src={googleTransparency} alt="Google Transparency Report" className="h-10 object-contain" loading="lazy" />
               </a>
-              <a href="https://www.google.com/search?q=gcomerciosuplementos.com+avalia%C3%A7%C3%B5es" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.google.com/search?q=tendenciacosmeticos.com.br+avalia%C3%A7%C3%B5es" target="_blank" rel="noopener noreferrer">
                 <img src={googleReviews} alt="Avaliações Google 5 estrelas" className="h-10 object-contain" loading="lazy" />
               </a>
             </div>
@@ -146,18 +146,18 @@ const Footer = () => {
       {/* Mobile */}
       <div className="md:hidden container-page py-6">
         <div className="flex justify-start pb-4">
-          <img src={logo} alt="Gago Suplementos" className="h-8 w-auto" loading="lazy" />
+          <img src={logo} alt="Tendencia Cosmeticos" className="h-8 w-auto" loading="lazy" />
         </div>
 
         {/* Sobre */}
         <div className="border-b border-border py-4 text-left">
           <h3 className="font-bold text-foreground text-sm mb-3">INFORMAÇÕES DA EMPRESA</h3>
           <div className="text-sm text-muted-foreground leading-relaxed space-y-1">
-            <p>Gago Suplementos</p>
-            <p>CNPJ: 64.816.985/0001-00</p>
-            <p>Telefone: (47) 99650-3232</p>
-            <p>E-mail: contato@gagosuplementos.com.br</p>
-            <p>Endereço: AV CORONEL MARCOS KONDER, 805 - Bairro Centro - CEP 88301-303 - Itajaí/SC</p>
+            <p>Tendencia Cosmeticos</p>
+            <p>CNPJ: 22.556.253/0002-60</p>
+            <p>Telefone: (48) 98400-0000</p>
+            <p>E-mail: contato@tendenciacosmeticos.com.br</p>
+            <p>Endereço: Rua Madre Maria Vilac, 1271, Loja Amalia, Canasvieiras, Florianópolis - SC, 88054-000</p>
             <p>Segunda a Sexta das 09h às 18h</p>
           </div>
         </div>
@@ -176,14 +176,14 @@ const Footer = () => {
 
         {/* Contato */}
         <div className="flex flex-col gap-2 py-4 border-b border-border">
-          <a href="tel:+5547996503232" className="flex items-center justify-between py-3 border-b border-gray-100 last:border-b-0">
+          <a href="tel:+5548984000000" className="flex items-center justify-between py-3 border-b border-gray-100 last:border-b-0">
             <div>
               <p className="text-xs font-bold text-foreground uppercase tracking-wide">Central de Atendimento</p>
-              <p className="text-base font-bold text-black mt-1">(47) 99650-3232</p>
+              <p className="text-base font-bold text-black mt-1">(48) 98400-0000</p>
             </div>
             <Phone className="w-7 h-7 text-black" strokeWidth={2} />
           </a>
-          <a href="https://wa.me/5547996503232" target="_blank" rel="noopener noreferrer" className="flex items-center justify-between py-3 border-b border-gray-100 last:border-b-0">
+          <a href="https://wa.me/5548984000000" target="_blank" rel="noopener noreferrer" className="flex items-center justify-between py-3 border-b border-gray-100 last:border-b-0">
             <div>
               <p className="text-xs font-bold text-foreground uppercase tracking-wide">Atendimento via WhatsApp</p>
               <p className="text-base font-bold text-black mt-1">Inicie uma conversa</p>
@@ -216,10 +216,10 @@ const Footer = () => {
         <div className="text-left py-4">
           <p className="text-sm font-bold text-foreground mb-3 uppercase">COMPRE COM SEGURANÇA</p>
           <div className="flex flex-col items-start gap-4">
-            <a href="https://transparencyreport.google.com/safe-browsing/search?url=https:%2F%2Fgcomerciosuplementos.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://transparencyreport.google.com/safe-browsing/search?url=https:%2F%2Ftendenciacosmeticos.com.br" target="_blank" rel="noopener noreferrer">
               <img src={googleTransparency} alt="Google Transparency Report" className="h-14 object-contain" loading="lazy" />
             </a>
-            <a href="https://www.google.com/search?q=gcomerciosuplementos.com+avalia%C3%A7%C3%B5es" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.google.com/search?q=tendenciacosmeticos.com.br+avalia%C3%A7%C3%B5es" target="_blank" rel="noopener noreferrer">
               <img src={googleReviews} alt="Avaliações Google 5 estrelas" className="h-14 object-contain" loading="lazy" />
             </a>
           </div>
@@ -231,8 +231,8 @@ const Footer = () => {
       <div className="bg-white py-8 text-left border-t border-gray-200">
         <div className="container-page text-left">
           <div className="text-sm text-gray-600 uppercase tracking-wider space-y-2">
-            <p>GAGO SUPLEMENTOS © 2026 — CNPJ: 64.816.985/0001-00</p>
-            <p>Endereço: AV CORONEL MARCOS KONDER, 805 — Bairro Centro — CEP 88301-303 — Itajaí/SC</p>
+            <p>TENDENCIA COSMETICOS © 2026 — CNPJ: 22.556.253/0002-60</p>
+            <p>Endereço: Rua Madre Maria Vilac, 1271, Loja Amalia, Canasvieiras, Florianópolis - SC, 88054-000</p>
             <p>Preços e condições de pagamento válidos exclusivamente para compras efetuadas no site.</p>
           </div>
         </div>

@@ -9,7 +9,7 @@ import { fileURLToPath } from "node:url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
-const BASE_URL = "https://gcomerciosuplementos.com";
+const BASE_URL = "https://tendenciacosmeticos.com.br";
 
 // Static routes
 const staticRoutes = [
