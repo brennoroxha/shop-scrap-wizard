@@ -324,7 +324,7 @@ const CheckoutPage = () => {
       <header className="bg-white shadow-sm">
         <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3">
           <Link to="/">
-            <img src={logo} alt="Tendencia Cosmeticos" className="h-[44px] md:h-[52px] w-auto"  loading="lazy"/>
+            <img src={logo} alt="Tendência Cosméticos" className="h-[44px] md:h-[52px] w-auto"  loading="lazy"/>
           </Link>
           {/* Desktop: barra de progresso no header */}
           <div className="hidden md:block flex-1 max-w-md">
@@ -868,7 +868,7 @@ const CheckoutPage = () => {
       <footer className="mt-8 bg-header py-6">
         <div className="mx-auto max-w-7xl px-4">
           <p className="text-[11px] leading-relaxed text-gray-400 text-center">
-            Tendencia Cosmeticos | CNPJ: 22.556.253/0002-60
+            Tendência Cosméticos | CNPJ: 22.556.253/0002-60
           </p>
         </div>
       </footer>
@@ -1020,7 +1020,7 @@ const TrustBadges = () => (
 /* Checkout Footer */
 const CheckoutFooter = () => (
   <div className="rounded-2xl bg-white p-5 pt-4 text-center shadow-sm">
-    <p className="text-xs text-gray-500">Tendencia Cosmeticos</p>
+    <p className="text-xs text-gray-500">Tendência Cosméticos</p>
     <p className="text-xs text-gray-500">CNPJ: 22.556.253/0002-60</p>
     <div className="mt-4 flex items-center justify-center gap-6">
       <div className="flex items-center gap-1.5">

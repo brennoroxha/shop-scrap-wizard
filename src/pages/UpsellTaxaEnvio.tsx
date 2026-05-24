@@ -102,7 +102,7 @@ const UpsellTaxaEnvio = () => {
       <header className="bg-[#1a1a1a] shadow-sm">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3">
           <Link to="/">
-            <img src={logo} alt="Tendencia Cosmeticos" className="h-[44px] md:h-[52px] w-auto"  loading="lazy"/>
+            <img src={logo} alt="Tendência Cosméticos" className="h-[44px] md:h-[52px] w-auto"  loading="lazy"/>
           </Link>
           <div className="flex items-center gap-2 text-xs text-white">
             <Lock className="h-4 w-4" />

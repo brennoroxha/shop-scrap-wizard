@@ -62,12 +62,12 @@ const Footer = () => {
         <div className="grid grid-cols-3 gap-8">
           {/* Sobre */}
           <div>
-            <img src={logo} alt="Tendencia Cosmeticos" className="h-10 w-auto mb-4" loading="lazy" />
+            <img src={logo} alt="Tendência Cosméticos" className="h-10 w-auto mb-4" loading="lazy" />
             <h3 className="font-bold text-foreground text-sm mb-4">INFORMAÇÕES DA EMPRESA</h3>
             <div className="text-sm text-muted-foreground leading-relaxed space-y-1">
-              <p>Tendencia Cosmeticos</p>
+              <p>Tendência Cosméticos</p>
               <p>CNPJ: 22.556.253/0002-60</p>
-              <p>Telefone: (48) 98400-0000</p>
+              <p>Telefone: (11) 99839-7447</p>
               <p>E-mail: contato@tendenciacosmeticos.com.br</p>
               <p>Endereço: Rua Madre Maria Vilac, 1271, Loja Amalia, Canasvieiras, Florianópolis - SC, 88054-000</p>
               <p>Segunda a Sexta das 09h às 18h</p>
@@ -90,14 +90,14 @@ const Footer = () => {
 
           {/* Contato */}
           <div className="flex flex-col gap-3">
-            <a href="tel:+5548984000000" className="flex items-center justify-between py-3 border-b border-gray-100 last:border-b-0">
+            <a href="tel:+5511998397447" className="flex items-center justify-between py-3 border-b border-gray-100 last:border-b-0">
               <div>
                 <p className="text-xs font-bold text-foreground uppercase tracking-wide">Central de Atendimento</p>
-                <p className="text-base font-bold text-black mt-1">(48) 98400-0000</p>
+                <p className="text-base font-bold text-black mt-1">(11) 99839-7447</p>
               </div>
               <Phone className="w-7 h-7 text-black" strokeWidth={2} />
             </a>
-            <a href="https://wa.me/5548984000000" target="_blank" rel="noopener noreferrer" className="flex items-center justify-between py-3 border-b border-gray-100 last:border-b-0">
+            <a href="https://wa.me/5511998397447" target="_blank" rel="noopener noreferrer" className="flex items-center justify-between py-3 border-b border-gray-100 last:border-b-0">
               <div>
                 <p className="text-xs font-bold text-foreground uppercase tracking-wide">Atendimento via WhatsApp</p>
                 <p className="text-base font-bold text-black mt-1">Inicie uma conversa</p>
@@ -146,16 +146,16 @@ const Footer = () => {
       {/* Mobile */}
       <div className="md:hidden container-page py-6">
         <div className="flex justify-start pb-4">
-          <img src={logo} alt="Tendencia Cosmeticos" className="h-8 w-auto" loading="lazy" />
+          <img src={logo} alt="Tendência Cosméticos" className="h-8 w-auto" loading="lazy" />
         </div>
 
         {/* Sobre */}
         <div className="border-b border-border py-4 text-left">
           <h3 className="font-bold text-foreground text-sm mb-3">INFORMAÇÕES DA EMPRESA</h3>
           <div className="text-sm text-muted-foreground leading-relaxed space-y-1">
-            <p>Tendencia Cosmeticos</p>
+            <p>Tendência Cosméticos</p>
             <p>CNPJ: 22.556.253/0002-60</p>
-            <p>Telefone: (48) 98400-0000</p>
+            <p>Telefone: (11) 99839-7447</p>
             <p>E-mail: contato@tendenciacosmeticos.com.br</p>
             <p>Endereço: Rua Madre Maria Vilac, 1271, Loja Amalia, Canasvieiras, Florianópolis - SC, 88054-000</p>
             <p>Segunda a Sexta das 09h às 18h</p>
@@ -176,14 +176,14 @@ const Footer = () => {
 
         {/* Contato */}
         <div className="flex flex-col gap-2 py-4 border-b border-border">
-          <a href="tel:+5548984000000" className="flex items-center justify-between py-3 border-b border-gray-100 last:border-b-0">
+          <a href="tel:+5511998397447" className="flex items-center justify-between py-3 border-b border-gray-100 last:border-b-0">
             <div>
               <p className="text-xs font-bold text-foreground uppercase tracking-wide">Central de Atendimento</p>
-              <p className="text-base font-bold text-black mt-1">(48) 98400-0000</p>
+              <p className="text-base font-bold text-black mt-1">(11) 99839-7447</p>
             </div>
             <Phone className="w-7 h-7 text-black" strokeWidth={2} />
           </a>
-          <a href="https://wa.me/5548984000000" target="_blank" rel="noopener noreferrer" className="flex items-center justify-between py-3 border-b border-gray-100 last:border-b-0">
+          <a href="https://wa.me/5511998397447" target="_blank" rel="noopener noreferrer" className="flex items-center justify-between py-3 border-b border-gray-100 last:border-b-0">
             <div>
               <p className="text-xs font-bold text-foreground uppercase tracking-wide">Atendimento via WhatsApp</p>
               <p className="text-base font-bold text-black mt-1">Inicie uma conversa</p>
@@ -231,7 +231,7 @@ const Footer = () => {
       <div className="bg-white py-8 text-left border-t border-gray-200">
         <div className="container-page text-left">
           <div className="text-sm text-gray-600 uppercase tracking-wider space-y-2">
-            <p>TENDENCIA COSMETICOS © 2026 — CNPJ: 22.556.253/0002-60</p>
+            <p>TENDÊNCIA COSMÉTICOS © 2026 — CNPJ: 22.556.253/0002-60</p>
             <p>Endereço: Rua Madre Maria Vilac, 1271, Loja Amalia, Canasvieiras, Florianópolis - SC, 88054-000</p>
             <p>Preços e condições de pagamento válidos exclusivamente para compras efetuadas no site.</p>
           </div>

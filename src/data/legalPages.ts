@@ -2,7 +2,7 @@
 export const legalPages: Record<string, { title: string; html: string }> = {
   "contact": { title: "Fale Conosco", html: `<h1>Fale Conosco</h1>
   
-    <p style="font-size:1.05rem;color:#444;max-width:640px;margin-bottom:32px">A <strong>Tendencia Cosmeticos</strong> está sempre pronta para ajudar. Escolha o canal que preferir — respondemos rapidamente.</p>
+    <p style="font-size:1.05rem;color:#444;max-width:640px;margin-bottom:32px">A <strong>Tendência Cosméticos</strong> está sempre pronta para ajudar. Escolha o canal que preferir — respondemos rapidamente.</p>
 
     <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin-bottom:32px;max-width:640px">
       <div style="background:#fafafa;border:1px solid #eee;border-radius:12px;padding:20px">
@@ -10,7 +10,7 @@ export const legalPages: Record<string, { title: string; html: string }> = {
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.86 19.86 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.86 19.86 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.87 12.87 0 0 1 .41 3.77L2 22l4.09-1.4a18.6 18.6 0 0 0 11.83 4.1z"/></svg>
           <strong style="font-size:0.95rem">Telefone</strong>
         </div>
-        <p style="margin:0;font-size:0.95rem;color:#333">(48) 98400-0000</p>
+        <p style="margin:0;font-size:0.95rem;color:#333">(11) 99839-7447</p>
       </div>
       <div style="background:#fafafa;border:1px solid #eee;border-radius:12px;padding:20px">
         <div style="display:flex;align-items:center;gap:10px;margin-bottom:8px">
@@ -58,24 +58,24 @@ export const legalPages: Record<string, { title: string; html: string }> = {
   ` },
   "about": { title: "Sobre Nós", html: `<h1>Sobre Nós</h1>
   
-    <p>A <strong>Tendencia Cosmeticos</strong> nasceu com o compromisso de oferecer ao cliente a melhor experiênca de compra, atendimento e segurança. Sabemos que escolher o produto ideal faz toda a diferença, por isso trabalhamos com seriedade, transparência e foco total na qualidade.</p>
+    <p>A <strong>Tendência Cosméticos</strong> nasceu com o compromisso de oferecer ao cliente a melhor experiênca de compra, atendimento e segurança. Sabemos que escolher o produto ideal faz toda a diferença, por isso trabalhamos com seriedade, transparência e foco total na qualidade.</p>
     <p>Nosso objetivo é garantir que você encontre exatamente o que precisa, com preços competitivos, entrega rápida e um atendimento que realmente resolve. Aqui, cada cliente é tratado com atenção e respeito — porque sabemos que confiança se conquista no detalhe.</p>
     <p>Somos uma empresa legalmente registrada, atuando no comércio eletrônico com responsabilidade e credibilidade.</p>
 
     <p><strong>Informações da Empresa</strong></p>
     <div class="info">
-      <p><strong>Nome Fantasia:</strong> Tendencia Cosmeticos</p>
-      <p><strong>Razão Social:</strong> Tendencia Cosmeticos LTDA</p>
+      <p><strong>Nome Fantasia:</strong> Tendência Cosméticos</p>
+      <p><strong>Razão Social:</strong> Tendência Cosméticos LTDA</p>
       <p><strong>CNPJ:</strong> 22.556.253/0002-60</p>
       <p><strong>E-mail:</strong> contato@tendenciacosmeticos.com.br</p>
-      <p><strong>Telefone:</strong> (48) 98400-0000</p>
+      <p><strong>Telefone:</strong> (11) 99839-7447</p>
       <p><strong>Endereço:</strong> Rua Madre Maria Vilac, 1271, Loja Amalia, Canasvieiras, Florianópolis - SC, 88054-000</p>
       <p><strong>Horário de atendimento:</strong> Segunda a Sexta, das 09h às 18h</p>
     </div>
   ` },
   "shipping": { title: "Política de Envio", html: `<h1>Política de Envio</h1>
   
-    <p>Para garantir transparência e uma excelente experiência de compra, a <strong>Tendencia Cosmeticos</strong> estabelece a seguinte política de envio e prazos de entrega:</p>
+    <p>Para garantir transparência e uma excelente experiência de compra, a <strong>Tendência Cosméticos</strong> estabelece a seguinte política de envio e prazos de entrega:</p>
 
     <h3>Prazo de Separação</h3>
     <p>Após a confirmação do pagamento, todos os pedidos passam pelo processo de separação e conferência.</p>
@@ -100,7 +100,7 @@ export const legalPages: Record<string, { title: string; html: string }> = {
   ` },
   "returns": { title: "Política de Trocas e Devoluções", html: `<h1>Política de Trocas e Devoluções</h1>
   
-    <p>A <strong>Tendencia Cosmeticos</strong> trabalha com transparência e compromisso para garantir a satisfação de todos os clientes. Caso seja necessária a troca ou devolução de um produto, seguimos as diretrizes estabelecidas abaixo.</p>
+    <p>A <strong>Tendência Cosméticos</strong> trabalha com transparência e compromisso para garantir a satisfação de todos os clientes. Caso seja necessária a troca ou devolução de um produto, seguimos as diretrizes estabelecidas abaixo.</p>
 
     <h3>Prazo para Solicitação</h3>
     <p>O cliente poderá solicitar a troca ou devolução em até <strong>7 dias corridos</strong> após o recebimento do produto, conforme previsto no Código de Defesa do Consumidor.</p>
@@ -115,7 +115,7 @@ export const legalPages: Record<string, { title: string; html: string }> = {
     </ul>
 
     <h3>Custos da Troca ou Devolução</h3>
-    <p>A <strong>Tendencia Cosmeticos</strong> arca com <strong>100% dos custos de envio</strong> na primeira troca ou devolução, desde que solicitada dentro do prazo de 7 dias. Nenhum valor adicional será cobrado do cliente.</p>
+    <p>A <strong>Tendência Cosméticos</strong> arca com <strong>100% dos custos de envio</strong> na primeira troca ou devolução, desde que solicitada dentro do prazo de 7 dias. Nenhum valor adicional será cobrado do cliente.</p>
 
     <h3>Procedimento</h3>
     <ol>
@@ -133,12 +133,12 @@ export const legalPages: Record<string, { title: string; html: string }> = {
     <div class="contact-info">
       <p><strong>Atendimento ao Cliente</strong></p>
       <p>E-mail: contato@tendenciacosmeticos.com.br</p>
-      <p>Telefone: (48) 98400-0000</p>
+      <p>Telefone: (11) 99839-7447</p>
     </div>
   ` },
   "privacy": { title: "Política de Privacidade", html: `<h1>Política de Privacidade</h1>
   
-    <p>A <strong>Tendencia Cosmeticos</strong> tem o compromisso de proteger a privacidade e a segurança de todos os clientes e visitantes. Todas as informações coletadas são tratadas com responsabilidade, transparência e de acordo com a legislação vigente, incluindo a Lei Geral de Proteção de Dados (LGPD).</p>
+    <p>A <strong>Tendência Cosméticos</strong> tem o compromisso de proteger a privacidade e a segurança de todos os clientes e visitantes. Todas as informações coletadas são tratadas com responsabilidade, transparência e de acordo com a legislação vigente, incluindo a Lei Geral de Proteção de Dados (LGPD).</p>
 
     <h3>1. Coleta de Informações</h3>
     <p>Coletamos apenas os dados necessários para realizar as operações do site e oferecer uma melhor experiência ao usuário. Isso inclui nome, CPF/CNPJ, endereço, e-mail e telefone.</p>
@@ -155,7 +155,7 @@ export const legalPages: Record<string, { title: string; html: string }> = {
   ` },
   "terms": { title: "Termos e Condições", html: `<h1>Termos e Condições</h1>
   
-    <p>Bem-vindo ao site da <strong>Tendencia Cosmeticos</strong>. Ao utilizar nossa loja, você concorda com os termos abaixo.</p>
+    <p>Bem-vindo ao site da <strong>Tendência Cosméticos</strong>. Ao utilizar nossa loja, você concorda com os termos abaixo.</p>
 
     <h3>1. Aceitação</h3>
     <p>Ao navegar em nosso site, você aceita nossas políticas de envio, devolução e privacidade.</p>
@@ -172,7 +172,7 @@ export const legalPages: Record<string, { title: string; html: string }> = {
   ` },
   "payment": { title: "Formas de Pagamento", html: `<h1>Formas de Pagamento</h1>
   
-    <p>A <strong>Tendencia Cosmeticos</strong> disponibiliza opções de pagamento seguras e práticas para que você conclua sua compra com total tranquilidade.</p>
+    <p>A <strong>Tendência Cosméticos</strong> disponibiliza opções de pagamento seguras e práticas para que você conclua sua compra com total tranquilidade.</p>
 
     <h3>PIX</h3>
     <p>Pagamento aprovado na hora, garantindo mais agilidade no processamento e na liberação do seu pedido.</p>
@@ -188,7 +188,7 @@ export const legalPages: Record<string, { title: string; html: string }> = {
   ` },
   "refund": { title: "Política de Reembolso", html: `<h1>Política de Reembolso</h1>
   
-    <p>A <strong>Tendencia Cosmeticos</strong> preza pela transparência e respeito ao consumidor. Por isso, estabelecemos uma política clara para solicitações de reembolso.</p>
+    <p>A <strong>Tendência Cosméticos</strong> preza pela transparência e respeito ao consumidor. Por isso, estabelecemos uma política clara para solicitações de reembolso.</p>
 
     <h3>Solicitação de Reembolso</h3>
     <p>O cliente poderá solicitar o reembolso nas seguintes situações:</p>
@@ -199,7 +199,7 @@ export const legalPages: Record<string, { title: string; html: string }> = {
     </ul>
 
     <h3>Prazo para Processamento</h3>
-    <p>Após o recebimento do produto devolvido ou aprovação da solicitação, a <strong>Tendencia Cosmeticos</strong> tem o prazo de <strong>até 30 dias</strong> para concluir o processo de reembolso.</p>
+    <p>Após o recebimento do produto devolvido ou aprovação da solicitação, a <strong>Tendência Cosméticos</strong> tem o prazo de <strong>até 30 dias</strong> para concluir o processo de reembolso.</p>
 
     <h3>Forma de Reembolso</h3>
     <p>O estorno será realizado conforme o método de pagamento utilizado no pedido:</p>
@@ -218,7 +218,7 @@ export const legalPages: Record<string, { title: string; html: string }> = {
     <p>Sim, trabalhamos apenas com produtos originais e de procedência garantida.</p>
   ` },
   "quality": { title: "Segurança e Qualidade", html: `<h1>Segurança e Qualidade</h1>
-    <p>Na <strong>Tendencia Cosmeticos</strong>, a segurança dos seus dados e a qualidade dos produtos são nossa prioridade máxima.</p>
+    <p>Na <strong>Tendência Cosméticos</strong>, a segurança dos seus dados e a qualidade dos produtos são nossa prioridade máxima.</p>
     <p>Utilizamos protocolos de segurança avançados para garantir que sua compra seja 100% segura. Além disso, todos os nossos produtos passam por um rigoroso controle de qualidade antes de serem enviados.</p>
   ` }
 };
