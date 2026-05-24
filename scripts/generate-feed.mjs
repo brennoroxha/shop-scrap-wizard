@@ -13,7 +13,19 @@
  */
 import fs from "node:fs";
 import path from "node:path";
+import crypto from "node:crypto";
 import { fileURLToPath } from "node:url";
+
+// Google Merchant exige g:id <= 50 chars. Mantém o id original quando couber;
+// caso contrário, gera um id curto e estável baseado em hash do slug.
+const MAX_ID_LEN = 50;
+const shortenId = (id) => {
+  if (id.length <= MAX_ID_LEN) return id;
+  const hash = crypto.createHash("sha1").update(id).digest("hex").slice(0, 10);
+  // Mantém prefixo "epoca-" quando existir, para legibilidade.
+  const prefix = id.startsWith("epoca-") ? "epoca-" : "p-";
+  return `${prefix}${hash}`;
+};
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
