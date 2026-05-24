@@ -533,7 +533,7 @@ const ProductCardGrid = ({
   if (listMode) {
     return (
       <Link
-        to={`/products/${product.id}`}
+        to={`/produtos/${product.id}`}
         className="product-card-hover flex overflow-hidden rounded-lg border border-border bg-card transition-all duration-300 no-underline"
       >
         {/* Discount badge */}
@@ -568,7 +568,7 @@ const ProductCardGrid = ({
 
   return (
     <Link
-      to={`/products/${product.id}`}
+      to={`/produtos/${product.id}`}
       className="product-card-hover group relative flex flex-col overflow-hidden rounded-lg border border-border bg-card transition-all duration-300 no-underline"
     >
       <div className="flex aspect-square items-center justify-center overflow-hidden bg-white p-4">
