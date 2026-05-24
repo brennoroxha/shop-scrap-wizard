@@ -90,14 +90,14 @@ const Footer = () => {
 
           {/* Contato */}
           <div className="flex flex-col gap-3">
-            <a href="tel:+5547996503232" className="flex items-center justify-between py-3 border-b border-gray-100 last:border-b-0">
+            <a href="tel:+5548984000000" className="flex items-center justify-between py-3 border-b border-gray-100 last:border-b-0">
               <div>
                 <p className="text-xs font-bold text-foreground uppercase tracking-wide">Central de Atendimento</p>
-                <p className="text-base font-bold text-black mt-1">(47) 99650-3232</p>
+                <p className="text-base font-bold text-black mt-1">(48) 98400-0000</p>
               </div>
               <Phone className="w-7 h-7 text-black" strokeWidth={2} />
             </a>
-            <a href="https://wa.me/5547996503232" target="_blank" rel="noopener noreferrer" className="flex items-center justify-between py-3 border-b border-gray-100 last:border-b-0">
+            <a href="https://wa.me/5548984000000" target="_blank" rel="noopener noreferrer" className="flex items-center justify-between py-3 border-b border-gray-100 last:border-b-0">
               <div>
                 <p className="text-xs font-bold text-foreground uppercase tracking-wide">Atendimento via WhatsApp</p>
                 <p className="text-base font-bold text-black mt-1">Inicie uma conversa</p>
