@@ -400,12 +400,54 @@ const volumeFromName = (name) => {
   return m ? m[1] : null;
 };
 
-const generateDescription = (name, brand, googleCategory) => {
+const BRAND_NOTES = {
+  "Bioderma": "Dermatologicamente testado, ideal para peles sensíveis.",
+  "La Roche-Posay": "Recomendado por dermatologistas, com Água Termal de La Roche-Posay.",
+  "La Roche Posay": "Recomendado por dermatologistas, com Água Termal de La Roche-Posay.",
+  "Vichy": "Tecnologia dermatológica francesa com minerais ativos.",
+  "Eucerin": "Cuidado dermatológico avançado para pele sensível e ressecada.",
+  "L'Oréal Professionnel": "Performance profissional de salão para resultados visíveis.",
+  "L'Oréal Paris": "Beleza acessível com tecnologia de ponta.",
+  "Wella Professionals": "Linha profissional para cabelos saudáveis, brilhantes e fortes.",
+  "Kérastase": "Cuidado capilar de luxo com ingredientes premium.",
+  "Kerastase": "Cuidado capilar de luxo com ingredientes premium.",
+  "SkinCeuticals": "Antioxidantes potentes e ciência cosmecêutica avançada.",
+  "Neutrogena": "Dermatologicamente comprovado para resultados visíveis.",
+  "Garnier": "Fórmulas com ingredientes de origem natural.",
+  "CeraVe": "Desenvolvido com dermatologistas, com ceramidas essenciais.",
+  "Cetaphil": "Suave, hipoalergênico e indicado para peles sensíveis.",
+  "Avène": "Água Termal de Avène, calmante e regeneradora.",
+  "Avene": "Água Termal de Avène, calmante e regeneradora.",
+  "Nivea": "Tradição em cuidados com a pele e o corpo.",
+  "Carmed": "Hidratação intensa e brilho aos lábios com a fórmula icônica.",
+  "Mantecorp Skincare": "Ciência dermatológica brasileira de alta performance.",
+  "Bepantol": "Cuidado reparador e hidratante para a pele.",
+  "Bio-Oil": "Especialista em cuidados com marcas e cicatrizes.",
+  "Sebastian": "Estilo e tecnologia para cabelos com atitude.",
+  "Redken": "Ciência avançada para cabelos profissionalmente cuidados.",
+  "Cadiveu": "Tratamentos profissionais com tecnologia brasileira.",
+  "Lola Cosmetics": "Cosméticos com ingredientes naturais e divertidos.",
+  "Boticário": "Beleza brasileira para todos os momentos.",
+  "Maybelline": "Cores intensas e tendências para a maquiagem.",
+  "Dior": "Sofisticação e elegância da alta perfumaria francesa.",
+  "Jo Malone": "Fragrâncias britânicas exclusivas para combinar e camadar.",
+  "Acnezil": "Auxilia na limpeza e no controle da oleosidade da pele.",
+  "Acnase": "Cuidado direcionado para pele com tendência a oleosidade.",
+};
+
+const generateDescription = (name, brand, googleCategory, productId) => {
   const hint = inferCategoryHint(googleCategory);
   const vol = volumeFromName(name);
   const sizeBit = vol ? ` Apresentação: ${vol}.` : "";
-  const brandBit = brand !== STORE_NAME ? `Da marca ${brand}. ` : "";
-  return `${name}.${sizeBit} ${brandBit}${hint} Compre na ${STORE_NAME} com entrega rápida para todo o Brasil e pagamento via Pix com desconto.`;
+  const brandBit = brand && brand !== STORE_NAME ? ` Da marca ${brand}.` : "";
+  const brandNote = BRAND_NOTES[brand] ? ` ${BRAND_NOTES[brand]}` : "";
+  const surpriseNote = productId && productId.includes("carmed-selecoes-edicao-surpresa")
+    ? " Produto sortido/surpresa: a variação recebida pode ser diferente da imagem exibida."
+    : "";
+  const closing = ` Compre na ${STORE_NAME} com entrega rápida para todo o Brasil e pagamento via Pix com desconto.`;
+  let desc = `${name}.${sizeBit}${brandBit} ${hint}${brandNote}${surpriseNote}${closing}`.replace(/\s+/g, " ").trim();
+  if (desc.length > 500) desc = desc.slice(0, 497).replace(/\s+\S*$/, "") + "...";
+  return desc;
 };
 
 const buildShortProductId = (product) => {
