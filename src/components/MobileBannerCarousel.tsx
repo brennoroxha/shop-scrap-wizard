@@ -36,10 +36,6 @@ const MobileBannerCarousel = () => {
                   <img
                     src={s.src}
                     alt={s.alt}
-                    width={750}
-                    height={750}
-                    loading={i === 0 ? "eager" : "lazy"}
-                    decoding="async"
                     className="block w-full h-auto"
                   />
                 </Link>

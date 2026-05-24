@@ -40,12 +40,12 @@ const Index = () => {
               src={bannerPrincipiaMobile}
               alt="Principia"
               className="block w-full h-auto md:hidden"
-             loading="lazy"/>
+            />
             <img
               src={bannerPrincipiaDesktop}
               alt="Principia"
               className="hidden w-full h-auto md:block"
-             loading="lazy"/>
+            />
           </Link>
         </div>
       </section>

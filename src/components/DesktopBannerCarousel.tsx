@@ -36,10 +36,6 @@ const DesktopBannerCarousel = () => {
                   <img
                     src={s.src}
                     alt={s.alt}
-                    width={1240}
-                    height={400}
-                    loading={i === 0 ? "eager" : "lazy"}
-                    decoding="async"
                     className="block w-full h-auto"
                   />
                 </Link>
