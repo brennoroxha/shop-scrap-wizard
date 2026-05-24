@@ -232,7 +232,7 @@ const PixPaymentPage = () => {
       <header className="fixed top-0 left-0 right-0 z-50 bg-white shadow-sm">
         <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3">
           <Link to="/">
-            <img src={logo} alt="Tendencia Cosmeticos" className="h-[44px] md:h-[52px] w-auto"  loading="lazy"/>
+            <img src={logo} alt="Tendência Cosméticos" className="h-[44px] md:h-[52px] w-auto"  loading="lazy"/>
           </Link>
           <div className="flex items-center gap-2 text-xs text-header-foreground">
             <Lock className="h-4 w-4" />

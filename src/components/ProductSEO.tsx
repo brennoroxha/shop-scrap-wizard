@@ -28,7 +28,7 @@ export function ProductSEO({
   gtin = "",
 }: ProductSEOProps) {
   const url = `https://tendenciacosmeticos.com.br/products/${slug}`;
-  const titulo = `${nome} | Tendencia Cosmeticos`;
+  const titulo = `${nome} | Tendência Cosméticos`;
   const descricaoMeta = descricao.length > 155
     ? descricao.substring(0, 152) + "..."
     : descricao;
@@ -51,7 +51,7 @@ export function ProductSEO({
         : "https://schema.org/OutOfStock",
       seller: {
         "@type": "Organization",
-        name: "Tendencia Cosmeticos",
+        name: "Tendência Cosméticos",
       },
     },
   };
@@ -68,7 +68,7 @@ export function ProductSEO({
       <meta property="og:description" content={descricaoMeta} />
       <meta property="og:image" content={imagem} />
       <meta property="og:url" content={url} />
-      <meta property="og:site_name" content="Tendencia Cosmeticos" />
+      <meta property="og:site_name" content="Tendência Cosméticos" />
 
       {/* Twitter Card */}
       <meta name="twitter:card" content="summary_large_image" />
