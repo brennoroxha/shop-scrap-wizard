@@ -216,10 +216,10 @@ const Footer = () => {
         <div className="text-left py-4">
           <p className="text-sm font-bold text-foreground mb-3 uppercase">COMPRE COM SEGURANÇA</p>
           <div className="flex flex-col items-start gap-4">
-            <a href="https://transparencyreport.google.com/safe-browsing/search?url=https:%2F%2Fgcomerciosuplementos.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://transparencyreport.google.com/safe-browsing/search?url=https:%2F%2Ftendenciacosmeticos.com.br" target="_blank" rel="noopener noreferrer">
               <img src={googleTransparency} alt="Google Transparency Report" className="h-14 object-contain" loading="lazy" />
             </a>
-            <a href="https://www.google.com/search?q=gcomerciosuplementos.com+avalia%C3%A7%C3%B5es" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.google.com/search?q=tendenciacosmeticos.com.br+avalia%C3%A7%C3%B5es" target="_blank" rel="noopener noreferrer">
               <img src={googleReviews} alt="Avaliações Google 5 estrelas" className="h-14 object-contain" loading="lazy" />
             </a>
           </div>
@@ -231,8 +231,8 @@ const Footer = () => {
       <div className="bg-white py-8 text-left border-t border-gray-200">
         <div className="container-page text-left">
           <div className="text-sm text-gray-600 uppercase tracking-wider space-y-2">
-            <p>GAGO SUPLEMENTOS © 2026 — CNPJ: 64.816.985/0001-00</p>
-            <p>Endereço: AV CORONEL MARCOS KONDER, 805 — Bairro Centro — CEP 88301-303 — Itajaí/SC</p>
+            <p>TENDENCIA COSMETICOS © 2026 — CNPJ: 22.556.253/0002-60</p>
+            <p>Endereço: Rua Madre Maria Vilac, 1271, Loja Amalia, Canasvieiras, Florianópolis - SC, 88054-000</p>
             <p>Preços e condições de pagamento válidos exclusivamente para compras efetuadas no site.</p>
           </div>
         </div>
