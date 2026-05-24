@@ -15818,6 +15818,33 @@ Sim, o Potion 9 Lit é adequado para cabelos quimicamente tratados. Sua composi�
 <li><strong>Tratamento Efeito Teia 300g</strong></li>
 </ul>`,
   },
+"eucerin-pomada-reparadora-intensiva-aquaphor-duopack-2x10ml": {
+    slug: "eucerin-pomada-reparadora-intensiva-aquaphor-duopack-2x10ml",
+    descriptionHtml: `<h3>Descrição</h3>
+<strong>Eucerin Aquaphor Pomada Reparadora Intensiva Duopack 2x10ml</strong><br/>
+<h2><strong>O que é e para que serve?</strong></h2>
+<span style="font-size:16px">A Pomada Reparadora Intensiva Eucerin Aquaphor é um cuidado dermatológico multifuncional, clinicamente comprovado para acelerar a regeneração da pele seca, rachada e extremamente seca. Sua fórmula com Pantenol e Bisabolol cria uma camada semioclusiva que mantém a perda transepidérmica de água equilibrada, favorecendo o processo natural de reparação cutânea.</span><br/>
+<h2><strong>Benefícios</strong></h2>
+- Acelera a regeneração da pele seca e rachada;<br/>
+- Hidratação intensa e duradoura;<br/>
+- Acalma irritações e vermelhidão;<br/>
+- Protege a barreira cutânea;<br/>
+- Embalagem prática duopack 2x10ml, ideal para levar na bolsa.<br/>
+<h2><strong>Indicação</strong></h2>
+<span style="font-size:16px">Indicada para peles secas, muito secas, rachadas e agredidas. Pode ser usada em lábios ressecados, cutículas, cotovelos, joelhos, calcanhares e áreas com descamação. Segura para toda a família.</span><br/>
+<h2><strong>Modo de uso</strong></h2>
+1- Higienize a área a ser tratada;<br/>
+2- Aplique uma fina camada da pomada sobre a pele;<br/>
+3- Reaplique sempre que necessário.<br/>
+<h3>Marca</h3>
+<p>Eucerin</p>
+<h3>Categoria</h3>
+<p>Cosméticos/Dermocosméticos/Cuidados Corporais Específicos</p>
+<h3>Conteúdo</h3>
+<ul>
+<li><strong>2 bisnagas de 10ml</strong></li>
+</ul>`,
+  },
 });
 
 export const getProductDescription = (productId: string): ProductDescription | undefined => {
