@@ -410,50 +410,28 @@ const appendSuffix = (base, suffix, max = MAX_ID_LEN) => {
 };
 
 const buildStableShortIds = (products) => {
-  const groups = new Map();
   const globalUsed = new Set();
   const ids = new Map();
 
-  for (const product of products) {
-    const base = buildShortProductId(product);
-    const list = groups.get(base) || [];
-    list.push(product);
-    groups.set(base, list);
-  }
-
-  for (const [base, group] of [...groups.entries()].sort(([a], [b]) => a.localeCompare(b))) {
-    const sortedGroup = [...group].sort((a, b) => a.id.localeCompare(b.id));
-
-    for (let index = 0; index < sortedGroup.length; index += 1) {
-      const product = sortedGroup[index];
-      const baseTokens = new Set(base.split("-").filter(Boolean));
-      const extraTokens = slugify(product.id)
-        .split("-")
-        .filter((token) => token && !baseTokens.has(token));
-
-      let candidate = base;
-
-      for (let i = extraTokens.length - 1; i >= 0; i -= 1) {
-        const nextCandidate = appendSuffix(base, extraTokens.slice(i).join("-"));
-        if (!globalUsed.has(nextCandidate)) {
-          candidate = nextCandidate;
-          break;
-        }
+  // Primeiro gera todos os IDs ideais
+  const sortedProducts = [...products].sort((a, b) => a.id.localeCompare(b.id));
+  
+  for (const product of sortedProducts) {
+    let candidate = buildShortProductId(product);
+    
+    // Se houver colisão, tenta resolver com sufixo numérico
+    if (globalUsed.has(candidate)) {
+      let index = 2;
+      let nextCandidate = appendSuffix(candidate, String(index));
+      while (globalUsed.has(nextCandidate)) {
+        index += 1;
+        nextCandidate = appendSuffix(candidate, String(index));
       }
-
-      if (globalUsed.has(candidate)) {
-        candidate = appendSuffix(base, String(index + 1));
-      }
-
-      let dedupeIndex = index + 1;
-      while (globalUsed.has(candidate)) {
-        dedupeIndex += 1;
-        candidate = appendSuffix(base, String(dedupeIndex));
-      }
-
-      globalUsed.add(candidate);
-      ids.set(product.id, candidate);
+      candidate = nextCandidate;
     }
+    
+    globalUsed.add(candidate);
+    ids.set(product.id, candidate);
   }
 
   return ids;
