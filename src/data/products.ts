@@ -404,6 +404,7 @@ const rawProducts: Product[] = [
   },
   {
     "id": "epoca-esponja-de-maquiagem-sister-blend-by-oceane",
+    "ean": "7908725501570",
     "name": "Esponja de Maquiagem Sister Blend By Océane Verde",
     "image": "/products/esponja-de-maquiagem-sister-blend-by-oceane--1-_bc5988a0.jpg",
     "images": [
@@ -424,6 +425,7 @@ const rawProducts: Product[] = [
   },
   {
     "id": "epoca-kit-de-pinceis-real-techniques-epoca-cosmeticos-the-makeup-expert-favorites",
+    "ean": "7010705001195",
     "name": "Kit de Pincéis Real Techniques + Época Cosméticos - The Makeup Expert Favorites",
     "image": "/products/kit-de-pinceis-real-techniques-epoca-cosmeticos-the-makeup-expert-favorites--1-.jpg_995468f0.jpg",
     "images": [
@@ -734,6 +736,7 @@ const rawProducts: Product[] = [
   },
   {
     "id": "epoca-contorno-oceane-stick-edition",
+    "ean": "7010704546093",
     "name": "Contorno Cremoso em Bastão  Océane Edition - Contour Stick Marrom Claro",
     "image": "/products/7908725500481--9-_61a416f5.jpg",
     "images": [
@@ -980,6 +983,7 @@ const rawProducts: Product[] = [
   },
   {
     "id": "epoca-cicaplast-baume-la-roche-posay-b5-plus-hidratante",
+    "ean": "7908615000169",
     "name": "Hidratante Corporal Multirreparador para Pele Sensível e Irritada La Roche-Posay Cicaplast Baume B5+ 20ml",
     "image": "/products/cicaplast-baume-b5-la-roche-posay-hidratante-reparador_932052a1.jpg",
     "images": [
@@ -1223,6 +1227,7 @@ const rawProducts: Product[] = [
   },
   {
     "id": "epoca-primer-facial-catharine-hill-angel-magic",
+    "ean": "7898600993234",
     "name": "Primer Facial Catharine Hill by Pri Lessa - Angel Magic 30ml",
     "image": "/products/7898600993234--2-.jpg_56245391.jpg",
     "images": [
@@ -2351,6 +2356,7 @@ const rawProducts: Product[] = [
   },
   {
     "id": "epoca-serum-facial-harmonizador-anti-idade-skinceuticals-ha-intensifier-multi-glycan",
+    "ean": "7908785405429",
     "name": "Sérum Facial Anti-Idade, SkinCeuticals H.A. Intensifier Multi-Glycan Preenchedor 30ml",
     "image": "/products/serum-facial-harmonizador-anti-idade-skinceuticals-ha-intensifier-multi-glycan--1-.jpg_bbfeccdc.jpg",
     "images": [
@@ -2691,6 +2697,7 @@ const rawProducts: Product[] = [
   },
   {
     "id": "epoca-protetor-solar-facial-principia-ps01-fps60",
+    "ean": "0609963220694",
     "name": "Protetor Solar Facial Principia - PS-01 FPS60 40ml",
     "image": "/products/EAN-0609963220694.jpg_0d6b7430.jpg",
     "images": [
@@ -2877,6 +2884,7 @@ const rawProducts: Product[] = [
   },
   {
     "id": "epoca-lapis-de-olhos-a-prova-dagua-contem-1g-superpreto",
+    "ean": "7010705089480",
     "name": "Lápis de Olhos à Prova D'água Contém 1g - Superpreto",
     "image": "/products/lapis-de-olhos-a-prova-dagua-contem-1g-superpreto--1-_be135a9b.jpg",
     "images": [
@@ -3005,6 +3013,7 @@ const rawProducts: Product[] = [
   },
   {
     "id": "epoca-corretivo-para-os-olhos-dior-forever-skin-correct",
+    "ean": "3348901637848",
     "name": "Corretivo Dior Forever Skin Correct 11ml 3,5N",
     "image": "/products/corretivo-para-os-olhos-dior-forever-skin-correct--1-.jpg_8d1d03ae.jpg",
     "images": [
@@ -3094,6 +3103,7 @@ const rawProducts: Product[] = [
   },
   {
     "id": "epoca-mascara-para-cilios-vizzela-big-no-panda",
+    "ean": "7908517900086",
     "name": "Máscara para Cílios Vizzela Big No Panda 5g Preto",
     "image": "/products/mascara-para-cilios-vizzela-big-no-panda--3-_1ce3a95b.jpg",
     "images": [
@@ -3475,6 +3485,7 @@ const rawProducts: Product[] = [
   },
   {
     "id": "epoca-locao-hidratante-biore-rich-moisture-jelly-lotion",
+    "ean": "4901301287656",
     "name": "Loção Hidratante Bioré Rich Moisture Jelly Lotion 180ml",
     "image": "/products/locao-hidratante-biore-rich-moisture-jelly-lotion_be2e1337.jpg",
     "images": [
@@ -3610,6 +3621,7 @@ const rawProducts: Product[] = [
   },
   {
     "id": "epoca-contorno-labial-rk-by-kiss-ultra-easy-lip-liner",
+    "ean": "1635530058314",
     "name": "Contorno Labial Ruby Kisses– Ultra Easy Lip Liner Pale Nude",
     "image": "/products/contorno-labial-rk-by-kiss-ultra-easy-lip-liner_cfa60fb6.jpg",
     "images": [
@@ -3887,6 +3899,7 @@ const rawProducts: Product[] = [
   },
   {
     "id": "epoca-protetor-solar-neostrata-minesol-oil-control-fps-70",
+    "ean": "7891010248178",
     "name": "Protetor Solar Neostrata - Minesol Oil Control  FPS 70 40g",
     "image": "/products/protetor-solar-neostrata-minesol-oil-control-fps-70_-2-_7531cd6c.jpg",
     "images": [
@@ -4263,6 +4276,7 @@ const rawProducts: Product[] = [
   },
   {
     "id": "epoca-discos-de-algodao-ricca",
+    "ean": "7897517905705",
     "name": "Discos de Algodão 70un  - Ricca 70 Un",
     "image": "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/b8c2f3bf/discos-de-algodao-ricca_(1).jpg.jpg",
     "images": [
@@ -4458,6 +4472,7 @@ const rawProducts: Product[] = [
   },
   {
     "id": "epoca-bb-cream-clareador-spf44-latika-30g",
+    "ean": "7898555601000",
     "name": "BB Cream Clareador SPF44 Latika 30g Bege Claro",
     "image": "/products/bb-cream-clareador-spf44-latika-30g_68e51bb4.jpg",
     "images": [
@@ -4660,6 +4675,7 @@ const rawProducts: Product[] = [
   },
   {
     "id": "kit-elseve-collagen-lifter-shampoo-encorpador-400ml-condicionador-redensifica-fios-400ml-leave-in-injecao-de-massa-100ml-tratamento-efeito-teia",
+    "ean": "7899706244121",
     "name": "Kit Elseve Collagen Lifter Shampoo Encorpador 400ml + Condicionador Redensifica Fios 400ml + Leave-in Injeção De Massa 100ml + Tratamento Efeito Teia",
     "image": kitElseveCollagenLifter,
     "images": [kitElseveCollagenLifter],
