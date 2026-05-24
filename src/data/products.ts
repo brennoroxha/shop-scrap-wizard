@@ -62,8 +62,6 @@ const rawProducts: Product[] = [
       "/products/7898973417009-7898973417047_c1a4ecfd.jpg"
     ],
     "price": 77.9,
-    "originalPrice": 193,
-    "discount": 60,
     "installment": "R$ 6,49",
     "hasVariants": true,
     "category": "cosmeticos-cabelos-oleo"
@@ -94,8 +92,6 @@ const rawProducts: Product[] = [
       "/products/mascara-de-tratamento-loreal-professionnel-absolut-repair-molecular--3-.jpg_fcc61c65.jpg"
     ],
     "price": 160.93,
-    "originalPrice": 276.9,
-    "discount": 42,
     "installment": "R$ 13,41",
     "hasVariants": true,
     "category": "cosmeticos-cabelos-normal-ou-todos-os-tipos"
@@ -130,8 +126,6 @@ const rawProducts: Product[] = [
       "/products/POTRANSJUJ-FECHADO-7908847800728--2--jpg_8b68f7aa.jpg"
     ],
     "price": 34.23,
-    "originalPrice": 72.9,
-    "discount": 53,
     "installment": "R$ 2,85",
     "hasVariants": true,
     "category": "cosmeticos-maquiagem-po-compacto"
@@ -153,8 +147,6 @@ const rawProducts: Product[] = [
       "/products/7908725501563Flat-Blend-Roxa__f48a54a4.jpg"
     ],
     "price": 17.3,
-    "originalPrice": 37.9,
-    "discount": 54,
     "installment": "R$ 1,44",
     "hasVariants": true,
     "category": "cosmeticos-maquiagem-esponja"
@@ -176,9 +168,7 @@ const rawProducts: Product[] = [
       "/products/wella-professionals-ultimate-luxe-oil-oleo-capilar_cf4c1820.jpg"
     ],
     "price": 58.8,
-    "originalPrice": 116,
-    "discount": 49,
-    "installment": "R$ 4,9",
+    "installment": "R$ 4,90",
     "hasVariants": true,
     "category": "cosmeticos-cabelos-oleo"
   },
@@ -209,8 +199,6 @@ const rawProducts: Product[] = [
       "/products/protetor-solar-facial-com-cor-la-roche-posay-anthelios-ultra-cover-fps60--9-_f58d6d19.jpg"
     ],
     "price": 55.93,
-    "originalPrice": 99.9,
-    "discount": 44,
     "installment": "R$ 4,66",
     "hasVariants": true,
     "category": "cosmeticos-dermocosmeticos-protetor-solar-com-cor"
@@ -259,8 +247,6 @@ const rawProducts: Product[] = [
       "/products/Po-Compacto-Protetor-Solar-FPS-50-Episol---Mantecorp-Skincare-pele-negra--9-_3bb75a6d.jpg"
     ],
     "price": 101.09,
-    "originalPrice": 169.9,
-    "discount": 41,
     "installment": "R$ 8,42",
     "hasVariants": true,
     "category": "cosmeticos-dermocosmeticos-protetor-solar-com-cor"
@@ -276,8 +262,6 @@ const rawProducts: Product[] = [
       "/products/wella-nutri-enrich-kit-shampoo-e-condicionador--1-_0cbba26c.jpg"
     ],
     "price": 230.86,
-    "originalPrice": 445.5,
-    "discount": 48,
     "installment": "R$ 19,24",
     "hasVariants": false,
     "category": "cosmeticos-cabelos-seco-e-ressecados"
@@ -299,8 +283,6 @@ const rawProducts: Product[] = [
       "/products/7898973417016--7898973417030--3-_06cd68db.jpg"
     ],
     "price": 102.21,
-    "originalPrice": 193,
-    "discount": 47,
     "installment": "R$ 8,52",
     "hasVariants": true,
     "category": "cosmeticos-cabelos-oleo"
@@ -319,8 +301,6 @@ const rawProducts: Product[] = [
       "/products/therapiste--5---5-_4dd4d42d.jpg"
     ],
     "price": 171.43,
-    "originalPrice": 391.9,
-    "discount": 56,
     "installment": "R$ 14,29",
     "hasVariants": false,
     "category": "cosmeticos-cabelos-danificados"
@@ -341,8 +321,6 @@ const rawProducts: Product[] = [
       "/products/hydro-boost-water-gel-neutrogena-hidratante-facial_-4-_fa14daac.jpg"
     ],
     "price": 43.33,
-    "originalPrice": 87.9,
-    "discount": 51,
     "installment": "R$ 3,61",
     "hasVariants": false,
     "category": "cosmeticos-tratamentos-hidratantes-faciais"
@@ -357,8 +335,6 @@ const rawProducts: Product[] = [
       "/products/image_22e5e52bfd6011fa150fcd30824b437a.jpg"
     ],
     "price": 55.59,
-    "originalPrice": 135.7,
-    "discount": 59,
     "installment": "R$ 4,63",
     "hasVariants": false,
     "category": "cosmeticos-cabelos-danificados"
@@ -378,8 +354,7 @@ const rawProducts: Product[] = [
       "/products/blush-stick-bruna-tavares-bt-coca-cola-7g--7-_2d21e7b3.jpg"
     ],
     "price": 67.16,
-    "originalPrice": 89.9,
-    "installment": "R$ 5,6",
+    "installment": "R$ 5,60",
     "hasVariants": true,
     "category": "cosmeticos-maquiagem-blush"
   },
@@ -396,8 +371,6 @@ const rawProducts: Product[] = [
       "/products/17245026306844_8b76a238.jpg"
     ],
     "price": 142.91,
-    "originalPrice": 499.9,
-    "discount": 71,
     "installment": "R$ 11,91",
     "hasVariants": false,
     "category": "cosmeticos-cabelos-normal-ou-todos-os-tipos"
@@ -417,9 +390,7 @@ const rawProducts: Product[] = [
       "/products/esponja-de-maquiagem-sister-blend-by-oceane_f23e191d.jpg"
     ],
     "price": 14.41,
-    "originalPrice": 31,
-    "discount": 54,
-    "installment": "R$ 1,2",
+    "installment": "R$ 1,20",
     "hasVariants": true,
     "category": "cosmeticos-maquiagem-esponja"
   },
@@ -440,8 +411,6 @@ const rawProducts: Product[] = [
       "/products/kit-de-pinceis-real-techniques-epoca-cosmeticos-the-makeup-expert-favorites--5-.jpg_cbda1ae2.jpg"
     ],
     "price": 65.93,
-    "originalPrice": 144.9,
-    "discount": 54,
     "installment": "R$ 5,49",
     "hasVariants": false,
     "category": "cosmeticos-maquiagem-estojo-completo-ou-kit-de-maquiagem"
@@ -462,8 +431,6 @@ const rawProducts: Product[] = [
       "/products/7908785408000-08_42b3115d.jpg"
     ],
     "price": 231.89,
-    "originalPrice": 395,
-    "discount": 41,
     "installment": "R$ 19,32",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-rejuvenescedores"
@@ -477,8 +444,6 @@ const rawProducts: Product[] = [
       "/products/la-roche-posay-cicaplast-baume-b5-plus-kit-com-2-unidades_6b154eee.jpg"
     ],
     "price": 111.86,
-    "originalPrice": 205.8,
-    "discount": 46,
     "installment": "R$ 9,32",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-kits"
@@ -496,8 +461,6 @@ const rawProducts: Product[] = [
       "/products/creme-hidratante-creamy-calming-cream-20-3-.jpg_e1654f00.jpg"
     ],
     "price": 36.4,
-    "originalPrice": 52.62,
-    "discount": 31,
     "installment": "R$ 3,03",
     "hasVariants": false,
     "category": "cosmeticos-tratamentos-hidratantes-faciais"
@@ -515,8 +478,6 @@ const rawProducts: Product[] = [
       "/products/wella-professional-ultimate-luxe-oil-shampoo--6-_f5cc7cd4.jpg"
     ],
     "price": 20.93,
-    "originalPrice": 49.9,
-    "discount": 58,
     "installment": "R$ 1,74",
     "hasVariants": false,
     "category": "cosmeticos-cabelos-normal-ou-todos-os-tipos"
@@ -533,8 +494,6 @@ const rawProducts: Product[] = [
       "/products/wella-professional-ultimate-luxe-oil-mascara--4-_b6fb4866.jpg"
     ],
     "price": 20.93,
-    "originalPrice": 49.9,
-    "discount": 58,
     "installment": "R$ 1,74",
     "hasVariants": false,
     "category": "cosmeticos-cabelos-normal-ou-todos-os-tipos"
@@ -658,8 +617,6 @@ const rawProducts: Product[] = [
       "/products/STICKPELE_BR50_7908847800490-TXT.jpg_cd82d28c.jpg"
     ],
     "price": 41.09,
-    "originalPrice": 89.9,
-    "discount": 54,
     "installment": "R$ 3,42",
     "hasVariants": true,
     "category": "cosmeticos-maquiagem-base"
@@ -673,8 +630,6 @@ const rawProducts: Product[] = [
       "/products/wella-professionals-oil-reflections-kit-shampoo-condicionador-250ml_587e076f.jpg"
     ],
     "price": 141.76,
-    "originalPrice": 255.42,
-    "discount": 44,
     "installment": "R$ 11,81",
     "hasVariants": false,
     "category": "cosmeticos-cabelos-normal-ou-todos-os-tipos"
@@ -695,8 +650,6 @@ const rawProducts: Product[] = [
       "/products/serum-la-roche-posay-mela-b3--8-_e52bdd9c.jpg"
     ],
     "price": 130,
-    "originalPrice": 221.9,
-    "discount": 41,
     "installment": "R$ 10,83",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-anti-marcas"
@@ -710,9 +663,7 @@ const rawProducts: Product[] = [
       "/products/kit-2_cbded4e3.jpg"
     ],
     "price": 110.42,
-    "originalPrice": 212.85,
-    "discount": 48,
-    "installment": "R$ 9,2",
+    "installment": "R$ 9,20",
     "hasVariants": false,
     "category": "cosmeticos-cabelos-seco-e-ressecados"
   },
@@ -760,8 +711,6 @@ const rawProducts: Product[] = [
       "/products/contorno-oceane-stick-edition--1-_e162ad47.jpg"
     ],
     "price": 27.93,
-    "originalPrice": 80,
-    "discount": 65,
     "installment": "R$ 2,33",
     "hasVariants": true,
     "category": "cosmeticos-maquiagem-contorno"
@@ -881,8 +830,7 @@ const rawProducts: Product[] = [
       "/products/773602685455_7.jpg_51388c97.jpg"
     ],
     "price": 97.23,
-    "originalPrice": 139,
-    "installment": "R$ 8,1",
+    "installment": "R$ 8,10",
     "hasVariants": true,
     "category": "cosmeticos-maquiagem-batom"
   },
@@ -913,8 +861,6 @@ const rawProducts: Product[] = [
       "/products/4064666687018-4064666337081-4064666687018--3-_c3c86d5e.jpg"
     ],
     "price": 20.93,
-    "originalPrice": 49.9,
-    "discount": 58,
     "installment": "R$ 1,74",
     "hasVariants": true,
     "category": "cosmeticos-cabelos-tratamentos-e-mascaras"
@@ -933,8 +879,6 @@ const rawProducts: Product[] = [
       "/products/7908725504403_minipuff_1_3000_branco_6ab5c7e3.jpg"
     ],
     "price": 10.08,
-    "originalPrice": 21.9,
-    "discount": 54,
     "installment": "R$ 0,84",
     "hasVariants": true,
     "category": "cosmeticos-maquiagem-esponja"
@@ -954,8 +898,6 @@ const rawProducts: Product[] = [
       "/products/kerastase-nutritive-masquintense-riche-mascara--8-_dc165b5d.jpg"
     ],
     "price": 232.25,
-    "originalPrice": 391.9,
-    "discount": 41,
     "installment": "R$ 19,35",
     "hasVariants": false,
     "category": "cosmeticos-cabelos-seco-e-ressecados"
@@ -975,8 +917,6 @@ const rawProducts: Product[] = [
       "/products/wella-professionals-ultimate-repair-miniatura-shampoo--7-_d12f150e.jpg"
     ],
     "price": 20.93,
-    "originalPrice": 49.9,
-    "discount": 58,
     "installment": "R$ 1,74",
     "hasVariants": false,
     "category": "cosmeticos-cabelos-normal-ou-todos-os-tipos"
@@ -1002,9 +942,7 @@ const rawProducts: Product[] = [
       "/products/cicaplast-baume-b5-la-roche-posay-hidratante-reparador--13-_2b9db8d2.jpg"
     ],
     "price": 30.06,
-    "originalPrice": 58.9,
-    "discount": 49,
-    "installment": "R$ 2,5",
+    "installment": "R$ 2,50",
     "hasVariants": true,
     "category": "cosmeticos-dermocosmeticos-hidratantes-corporais"
   },
@@ -1020,8 +958,6 @@ const rawProducts: Product[] = [
       "/products/esponja-de-maquiagem-oceane-edition-flat-drop-preto-4_6336b81f.jpg"
     ],
     "price": 13.74,
-    "originalPrice": 40.9,
-    "discount": 66,
     "installment": "R$ 1,15",
     "hasVariants": false,
     "category": "cosmeticos-maquiagem-esponja"
@@ -1042,8 +978,6 @@ const rawProducts: Product[] = [
       "/products/cetaphil-kit-com-dois-cremes-hidratantes--8-_760aa16d.jpg"
     ],
     "price": 138.6,
-    "originalPrice": 259.8,
-    "discount": 47,
     "installment": "R$ 11,55",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-hidratantes"
@@ -1060,8 +994,6 @@ const rawProducts: Product[] = [
       "/products/fixador-de-maquiagem-vizzela-real-fix--4-_f1f6ee85.jpg"
     ],
     "price": 41.29,
-    "originalPrice": 86.9,
-    "discount": 52,
     "installment": "R$ 3,44",
     "hasVariants": true,
     "category": "cosmeticos-maquiagem-fixador-da-maquiagem"
@@ -1103,8 +1035,6 @@ const rawProducts: Product[] = [
       "/products/corretivo-liquido-ruby-kisses-under-eye-corrector-38--1-_c6591892.jpg"
     ],
     "price": 21.69,
-    "originalPrice": 42.9,
-    "discount": 49,
     "installment": "R$ 1,81",
     "hasVariants": true,
     "category": "cosmeticos-maquiagem-corretivo"
@@ -1118,8 +1048,6 @@ const rawProducts: Product[] = [
       "/products/wella-professionals-invigo-nutri-enrich-mascara-30ml_5c2b0afa.jpg"
     ],
     "price": 20.93,
-    "originalPrice": 49.9,
-    "discount": 58,
     "installment": "R$ 1,74",
     "hasVariants": false,
     "category": "cosmeticos-cabelos-coloridos-e-com-mechas"
@@ -1133,8 +1061,6 @@ const rawProducts: Product[] = [
       "/products/wella-professionals-invigo-nutri-enrich-shampoo-50ml_c8b7c2b3.jpg"
     ],
     "price": 20.93,
-    "originalPrice": 49.9,
-    "discount": 58,
     "installment": "R$ 1,74",
     "hasVariants": false,
     "category": "cosmeticos-cabelos-seco-e-ressecados"
@@ -1148,8 +1074,6 @@ const rawProducts: Product[] = [
       "/products/wella-professionals-invigo-color-brilliance-mascara-30ml_2499ebe7.jpg"
     ],
     "price": 20.93,
-    "originalPrice": 49.9,
-    "discount": 58,
     "installment": "R$ 1,74",
     "hasVariants": false,
     "category": "cosmeticos-cabelos-coloridos-e-com-mechas"
@@ -1182,8 +1106,6 @@ const rawProducts: Product[] = [
       "/products/protetor-solar-com-cor-fps70-mantecorp-skicare-episol--12-_853ffec7.jpg"
     ],
     "price": 53.83,
-    "originalPrice": 99.9,
-    "discount": 46,
     "installment": "R$ 4,49",
     "hasVariants": true,
     "category": "cosmeticos-dermocosmeticos-protetor-solar-com-cor"
@@ -1200,8 +1122,6 @@ const rawProducts: Product[] = [
       "/products/490130176138549013017563054901301299031--2-_388d9db1.jpg"
     ],
     "price": 38.5,
-    "originalPrice": 72.9,
-    "discount": 47,
     "installment": "R$ 3,21",
     "hasVariants": false,
     "category": "cosmeticos-maquiagem-demaquilante"
@@ -1219,8 +1139,6 @@ const rawProducts: Product[] = [
       "/products/protetor-solar-facial-dermage-photoage-water-fps50_-5-_ba89f276.jpg"
     ],
     "price": 55.65,
-    "originalPrice": 115.9,
-    "discount": 52,
     "installment": "R$ 4,64",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-protetor-solar"
@@ -1239,8 +1157,6 @@ const rawProducts: Product[] = [
       "/products/7898600993234--4-.jpg_0e8150dd.jpg"
     ],
     "price": 40.46,
-    "originalPrice": 65.9,
-    "discount": 39,
     "installment": "R$ 3,37",
     "hasVariants": false,
     "category": "cosmeticos-maquiagem-fixador-da-maquiagem"
@@ -1256,8 +1172,6 @@ const rawProducts: Product[] = [
       "/products/mascara-incolor-para-sobrancelhas-dailus-gel-para-sobrancelhas-3_dfa1bf93.jpg"
     ],
     "price": 12.35,
-    "originalPrice": 21.9,
-    "discount": 44,
     "installment": "R$ 1,03",
     "hasVariants": false,
     "category": "cosmeticos-maquiagem-mascara-para-sobrancelhas"
@@ -1366,8 +1280,6 @@ const rawProducts: Product[] = [
       "/products/base-liquida-niina-secrets-by-eudora-hidra-glow-100--3-_0adca359.jpg"
     ],
     "price": 52.95,
-    "originalPrice": 88.99,
-    "discount": 40,
     "installment": "R$ 4,41",
     "hasVariants": true,
     "category": "cosmeticos-maquiagem-base"
@@ -1387,9 +1299,7 @@ const rawProducts: Product[] = [
       "/products/image_65a1c3e2903a7d3490921e00c5970c05.jpg"
     ],
     "price": 30.03,
-    "originalPrice": 62.9,
-    "discount": 52,
-    "installment": "R$ 2,5",
+    "installment": "R$ 2,50",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-cuidados-corporais-especificos"
   },
@@ -1430,8 +1340,6 @@ const rawProducts: Product[] = [
       "/products/protetor-solar-facial-biore-aqua-rich-watery-essence-fps-50-4901301413246_5b654ad4.jpg"
     ],
     "price": 48.3,
-    "originalPrice": 78.9,
-    "discount": 39,
     "installment": "R$ 4,02",
     "hasVariants": true,
     "category": "cosmeticos-tratamentos-protetor-solar"
@@ -1451,8 +1359,6 @@ const rawProducts: Product[] = [
       "/products/4901301303844---Perfect-Milk--2-6.jpg_254c5265.jpg"
     ],
     "price": 45.49,
-    "originalPrice": 78.9,
-    "discount": 42,
     "installment": "R$ 3,79",
     "hasVariants": false,
     "category": "cosmeticos-tratamentos-protetor-solar"
@@ -1473,8 +1379,6 @@ const rawProducts: Product[] = [
       "/products/4901301761385--3-_86a27ff1.jpg"
     ],
     "price": 35.8,
-    "originalPrice": 69.9,
-    "discount": 49,
     "installment": "R$ 2,98",
     "hasVariants": true,
     "category": "cosmeticos-maquiagem-demaquilante"
@@ -1500,8 +1404,6 @@ const rawProducts: Product[] = [
       "/products/bb-sports-medium-1_2fc52809.jpg"
     ],
     "price": 238.73,
-    "originalPrice": 359,
-    "discount": 34,
     "installment": "R$ 19,89",
     "hasVariants": true,
     "category": "cosmeticos-maquiagem-base"
@@ -1518,8 +1420,6 @@ const rawProducts: Product[] = [
       "/products/Linha-Argan-Oil_9e159fa5.jpg"
     ],
     "price": 17.43,
-    "originalPrice": 39.9,
-    "discount": 56,
     "installment": "R$ 1,45",
     "hasVariants": false,
     "category": "cosmeticos-cabelos-oleo"
@@ -1538,8 +1438,6 @@ const rawProducts: Product[] = [
       "/products/mascara-love-extreme-crazy--1---4---2-_499233a6.jpg"
     ],
     "price": 18.33,
-    "originalPrice": 39.9,
-    "discount": 54,
     "installment": "R$ 1,53",
     "hasVariants": false,
     "category": "cosmeticos-maquiagem-mascara-para-cilios"
@@ -1563,8 +1461,6 @@ const rawProducts: Product[] = [
       "/products/7898973417054_5-7898973417023_5_1aa66cf7.jpg"
     ],
     "price": 46.13,
-    "originalPrice": 116,
-    "discount": 60,
     "installment": "R$ 3,84",
     "hasVariants": true,
     "category": "cosmeticos-cabelos-oleo"
@@ -1589,8 +1485,6 @@ const rawProducts: Product[] = [
       "/products/wella-professionals-invigo-love-edition-nutri-enrich-shampoo_5bb083fc.jpg"
     ],
     "price": 118.93,
-    "originalPrice": 217.8,
-    "discount": 45,
     "installment": "R$ 9,91",
     "hasVariants": true,
     "category": "cosmeticos-cabelos-coloridos-e-com-mechas"
@@ -1621,8 +1515,6 @@ const rawProducts: Product[] = [
       "/products/wella-professionals-invigo-nutri-enrich-mascara_-3-_d9594fed.jpg"
     ],
     "price": 76.93,
-    "originalPrice": 136.62,
-    "discount": 44,
     "installment": "R$ 6,41",
     "hasVariants": true,
     "category": "cosmeticos-cabelos-seco-e-ressecados"
@@ -1651,8 +1543,6 @@ const rawProducts: Product[] = [
       "/products/wella-professionals-invigo-nutri-enrich-condicionador_-3-_fe8de8fd.jpg"
     ],
     "price": 111.93,
-    "originalPrice": 227.7,
-    "discount": 51,
     "installment": "R$ 9,33",
     "hasVariants": true,
     "category": "cosmeticos-cabelos-seco-e-ressecados"
@@ -1674,8 +1564,6 @@ const rawProducts: Product[] = [
       "/products/enrich-wella-professionals-mascara-capilar-_-9-_04b4bdf1.jpg"
     ],
     "price": 164.81,
-    "originalPrice": 300.56,
-    "discount": 45,
     "installment": "R$ 13,73",
     "hasVariants": true,
     "category": "cosmeticos-cabelos-normal-ou-todos-os-tipos"
@@ -1706,8 +1594,6 @@ const rawProducts: Product[] = [
       "/products/wella-sp-oil-reflections-mascara-de-hidratacao_-7-_e03de575.jpg"
     ],
     "price": 114.8,
-    "originalPrice": 300.56,
-    "discount": 62,
     "installment": "R$ 9,57",
     "hasVariants": true,
     "category": "cosmeticos-cabelos-normal-ou-todos-os-tipos"
@@ -1738,8 +1624,6 @@ const rawProducts: Product[] = [
       "/products/wella-sp-oil-reflections-shampoo--3-_335256d5.jpg"
     ],
     "price": 135.03,
-    "originalPrice": 261.36,
-    "discount": 48,
     "installment": "R$ 11,25",
     "hasVariants": true,
     "category": "cosmeticos-cabelos-normal-ou-todos-os-tipos"
@@ -1760,8 +1644,6 @@ const rawProducts: Product[] = [
       "/products/10_Rotina-8---7899706159272_42e60b96.jpg"
     ],
     "price": 69.93,
-    "originalPrice": 133.9,
-    "discount": 48,
     "installment": "R$ 5,83",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-hidratantes-corporais"
@@ -1782,8 +1664,6 @@ const rawProducts: Product[] = [
       "/products/Locao-Facial-Hidratante-CeraVe-2--6-_12791a1a.jpg"
     ],
     "price": 69.93,
-    "originalPrice": 122.9,
-    "discount": 43,
     "installment": "R$ 5,83",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-hidratantes"
@@ -1799,8 +1679,6 @@ const rawProducts: Product[] = [
       "/products/encaracolando-a-juba-widi-care-creme-de-pentear_e84548cb.jpg"
     ],
     "price": 34.47,
-    "originalPrice": 62.9,
-    "discount": 45,
     "installment": "R$ 2,87",
     "hasVariants": true,
     "category": "cosmeticos-cabelos-cacheado-e-crespo"
@@ -1821,8 +1699,6 @@ const rawProducts: Product[] = [
       "/products/loreal-professionnel-inforcer-shampoo-anti-quebra--8-_ecaddaa5.jpg"
     ],
     "price": 62.3,
-    "originalPrice": 104.9,
-    "discount": 41,
     "installment": "R$ 5,19",
     "hasVariants": false,
     "category": "cosmeticos-cabelos-danificados"
@@ -1853,9 +1729,7 @@ const rawProducts: Product[] = [
       "/products/Hidratante-Facial-Vichy---Mineral-89--8-_575c0722.jpg"
     ],
     "price": 134.41,
-    "originalPrice": 225.9,
-    "discount": 41,
-    "installment": "R$ 11,2",
+    "installment": "R$ 11,20",
     "hasVariants": true,
     "category": "cosmeticos-dermocosmeticos-hidratantes"
   },
@@ -1871,8 +1745,6 @@ const rawProducts: Product[] = [
       "/products/Hidratante-Facial-Epidrat-Calm---Mantecorp-Skincare---40g-2--3---3-_356a5653.jpg"
     ],
     "price": 53.83,
-    "originalPrice": 104.9,
-    "discount": 49,
     "installment": "R$ 4,49",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-hidratantes"
@@ -1899,8 +1771,6 @@ const rawProducts: Product[] = [
       "/products/agua-micelar-solucao-de-limpeza-facial-5-em-1-l-oreal-paris-demaquilante--17-_29c4cbe1.jpg"
     ],
     "price": 13.47,
-    "originalPrice": 23.84,
-    "discount": 43,
     "installment": "R$ 1,12",
     "hasVariants": true,
     "category": "cosmeticos-tratamentos-agua-micelar"
@@ -1922,8 +1792,6 @@ const rawProducts: Product[] = [
       "/products/7908785499916-7899026456020_00ac6e54.jpg"
     ],
     "price": 31.92,
-    "originalPrice": 62.19,
-    "discount": 49,
     "installment": "R$ 2,66",
     "hasVariants": false,
     "category": "cosmeticos-maquiagem-mascara-para-cilios"
@@ -1941,9 +1809,7 @@ const rawProducts: Product[] = [
       "/products/oleo-extraordinario-elseve-l-oreal-paris-tratamento-reconstrutor--5-.jpg_88e3d9ee.jpg"
     ],
     "price": 30.03,
-    "originalPrice": 55.19,
-    "discount": 46,
-    "installment": "R$ 2,5",
+    "installment": "R$ 2,50",
     "hasVariants": false,
     "category": "cosmeticos-cabelos-protetor-termico"
   },
@@ -1971,8 +1837,6 @@ const rawProducts: Product[] = [
       "/products/blemish-age-defense-skinceuticals-tratamento-antiacne-15ml--1---1---7-_1909e560.jpg"
     ],
     "price": 202.3,
-    "originalPrice": 345,
-    "discount": 41,
     "installment": "R$ 16,86",
     "hasVariants": true,
     "category": "cosmeticos-dermocosmeticos-cuidados-faciais-especificos"
@@ -1997,8 +1861,6 @@ const rawProducts: Product[] = [
       "/products/4068359207064_3_83e1e5e0.jpg"
     ],
     "price": 20.93,
-    "originalPrice": 49.9,
-    "discount": 58,
     "installment": "R$ 1,74",
     "hasVariants": true,
     "category": "cosmeticos-cabelos-danificados"
@@ -2022,8 +1884,6 @@ const rawProducts: Product[] = [
       "/products/4068359206913_3_71e5f64e.jpg"
     ],
     "price": 123.68,
-    "originalPrice": 196.73,
-    "discount": 37,
     "installment": "R$ 10,31",
     "hasVariants": true,
     "category": "cosmeticos-cabelos-normal-ou-todos-os-tipos"
@@ -2234,8 +2094,6 @@ const rawProducts: Product[] = [
       "/products/kit-revlon-sh-04-8432225143545-8432225139272--1-_457d513a.jpg"
     ],
     "price": 83.3,
-    "originalPrice": 170,
-    "discount": 51,
     "installment": "R$ 6,94",
     "hasVariants": false,
     "category": "cosmeticos-cabelos-kits-para-cabelos"
@@ -2253,8 +2111,6 @@ const rawProducts: Product[] = [
       "/products/biore-aqua-rich-watery-essence-kit-protetor-solar-fps-50-com-2-unidades--1-_01c211ca.webp"
     ],
     "price": 91.77,
-    "originalPrice": 157.8,
-    "discount": 42,
     "installment": "R$ 7,65",
     "hasVariants": false,
     "category": "cosmeticos-tratamentos-cuidados-faciais-especificos"
@@ -2269,8 +2125,6 @@ const rawProducts: Product[] = [
       "/products/protetor-solar-biore-aqua-rich-watery-essence_-2-_bd365ef8.jpg"
     ],
     "price": 52.43,
-    "originalPrice": 104.89,
-    "discount": 50,
     "installment": "R$ 4,37",
     "hasVariants": false,
     "category": "cosmeticos-tratamentos-protetor-solar"
@@ -2290,8 +2144,6 @@ const rawProducts: Product[] = [
       "/products/mascara-wella-professionals-blondorplex_df734348.jpg"
     ],
     "price": 105.99,
-    "originalPrice": 163.94,
-    "discount": 35,
     "installment": "R$ 8,83",
     "hasVariants": true,
     "category": "cosmeticos-cabelos-tratamentos-e-mascaras"
@@ -2313,8 +2165,6 @@ const rawProducts: Product[] = [
       "/products/shampoo-fortificante-wella-professionals-blondorplex--7-_3f7a1ff6.jpg"
     ],
     "price": 78.25,
-    "originalPrice": 118.8,
-    "discount": 34,
     "installment": "R$ 6,52",
     "hasVariants": true,
     "category": "cosmeticos-cabelos-loiros-e-descoloridos"
@@ -2335,8 +2185,6 @@ const rawProducts: Product[] = [
       "/products/oleo-capilar-gloss-absolu-kerastase-glaze--12-_bf522d1a.jpg"
     ],
     "price": 272.7,
-    "originalPrice": 399,
-    "discount": 32,
     "installment": "R$ 22,72",
     "hasVariants": false,
     "category": "cosmeticos-cabelos-oleo"
@@ -2357,8 +2205,6 @@ const rawProducts: Product[] = [
       "/products/serum-facial-harmonizador-anti-idade-skinceuticals-ha-intensifier-multi-glycan--7-.jpg_3f259947.jpg"
     ],
     "price": 244.93,
-    "originalPrice": 415,
-    "discount": 41,
     "installment": "R$ 20,41",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-face"
@@ -2376,8 +2222,6 @@ const rawProducts: Product[] = [
       "/products/shampoo-fortalecedor-mantecorp-antiqueda-pielus_-1-_25e6655f.jpg"
     ],
     "price": 72.73,
-    "originalPrice": 129.9,
-    "discount": 44,
     "installment": "R$ 6,06",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-tratamentos"
@@ -2413,8 +2257,6 @@ const rawProducts: Product[] = [
       "/products/finetoday-fino-premium-touch-hair-mask-mascara-capilar--4-_4448b215.jpg"
     ],
     "price": 132.3,
-    "originalPrice": 199.9,
-    "discount": 34,
     "installment": "R$ 11,03",
     "hasVariants": false,
     "category": "cosmeticos-cabelos-normal-ou-todos-os-tipos"
@@ -2443,8 +2285,6 @@ const rawProducts: Product[] = [
       "/products/7908615086514_7.jpg_1ec21bbb.jpg"
     ],
     "price": 118.26,
-    "originalPrice": 222.9,
-    "discount": 47,
     "installment": "R$ 9,86",
     "hasVariants": true,
     "category": "cosmeticos-dermocosmeticos-rejuvenescedores"
@@ -2468,8 +2308,6 @@ const rawProducts: Product[] = [
       "/products/Swatch-Textura_Caramel-7908725501372_c0a763d2.jpg"
     ],
     "price": 31.69,
-    "originalPrice": 70.9,
-    "discount": 55,
     "installment": "R$ 2,64",
     "hasVariants": true,
     "category": "cosmeticos-maquiagem-contorno"
@@ -2494,8 +2332,6 @@ const rawProducts: Product[] = [
       "/products/7908725502096--3-.jpg_652e909b.jpg"
     ],
     "price": 40.4,
-    "originalPrice": 96.9,
-    "discount": 58,
     "installment": "R$ 3,37",
     "hasVariants": true,
     "category": "cosmeticos-maquiagem-base"
@@ -2515,8 +2351,6 @@ const rawProducts: Product[] = [
       "/products/17272913759930_bf8ac212.jpg"
     ],
     "price": 138.71,
-    "originalPrice": 312.89,
-    "discount": 56,
     "installment": "R$ 11,56",
     "hasVariants": false,
     "category": "cosmeticos-cabelos-tratamentos-e-mascaras"
@@ -2531,8 +2365,6 @@ const rawProducts: Product[] = [
       "/products/17262380658549_be135a18.jpg"
     ],
     "price": 138.6,
-    "originalPrice": 429.9,
-    "discount": 68,
     "installment": "R$ 11,55",
     "hasVariants": false,
     "category": "cosmeticos-cabelos-tratamentos-e-mascaras"
@@ -2547,8 +2379,6 @@ const rawProducts: Product[] = [
       "/products/17582162012807_2fd64413.jpg"
     ],
     "price": 197.65,
-    "originalPrice": 759.9,
-    "discount": 74,
     "installment": "R$ 16,47",
     "hasVariants": false,
     "category": "cosmeticos-cabelos-seco-e-ressecados"
@@ -2565,8 +2395,6 @@ const rawProducts: Product[] = [
       "/products/17253239237892_31cb3f52.jpg"
     ],
     "price": 279.93,
-    "originalPrice": 632.9,
-    "discount": 56,
     "installment": "R$ 23,33",
     "hasVariants": false,
     "category": "cosmeticos-cabelos-kits-para-cabelos"
@@ -2582,9 +2410,7 @@ const rawProducts: Product[] = [
       "/products/17253188201356_b6489dc0.jpg"
     ],
     "price": 256.83,
-    "originalPrice": 619.9,
-    "discount": 59,
-    "installment": "R$ 21,4",
+    "installment": "R$ 21,40",
     "hasVariants": false,
     "category": "cosmeticos-cabelos-kits-para-cabelos"
   },
@@ -2601,8 +2427,6 @@ const rawProducts: Product[] = [
       "/products/17245010958802_0665987b.jpg"
     ],
     "price": 257.54,
-    "originalPrice": 759.9,
-    "discount": 66,
     "installment": "R$ 21,46",
     "hasVariants": false,
     "category": "cosmeticos-cabelos-fino"
@@ -2622,8 +2446,6 @@ const rawProducts: Product[] = [
       "/products/kit-mini-pinceis-real-techniques-epoca-cosmeticos-essentials-brush--1---4-.jpg_2d028936.jpg"
     ],
     "price": 40.91,
-    "originalPrice": 89.9,
-    "discount": 54,
     "installment": "R$ 3,41",
     "hasVariants": false,
     "category": "cosmeticos-maquiagem-estojo-completo-ou-kit-de-maquiagem"
@@ -2646,8 +2468,6 @@ const rawProducts: Product[] = [
       "/products/po-solto-prisme-libre-givenchy-24_fdeab023.jpg"
     ],
     "price": 163.95,
-    "originalPrice": 239,
-    "discount": 31,
     "installment": "R$ 13,66",
     "hasVariants": true,
     "category": "cosmeticos-maquiagem-po-facial"
@@ -2676,8 +2496,6 @@ const rawProducts: Product[] = [
       "/products/20240715_StickCloudyPink_Edition_Mini_PDP_07-7908725500870--6-_f024f33a.jpg"
     ],
     "price": 24.43,
-    "originalPrice": 60.9,
-    "discount": 60,
     "installment": "R$ 2,04",
     "hasVariants": true,
     "category": "cosmeticos-maquiagem-blush"
@@ -2763,8 +2581,6 @@ const rawProducts: Product[] = [
       "/products/773602686568_5_66cc8bcc.jpg"
     ],
     "price": 205.11,
-    "originalPrice": 299,
-    "discount": 31,
     "installment": "R$ 17,09",
     "hasVariants": true,
     "category": "cosmeticos-maquiagem-base"
@@ -2789,8 +2605,6 @@ const rawProducts: Product[] = [
       "/products/7908725500696Blush-4you-BrinkPeach_--1-_b53369a3.jpg"
     ],
     "price": 27.86,
-    "originalPrice": 80.9,
-    "discount": 66,
     "installment": "R$ 2,32",
     "hasVariants": true,
     "category": "cosmeticos-maquiagem-blush"
@@ -2812,8 +2626,6 @@ const rawProducts: Product[] = [
       "/products/wella-professional-ultimate-luxe-oil-mascara---2-_774ca07c.jpg"
     ],
     "price": 228.13,
-    "originalPrice": 360.68,
-    "discount": 37,
     "installment": "R$ 19,01",
     "hasVariants": true,
     "category": "cosmeticos-cabelos-normal-ou-todos-os-tipos"
@@ -2863,8 +2675,6 @@ const rawProducts: Product[] = [
       "/products/7898600994217_1_bba8f173.jpg"
     ],
     "price": 50.87,
-    "originalPrice": 78.9,
-    "discount": 36,
     "installment": "R$ 4,24",
     "hasVariants": true,
     "category": "cosmeticos-maquiagem-base"
@@ -2882,8 +2692,6 @@ const rawProducts: Product[] = [
       "/products/7908335402434--4-_2c41deb6.jpg"
     ],
     "price": 43.83,
-    "originalPrice": 63.9,
-    "discount": 31,
     "installment": "R$ 3,65",
     "hasVariants": false,
     "category": "cosmeticos-maquiagem-lapis-e-kajal"
@@ -2904,8 +2712,6 @@ const rawProducts: Product[] = [
       "/products/7891010255725_8_280cc3d9.jpg"
     ],
     "price": 34.23,
-    "originalPrice": 72.99,
-    "discount": 53,
     "installment": "R$ 2,85",
     "hasVariants": false,
     "category": "cosmeticos-tratamentos-hidratantes-faciais"
@@ -2934,8 +2740,6 @@ const rawProducts: Product[] = [
       "/products/serum-antirrugas-la-roche-posay-retinol-b-3--16-_f116848d.jpg"
     ],
     "price": 146.93,
-    "originalPrice": 310.9,
-    "discount": 53,
     "installment": "R$ 12,24",
     "hasVariants": true,
     "category": "cosmeticos-dermocosmeticos-rejuvenescedores"
@@ -2956,8 +2760,6 @@ const rawProducts: Product[] = [
       "/products/4006000101972_8.jpg_e8925b9d.jpg"
     ],
     "price": 146.93,
-    "originalPrice": 283.4,
-    "discount": 48,
     "installment": "R$ 12,24",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-rejuvenescedores"
@@ -2971,8 +2773,6 @@ const rawProducts: Product[] = [
       "/products/wella-professionals-oil-reflections-kit-shampoo-condicionador_77bcd0e7.jpg"
     ],
     "price": 196.97,
-    "originalPrice": 397.98,
-    "discount": 51,
     "installment": "R$ 16,41",
     "hasVariants": false,
     "category": "cosmeticos-cabelos-normal-ou-todos-os-tipos"
@@ -2992,8 +2792,6 @@ const rawProducts: Product[] = [
       "/products/paleta-de-sombras-oceane-edition-pocket-palette-nude-8_52876315.jpg"
     ],
     "price": 37.37,
-    "originalPrice": 77.9,
-    "discount": 52,
     "installment": "R$ 3,11",
     "hasVariants": false,
     "category": "cosmeticos-maquiagem-sombra"
@@ -3024,7 +2822,6 @@ const rawProducts: Product[] = [
       "/products/corretivo-para-os-olhos-dior-forever-skin-correct-5n-2_c1302098.jpg"
     ],
     "price": 234.5,
-    "originalPrice": 335,
     "installment": "R$ 19,54",
     "hasVariants": true,
     "category": "cosmeticos-maquiagem-corretivo"
@@ -3038,8 +2835,6 @@ const rawProducts: Product[] = [
       "/products/sebastian-professional-penetraitt-shampoo_058e30e2.jpg"
     ],
     "price": 20.93,
-    "originalPrice": 49.9,
-    "discount": 58,
     "installment": "R$ 1,74",
     "hasVariants": false,
     "category": "cosmeticos-cabelos-danificados"
@@ -3060,8 +2855,6 @@ const rawProducts: Product[] = [
       "/products/espuma-de-limpeza-facial-cremosa-la-roche-posay-effaclar-reequilibrante--8-_713f1fc3.jpg"
     ],
     "price": 43.59,
-    "originalPrice": 84.9,
-    "discount": 49,
     "installment": "R$ 3,63",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-limpadores"
@@ -3082,8 +2875,6 @@ const rawProducts: Product[] = [
       "/products/redken-all-soft-moisture-restore-leave-in--8-_dd12fdad.jpg"
     ],
     "price": 92.84,
-    "originalPrice": 166.9,
-    "discount": 44,
     "installment": "R$ 7,74",
     "hasVariants": false,
     "category": "cosmeticos-cabelos-seco-e-ressecados"
@@ -3114,8 +2905,6 @@ const rawProducts: Product[] = [
       "/products/7908517905401-Mascara-Para-Cilios-Big-No-Panda-Cherry---Bordo--7-.jpg_ca05fa6a.jpg"
     ],
     "price": 27.99,
-    "originalPrice": 58.9,
-    "discount": 52,
     "installment": "R$ 2,33",
     "hasVariants": true,
     "category": "cosmeticos-maquiagem-mascara-para-cilios"
@@ -3145,8 +2934,6 @@ const rawProducts: Product[] = [
       "/products/corretivo-liquido-niina-secrets-by-eudora-perfect-match-95-3_66e64708.jpg"
     ],
     "price": 26.84,
-    "originalPrice": 58.99,
-    "discount": 55,
     "installment": "R$ 2,24",
     "hasVariants": true,
     "category": "cosmeticos-maquiagem-corretivo"
@@ -3160,8 +2947,6 @@ const rawProducts: Product[] = [
       "/products/dermage-photoage-water-kit-com-2-unidades-protetor-solar-facial-fps50-40g_ca073a86.jpg"
     ],
     "price": 111.3,
-    "originalPrice": 231.8,
-    "discount": 52,
     "installment": "R$ 9,28",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-protetor-solar"
@@ -3186,8 +2971,6 @@ const rawProducts: Product[] = [
       "/products/gloss-labial-niina-secrets-by-eudora-gloss-crystal-rubi-5_450869d4.jpg"
     ],
     "price": 26.46,
-    "originalPrice": 58.99,
-    "discount": 55,
     "installment": "R$ 2,21",
     "hasVariants": true,
     "category": "cosmeticos-maquiagem-gloss"
@@ -3201,8 +2984,6 @@ const rawProducts: Product[] = [
       "/products/wella-professionals-invigo-nutri-enrich-kit-shampoo-e-mascara_5c0a8275.jpg"
     ],
     "price": 39.77,
-    "originalPrice": 99.8,
-    "discount": 60,
     "installment": "R$ 3,31",
     "hasVariants": false,
     "category": "cosmeticos-cabelos-seco-e-ressecados"
@@ -3220,8 +3001,6 @@ const rawProducts: Product[] = [
       "/products/fluido-vizzela-gotas-fix-blindagem_-1-_c4172d90.jpg"
     ],
     "price": 48.99,
-    "originalPrice": 79.9,
-    "discount": 39,
     "installment": "R$ 4,08",
     "hasVariants": false,
     "category": "cosmeticos-maquiagem-fixador-da-maquiagem"
@@ -3255,8 +3034,6 @@ const rawProducts: Product[] = [
       "/products/7898593734258_005_PRO15.jpg_70f4473c.jpg"
     ],
     "price": 65.93,
-    "originalPrice": 129.9,
-    "discount": 49,
     "installment": "R$ 5,49",
     "hasVariants": true,
     "category": "cosmeticos-tratamentos-protetor-solar-com-cor"
@@ -3275,8 +3052,6 @@ const rawProducts: Product[] = [
       "/products/redken-25-benefits-one-united-leave-in--2---3---1-_47dfd78b.jpg"
     ],
     "price": 185.07,
-    "originalPrice": 335.9,
-    "discount": 45,
     "installment": "R$ 15,42",
     "hasVariants": true,
     "category": "cosmeticos-cabelos-normal-ou-todos-os-tipos"
@@ -3294,8 +3069,6 @@ const rawProducts: Product[] = [
       "/products/hidratante-corporal-mantecorp-epidrat-calm--4-_0330c320.jpg"
     ],
     "price": 108.5,
-    "originalPrice": 199.9,
-    "discount": 46,
     "installment": "R$ 9,04",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-hidratantes-corporais"
@@ -3316,8 +3089,6 @@ const rawProducts: Product[] = [
       "/products/7891142981240_8_91dae94e.jpg"
     ],
     "price": 145.05,
-    "originalPrice": 259.9,
-    "discount": 44,
     "installment": "R$ 12,09",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-rejuvenescedores"
@@ -3331,8 +3102,6 @@ const rawProducts: Product[] = [
       "/products/7899572812271.jpg_39b0b723.jpg"
     ],
     "price": 31.43,
-    "originalPrice": 59.9,
-    "discount": 48,
     "installment": "R$ 2,62",
     "hasVariants": false,
     "category": "cosmeticos-cabelos-danificados"
@@ -3346,8 +3115,6 @@ const rawProducts: Product[] = [
       "/products/loreal-professionnel-pro-longer-kit-shampoo-mascar_e9efef0c.jpg"
     ],
     "price": 199.36,
-    "originalPrice": 327.8,
-    "discount": 39,
     "installment": "R$ 16,61",
     "hasVariants": false,
     "category": "cosmeticos-cabelos-danificados"
@@ -3361,8 +3128,6 @@ const rawProducts: Product[] = [
       "/products/wella-professionals-invigo-color-brilliance-shampoo-50ml_bfa7e599.jpg"
     ],
     "price": 20.93,
-    "originalPrice": 49.9,
-    "discount": 58,
     "installment": "R$ 1,74",
     "hasVariants": false,
     "category": "cosmeticos-cabelos-coloridos-e-com-mechas"
@@ -3379,8 +3144,6 @@ const rawProducts: Product[] = [
       "/products/7899572812141-7899572812134-7899572812042-7899572812127--1-_09676d88.png"
     ],
     "price": 27.93,
-    "originalPrice": 44.9,
-    "discount": 38,
     "installment": "R$ 2,33",
     "hasVariants": false,
     "category": "cosmeticos-cabelos-normal-ou-todos-os-tipos"
@@ -3396,8 +3159,6 @@ const rawProducts: Product[] = [
       "/products/Linha-Pinga_92d45c76.jpg"
     ],
     "price": 17.43,
-    "originalPrice": 39.9,
-    "discount": 56,
     "installment": "R$ 1,45",
     "hasVariants": false,
     "category": "cosmeticos-cabelos-oleo"
@@ -3419,8 +3180,6 @@ const rawProducts: Product[] = [
       "/products/7908785419709_10_60a08179.jpg"
     ],
     "price": 136.43,
-    "originalPrice": 248.9,
-    "discount": 45,
     "installment": "R$ 11,37",
     "hasVariants": false,
     "category": "cosmeticos-cabelos-oleo"
@@ -3434,8 +3193,6 @@ const rawProducts: Product[] = [
       "/products/7899572812158.jpg_2e8d8a93.jpg"
     ],
     "price": 17.43,
-    "originalPrice": 39.9,
-    "discount": 56,
     "installment": "R$ 1,45",
     "hasVariants": false,
     "category": "cosmeticos-cabelos-oleo"
@@ -3464,8 +3221,6 @@ const rawProducts: Product[] = [
       "/products/serum-facial-la-roche-posay-effaclar-ultra-concentrado--8-_1c9af721.jpg"
     ],
     "price": 139.93,
-    "originalPrice": 265.9,
-    "discount": 47,
     "installment": "R$ 11,66",
     "hasVariants": true,
     "category": "cosmeticos-dermocosmeticos-cuidados-faciais-especificos"
@@ -3479,8 +3234,6 @@ const rawProducts: Product[] = [
       "/products/locao-hidratante-biore-rich-moisture-jelly-lotion_be2e1337.jpg"
     ],
     "price": 32.13,
-    "originalPrice": 94.99,
-    "discount": 66,
     "installment": "R$ 2,68",
     "hasVariants": false,
     "category": "cosmeticos-tratamentos-hidratantes-faciais"
@@ -3502,8 +3255,6 @@ const rawProducts: Product[] = [
       "/products/creme-facial-reparador-avene-cicalfate--3-_9e06f5bd.jpg"
     ],
     "price": 37.09,
-    "originalPrice": 101.99,
-    "discount": 64,
     "installment": "R$ 3,09",
     "hasVariants": true,
     "category": "cosmeticos-dermocosmeticos-rejuvenescedores"
@@ -3544,8 +3295,6 @@ const rawProducts: Product[] = [
       "/products/7899706254373--10-_3e65abd2.jpg"
     ],
     "price": 57.13,
-    "originalPrice": 89.9,
-    "discount": 36,
     "installment": "R$ 4,76",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-shampoo"
@@ -3559,8 +3308,6 @@ const rawProducts: Product[] = [
       "/products/widi-care-infusao-acidificante-controle-de-ph-finalizador_6e579019.jpg"
     ],
     "price": 33.53,
-    "originalPrice": 66.9,
-    "discount": 50,
     "installment": "R$ 2,79",
     "hasVariants": true,
     "category": "cosmeticos-cabelos-balsamo-e-creme"
@@ -3578,8 +3325,6 @@ const rawProducts: Product[] = [
       "/products/gel-de-limpeza-la-roche-posay-refil-effaclar-concentrado--3-_dcfe7b12.jpg"
     ],
     "price": 44.73,
-    "originalPrice": 85.9,
-    "discount": 48,
     "installment": "R$ 3,73",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-gel-de-limpeza"
@@ -3600,8 +3345,6 @@ const rawProducts: Product[] = [
       "/products/7891010253196_8_56cdcba4.jpg"
     ],
     "price": 34.93,
-    "originalPrice": 73.99,
-    "discount": 53,
     "installment": "R$ 2,91",
     "hasVariants": false,
     "category": "cosmeticos-tratamentos-protetor-solar"
@@ -3633,7 +3376,6 @@ const rawProducts: Product[] = [
       "/products/contorno-labial-rk-by-kiss-ultra-easy-lip-liner-nude-3_b752479d.jpg"
     ],
     "price": 8.16,
-    "originalPrice": 10.5,
     "installment": "R$ 0,68",
     "hasVariants": true,
     "category": "cosmeticos-maquiagem-contorno-labial"
@@ -3654,9 +3396,7 @@ const rawProducts: Product[] = [
       "/products/image_8f793902e69c88445cd8a298848bcd9e.jpg"
     ],
     "price": 68.37,
-    "originalPrice": 120.65,
-    "discount": 43,
-    "installment": "R$ 5,7",
+    "installment": "R$ 5,70",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-protetor-solar"
   },
@@ -3675,8 +3415,6 @@ const rawProducts: Product[] = [
       "/products/loreal-professionnel-pro-longer-mascara-reparadora-250g--7-_ac579edb.jpg"
     ],
     "price": 129.43,
-    "originalPrice": 209.9,
-    "discount": 38,
     "installment": "R$ 10,79",
     "hasVariants": false,
     "category": "cosmeticos-cabelos-danificados"
@@ -3712,8 +3450,6 @@ const rawProducts: Product[] = [
       "/products/sabonete-liquido-facial-biore-marshmallow-whip-moisture-refil-2_08282a69.jpg"
     ],
     "price": 20.93,
-    "originalPrice": 39.9,
-    "discount": 48,
     "installment": "R$ 1,74",
     "hasVariants": false,
     "category": "cosmeticos-tratamentos-limpadores-faciais"
@@ -3733,8 +3469,6 @@ const rawProducts: Product[] = [
       "/products/sebastian-dark-oil-shampoo-1L-2_5311900e.jpg"
     ],
     "price": 55.93,
-    "originalPrice": 154.44,
-    "discount": 64,
     "installment": "R$ 4,66",
     "hasVariants": true,
     "category": "cosmeticos-cabelos-normal-ou-todos-os-tipos"
@@ -3750,8 +3484,6 @@ const rawProducts: Product[] = [
       "/products/limpador-facial-hada-labo-gokujyun-oil-cleansing_-2-_021d646f.jpg"
     ],
     "price": 52.92,
-    "originalPrice": 84.9,
-    "discount": 38,
     "installment": "R$ 4,41",
     "hasVariants": false,
     "category": "cosmeticos-tratamentos-limpadores-faciais"
@@ -3789,8 +3521,6 @@ const rawProducts: Product[] = [
       "/products/widi-care-geleia-texturizadora-juba--1-_732c2f05.jpg"
     ],
     "price": 24.43,
-    "originalPrice": 46.9,
-    "discount": 48,
     "installment": "R$ 2,04",
     "hasVariants": false,
     "category": "cosmeticos-cabelos-ativador-de-cachos"
@@ -3834,8 +3564,6 @@ const rawProducts: Product[] = [
       "/products/7908615060798_6_98c1ad22.jpg"
     ],
     "price": 73.93,
-    "originalPrice": 117.9,
-    "discount": 37,
     "installment": "R$ 6,16",
     "hasVariants": true,
     "category": "cosmeticos-cabelos-danificados"
@@ -3856,8 +3584,6 @@ const rawProducts: Product[] = [
       "/products/3474636975181_8_5df29a30.jpg"
     ],
     "price": 199.67,
-    "originalPrice": 309.9,
-    "discount": 36,
     "installment": "R$ 16,64",
     "hasVariants": false,
     "category": "cosmeticos-cabelos-danificados"
@@ -3878,8 +3604,6 @@ const rawProducts: Product[] = [
       "/products/7899706189668_9_1c4874e9.jpg"
     ],
     "price": 134.86,
-    "originalPrice": 209.9,
-    "discount": 36,
     "installment": "R$ 11,24",
     "hasVariants": false,
     "category": "cosmeticos-cabelos-danificados"
@@ -3900,8 +3624,6 @@ const rawProducts: Product[] = [
       "/products/protetor-solar-neostrata-minesol-oil-control-fps-70_-8-_007d1def.jpg"
     ],
     "price": 50.33,
-    "originalPrice": 109.99,
-    "discount": 54,
     "installment": "R$ 4,19",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-protetor-solar"
@@ -3921,8 +3643,6 @@ const rawProducts: Product[] = [
       "/products/clareador-corporal-bioderma-pigmentbio-sensitive-areas--6-_8ee80b74.jpg"
     ],
     "price": 106.33,
-    "originalPrice": 199.9,
-    "discount": 47,
     "installment": "R$ 8,86",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-cuidados-corporais-especificos"
@@ -3941,8 +3661,6 @@ const rawProducts: Product[] = [
       "/products/serum-concentrado-bioderma-hydrabio-serum--5-_7a91c8c8.jpg"
     ],
     "price": 95.51,
-    "originalPrice": 169.9,
-    "discount": 44,
     "installment": "R$ 7,96",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-hidratantes"
@@ -3957,8 +3675,6 @@ const rawProducts: Product[] = [
       "/products/widi-care-higienizando-a-juba-shampoo1_a67c9301.jpg"
     ],
     "price": 31.43,
-    "originalPrice": 59.9,
-    "discount": 48,
     "installment": "R$ 2,62",
     "hasVariants": true,
     "category": "cosmeticos-cabelos-cacheado-e-crespo"
@@ -3975,8 +3691,6 @@ const rawProducts: Product[] = [
       "/products/real-techniques-everyday-essentials-kit-pinceis3_1dfc7e34.jpg"
     ],
     "price": 83.3,
-    "originalPrice": 199,
-    "discount": 58,
     "installment": "R$ 6,94",
     "hasVariants": false,
     "category": "cosmeticos-maquiagem-estojo-completo-ou-kit-de-maquiagem"
@@ -4050,8 +3764,6 @@ const rawProducts: Product[] = [
       "/products/batom-liquido-maybelline-superstay-matte-ink-pink-edition-savant--5-_d47e6699.jpg"
     ],
     "price": 56.12,
-    "originalPrice": 89.59,
-    "discount": 37,
     "installment": "R$ 4,68",
     "hasVariants": true,
     "category": "cosmeticos-maquiagem-batom"
@@ -4112,8 +3824,6 @@ const rawProducts: Product[] = [
       "/products/773602756339_2.jpg_05e03b2e.jpg"
     ],
     "price": 95.28,
-    "originalPrice": 139,
-    "discount": 31,
     "installment": "R$ 7,94",
     "hasVariants": true,
     "category": "cosmeticos-maquiagem-contorno-labial"
@@ -4130,8 +3840,6 @@ const rawProducts: Product[] = [
       "/products/47817_2aece412.jpg"
     ],
     "price": 180.39,
-    "originalPrice": 349.47,
-    "discount": 48,
     "installment": "R$ 15,03",
     "hasVariants": false,
     "category": "cosmeticos-cabelos-seco-e-ressecados"
@@ -4154,8 +3862,6 @@ const rawProducts: Product[] = [
       "/products/7896235353812_5.jpg_4fea31d1.jpg"
     ],
     "price": 58.65,
-    "originalPrice": 99,
-    "discount": 41,
     "installment": "R$ 4,89",
     "hasVariants": true,
     "category": "cosmeticos-cabelos-normal-ou-todos-os-tipos"
@@ -4171,8 +3877,6 @@ const rawProducts: Product[] = [
       "/products/kit1-2_6a153b4a.jpg"
     ],
     "price": 293.93,
-    "originalPrice": 534.6,
-    "discount": 45,
     "installment": "R$ 24,49",
     "hasVariants": false,
     "category": "cosmeticos-cabelos-tratamentos-e-mascaras"
@@ -4200,9 +3904,7 @@ const rawProducts: Product[] = [
       "/products/wella-professionals-condicionador--fusion_-7-_0d83d2ed.jpg"
     ],
     "price": 78.04,
-    "originalPrice": 136.62,
-    "discount": 43,
-    "installment": "R$ 6,5",
+    "installment": "R$ 6,50",
     "hasVariants": true,
     "category": "cosmeticos-cabelos-normal-ou-todos-os-tipos"
   },
@@ -4223,8 +3925,6 @@ const rawProducts: Product[] = [
       "/products/wella-professionals-oil-reflections-condicionador-200ml_-4-_84c46d61.jpg"
     ],
     "price": 71.83,
-    "originalPrice": 136.62,
-    "discount": 47,
     "installment": "R$ 5,99",
     "hasVariants": false,
     "category": "cosmeticos-cabelos-normal-ou-todos-os-tipos"
@@ -4239,8 +3939,6 @@ const rawProducts: Product[] = [
       "/products/loreal-professionnel-serie-expert-kit-shampoo-mascara--1--1_8a17da95.png"
     ],
     "price": 174.43,
-    "originalPrice": 281.8,
-    "discount": 38,
     "installment": "R$ 14,54",
     "hasVariants": false,
     "category": "cosmeticos-cabelos-kits-para-cabelos"
@@ -4255,8 +3953,6 @@ const rawProducts: Product[] = [
       "/images/bioderma-atoderm-200ml-2.png"
     ],
     "price": 77,
-    "originalPrice": 139.9,
-    "discount": 45,
     "installment": "R$ 6,42",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-cuidados-corporais-especificos"
@@ -4273,8 +3969,6 @@ const rawProducts: Product[] = [
       "https://lojas-epoca.store/products/discos-de-algodao-ricca-4-65560d74.jpg"
     ],
     "price": 7.85,
-    "originalPrice": 13.29,
-    "discount": 41,
     "installment": "R$ 0,65",
     "hasVariants": false,
     "category": "cosmeticos-maquiagem-acessorios-de-remocao-da-maquiagem"
@@ -4296,8 +3990,6 @@ const rawProducts: Product[] = [
       "/products/7899706158213--7899706158190--10-_6d668b58.jpg"
     ],
     "price": 146.3,
-    "originalPrice": 299.9,
-    "discount": 51,
     "installment": "R$ 12,19",
     "hasVariants": true,
     "category": "cosmeticos-dermocosmeticos-rejuvenescedores"
@@ -4318,8 +4010,6 @@ const rawProducts: Product[] = [
       "/products/7899706159197--8-_ef5fb72b.jpg"
     ],
     "price": 69.93,
-    "originalPrice": 133.9,
-    "discount": 48,
     "installment": "R$ 5,83",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-hidratantes-corporais"
@@ -4351,9 +4041,7 @@ const rawProducts: Product[] = [
       "/products/gel-de-limpeza-facial-avene-cleanance-gel--11-_860cdc92.jpg"
     ],
     "price": 50.41,
-    "originalPrice": 81.99,
-    "discount": 39,
-    "installment": "R$ 4,2",
+    "installment": "R$ 4,20",
     "hasVariants": true,
     "category": "cosmeticos-dermocosmeticos-gel-de-limpeza"
   },
@@ -4367,8 +4055,6 @@ const rawProducts: Product[] = [
       "/products/encrespando-a-juba-widi-care-leave-in--2_0de63280.jpg"
     ],
     "price": 31.85,
-    "originalPrice": 62.9,
-    "discount": 49,
     "installment": "R$ 2,65",
     "hasVariants": true,
     "category": "cosmeticos-cabelos-cacheado-e-crespo"
@@ -4389,8 +4075,6 @@ const rawProducts: Product[] = [
       "/products/skinceuticals-blemish-age-solution--8-_ebd3bdd8.jpg"
     ],
     "price": 61.04,
-    "originalPrice": 120,
-    "discount": 49,
     "installment": "R$ 5,09",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-tonicos"
@@ -4408,8 +4092,6 @@ const rawProducts: Product[] = [
       "/products/Selo_29acc181.jpg"
     ],
     "price": 149.1,
-    "originalPrice": 241.9,
-    "discount": 38,
     "installment": "R$ 12,42",
     "hasVariants": false,
     "category": "cosmeticos-cabelos-fino"
@@ -4423,8 +4105,6 @@ const rawProducts: Product[] = [
       "/products/kerastase-densifique-mascara-para-cabelos_cae440d3.jpg"
     ],
     "price": 232.71,
-    "originalPrice": 391.9,
-    "discount": 41,
     "installment": "R$ 19,39",
     "hasVariants": false,
     "category": "cosmeticos-cabelos-fino"
@@ -4451,8 +4131,6 @@ const rawProducts: Product[] = [
       "/products/gel-de-limpeza-facial-bioderma-sensibio-gel-moussant_94363510.jpg"
     ],
     "price": 29.33,
-    "originalPrice": 79.9,
-    "discount": 63,
     "installment": "R$ 2,44",
     "hasVariants": true,
     "category": "cosmeticos-dermocosmeticos-gel-de-limpeza"
@@ -4472,8 +4150,6 @@ const rawProducts: Product[] = [
       "/products/BB-Cream-Latika-tom-Escuro-EAN-7898555602212_75b2802d.jpg"
     ],
     "price": 66.08,
-    "originalPrice": 99.9,
-    "discount": 34,
     "installment": "R$ 5,51",
     "hasVariants": true,
     "category": "cosmeticos-maquiagem-base"
@@ -4583,7 +4259,6 @@ const rawProducts: Product[] = [
       "/products/7898593732636_PINKStick_000_100KM_Selo_e8a7be73.jpg"
     ],
     "price": 90.93,
-    "originalPrice": 129.9,
     "installment": "R$ 7,58",
     "hasVariants": true,
     "category": "cosmeticos-tratamentos-protetor-solar"
@@ -4600,8 +4275,6 @@ const rawProducts: Product[] = [
       "/products/educativo-1-7899572802272-7899572802289-7899572802296-7899572813381-7899572813384--1-_7faf1454.jpg"
     ],
     "price": 31.43,
-    "originalPrice": 59.9,
-    "discount": 48,
     "installment": "R$ 2,62",
     "hasVariants": false,
     "category": "cosmeticos-cabelos-danificados"
@@ -4618,8 +4291,6 @@ const rawProducts: Product[] = [
       "/products/7899572806621-7899572809769-7899572803200-7899572805365-7899572805358-1_b57573fe.jpg"
     ],
     "price": 31.43,
-    "originalPrice": 59.9,
-    "discount": 48,
     "installment": "R$ 2,62",
     "hasVariants": false,
     "category": "cosmeticos-cabelos-danificados"
@@ -4638,8 +4309,6 @@ const rawProducts: Product[] = [
       "/products/sebastian-potion-9-lite-tratamento-fortalecedor--6-_7762e2e4.jpg"
     ],
     "price": 76.93,
-    "originalPrice": 145.9,
-    "discount": 47,
     "installment": "R$ 6,41",
     "hasVariants": false,
     "category": "cosmeticos-cabelos-fino"
@@ -4654,9 +4323,7 @@ const rawProducts: Product[] = [
       "/products/acai-oil-oleo-tratamento-cadiveu-60ml_a6ab8f9b.jpg"
     ],
     "price": 47.95,
-    "originalPrice": 79.9,
-    "discount": 40,
-    "installment": "R$ 4,0",
+    "installment": "R$ 4,00",
     "hasVariants": false,
     "category": "cosmeticos-cabelos-oleo"
   },
@@ -4666,10 +4333,8 @@ const rawProducts: Product[] = [
     "name": "Kit Elseve Collagen Lifter Shampoo Encorpador 400ml + Condicionador Redensifica Fios 400ml + Leave-in Injeção De Massa 100ml + Tratamento Efeito Teia",
     "image": kitElseveCollagenLifter,
     "images": [kitElseveCollagenLifter],
-    "price": 159.90,
-    "originalPrice": 289.90,
-    "discount": 45,
-    "installment": "R$ 13,32",
+    "price": 159.9,
+    "installment": "R$ 13,33",
     "hasVariants": false,
     "category": "cosmeticos-cabelos-normal-ou-todos-os-tipos"
   },
@@ -4679,9 +4344,7 @@ const rawProducts: Product[] = [
     "name": "Eucerin Pomada Reparadora Intensiva Aquaphor Duopack 2x10ml",
     "image": eucerinAquaphorDuopack,
     "images": [eucerinAquaphorDuopack],
-    "price": 49.90,
-    "originalPrice": 89.90,
-    "discount": 44,
+    "price": 49.9,
     "installment": "R$ 4,16",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-cuidados-corporais-especificos"
@@ -4692,9 +4355,7 @@ const rawProducts: Product[] = [
     "name": "Wella Professionals Invigo Nutri-enrich Shampoo 50ml",
     "image": wellaInvigoNutriEnrichShampoo50ml,
     "images": [wellaInvigoNutriEnrichShampoo50ml],
-    "price": 19.90,
-    "originalPrice": 39.90,
-    "discount": 50,
+    "price": 19.9,
     "installment": "R$ 1,66",
     "hasVariants": false,
     "category": "cosmeticos-cabelos-normal-ou-todos-os-tipos"
