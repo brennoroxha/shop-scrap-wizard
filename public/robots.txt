@@ -21,5 +21,6 @@ Disallow: /
 
 User-agent: *
 Allow: /
+Disallow: /feed.xml
 
 Sitemap: https://lojas-epoca.store/sitemap.xml
