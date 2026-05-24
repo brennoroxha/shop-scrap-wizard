@@ -10,18 +10,18 @@
       gtag('js', new Date());
       gtag('config', 'G-805GXF6771');
       gtag('config', 'G-2VJTF6M5FX');
+      gtag('config', 'AW-18166029882');
       (function () {
         var loaded = false;
         function loadGA() {
           if (loaded) return; loaded = true;
-          var s = document.createElement('script');
-          s.async = true;
-          s.src = 'https://www.googletagmanager.com/gtag/js?id=G-805GXF6771';
-          document.head.appendChild(s);
-          var s2 = document.createElement('script');
-          s2.async = true;
-          s2.src = 'https://www.googletagmanager.com/gtag/js?id=G-2VJTF6M5FX';
-          document.head.appendChild(s2);
+          var ids = ['G-805GXF6771','G-2VJTF6M5FX','AW-18166029882'];
+          ids.forEach(function(id){
+            var s = document.createElement('script');
+            s.async = true;
+            s.src = 'https://www.googletagmanager.com/gtag/js?id=' + id;
+            document.head.appendChild(s);
+          });
         }
         if ('requestIdleCallback' in window) {
           requestIdleCallback(loadGA, { timeout: 4000 });

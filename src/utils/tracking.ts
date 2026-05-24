@@ -73,13 +73,20 @@ export function trackPurchase(value: number, items?: Array<{ name: string; quant
 
 export function trackGoogleAdsPurchase(value: number, transactionId?: string) {
   try {
+    const txnId = transactionId || `txn_${Date.now()}`;
     window.gtag?.('event', 'conversion', {
       send_to: 'AW-18159074501/NRZSCKuqlawcEMX59dJD',
       value,
       currency: 'BRL',
-      transaction_id: transactionId || `txn_${Date.now()}`,
+      transaction_id: txnId,
     });
-    console.log('Google Ads conversion fired', { value, transactionId });
+    window.gtag?.('event', 'conversion', {
+      send_to: 'AW-18166029882/RMy_CICk660cELq8ntZD',
+      value,
+      currency: 'BRL',
+      transaction_id: txnId,
+    });
+    console.log('Google Ads conversion fired', { value, transactionId: txnId });
   } catch (e) {
     console.warn('Tracking Google Ads Purchase failed', e);
   }
