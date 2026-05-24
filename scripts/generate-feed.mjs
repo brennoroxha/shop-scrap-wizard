@@ -66,14 +66,34 @@ const KNOWN_BRANDS = [
   "Natuflora",
   "Phytoderm",
   "Dior",
+  "Givenchy",
+  "Shiseido",
+  "Revlon Professional", "Revlon",
+  "Niina Secrets",
+  "Eudora",
+  "Bruna Tavares", "BT ",
+  "Pink Cheeks",
+  "Isdin",
+  "Hada Labo",
+  "Adcos",
+  "5km",
+  "Fino Premium", "Fino",
+  "Zella",
+  "Coréga", "Corega",
+  "Carmed",
+  "Actine",
+  "Acnase",
   "Lancôme", "Lancome",
   "M·A·C", "MAC",
   "Océane", "Oceane",
   "Vizzela", "Ricca", "Latika", "Essence",
   "Contém 1g",
-  "Acnezil", "Corega", "Ollie", "Impala",
+  "Acnezil", "Ollie", "Impala",
   "Época",
 ];
+
+// Normalize curly apostrophes to straight for matching
+const normalize = (s) => s.replace(/[’‘`]/g, "'").toLowerCase();
 
 const CATEGORY_MAP = {
   "cosmeticos-cabelos-oleo":                         "Health & Beauty > Personal Care > Hair Care > Hair Treatment & Conditioning Products > Hair Serums & Hair Oils",
