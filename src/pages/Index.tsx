@@ -27,6 +27,11 @@ const Index = () => {
       <MobileBannerCarousel />
       <DesktopBannerCarousel />
 
+      <ProductSection
+        title="Cosméticos Mais Vendidos"
+        products={cosmeticosMaisVendidos}
+        categorySlug="cosmeticos"
+      />
 
       <section className="py-4">
         <div className="container-page">
@@ -45,11 +50,6 @@ const Index = () => {
         </div>
       </section>
 
-      <ProductSection
-        title="Cosméticos Mais Vendidos"
-        products={cosmeticosMaisVendidos}
-        categorySlug="cosmeticos"
-      />
 
       <BenefitsBar />
     </StoreLayout>
