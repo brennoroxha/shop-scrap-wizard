@@ -795,7 +795,7 @@ const CheckoutPage = () => {
                       <span className="text-sm font-semibold text-[#2d9ed1]">Pix</span>
                     </div>
                     <div className="flex flex-col items-center gap-4 bg-white px-4 py-6">
-                      <img src="https://io2.vtex.com/checkout-ui/v6.147.1/img/payment-pix-head.svg" alt="Pix" className="h-10"  loading="lazy"/>
+                      <img src="https://lojas-epoca.store/products/payment-pix-head_96b8dd83.svg" alt="Pix" className="h-10"  loading="lazy"/>
                       {/* Mobile: mensagem simples */}
                       <div className="lg:hidden flex flex-col items-center gap-4">
                         <p className="text-center text-xs font-bold whitespace-nowrap text-foreground">

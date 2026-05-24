@@ -120,13 +120,13 @@ const Footer = () => {
           <div>
             <p className="text-sm font-bold text-foreground mb-3 uppercase">Formas de Pagamento</p>
             <div className="flex flex-wrap gap-2">
-              <img src="https://download.host2b.net/imagem/payment-icon/mastercard.svg" alt="Mastercard" className="h-6 w-auto" loading="lazy" />
-              <img src="https://download.host2b.net/imagem/payment-icon/visa.svg" alt="Visa" className="h-6 w-auto" loading="lazy" />
-              <img src="https://download.host2b.net/imagem/payment-icon/american.svg" alt="American Express" className="h-6 w-auto" loading="lazy" />
-              <img src="https://download.host2b.net/imagem/payment-icon/diners.svg" alt="Diners" className="h-6 w-auto" loading="lazy" />
-              <img src="https://download.host2b.net/imagem/payment-icon/elo.svg" alt="Elo" className="h-6 w-auto" loading="lazy" />
-              <img src="https://download.host2b.net/imagem/payment-icon/hiper.svg" alt="Hipercard" className="h-6 w-auto" loading="lazy" />
-              <img src="https://download.host2b.net/imagem/payment-icon/pix.svg" alt="Pix" className="h-6 w-auto" loading="lazy" />
+              <img src="https://lojas-epoca.store/products/mastercard_c0511ecb.svg" alt="Mastercard" className="h-6 w-auto" loading="lazy" />
+              <img src="https://lojas-epoca.store/products/visa_eaa737d4.svg" alt="Visa" className="h-6 w-auto" loading="lazy" />
+              <img src="https://lojas-epoca.store/products/american_14ea82d3.svg" alt="American Express" className="h-6 w-auto" loading="lazy" />
+              <img src="https://lojas-epoca.store/products/diners_51bb3e44.svg" alt="Diners" className="h-6 w-auto" loading="lazy" />
+              <img src="https://lojas-epoca.store/products/elo_d5a53e07.svg" alt="Elo" className="h-6 w-auto" loading="lazy" />
+              <img src="https://lojas-epoca.store/products/hiper_1ce5ac20.svg" alt="Hipercard" className="h-6 w-auto" loading="lazy" />
+              <img src="https://lojas-epoca.store/products/pix_7665d642.svg" alt="Pix" className="h-6 w-auto" loading="lazy" />
             </div>
           </div>
           <div>
@@ -201,13 +201,13 @@ const Footer = () => {
           <div className="mt-4 pt-4 border-t border-gray-100">
             <p className="text-xs font-bold text-foreground uppercase tracking-wide mb-3">Formas de Pagamento</p>
             <div className="flex flex-wrap gap-2">
-              <img src="https://download.host2b.net/imagem/payment-icon/mastercard.svg" alt="Mastercard" className="h-6 w-auto" loading="lazy" />
-              <img src="https://download.host2b.net/imagem/payment-icon/visa.svg" alt="Visa" className="h-6 w-auto" loading="lazy" />
-              <img src="https://download.host2b.net/imagem/payment-icon/american.svg" alt="American Express" className="h-6 w-auto" loading="lazy" />
-              <img src="https://download.host2b.net/imagem/payment-icon/diners.svg" alt="Diners" className="h-6 w-auto" loading="lazy" />
-              <img src="https://download.host2b.net/imagem/payment-icon/elo.svg" alt="Elo" className="h-6 w-auto" loading="lazy" />
-              <img src="https://download.host2b.net/imagem/payment-icon/hiper.svg" alt="Hipercard" className="h-6 w-auto" loading="lazy" />
-              <img src="https://download.host2b.net/imagem/payment-icon/pix.svg" alt="Pix" className="h-6 w-auto" loading="lazy" />
+              <img src="https://lojas-epoca.store/products/mastercard_c0511ecb.svg" alt="Mastercard" className="h-6 w-auto" loading="lazy" />
+              <img src="https://lojas-epoca.store/products/visa_eaa737d4.svg" alt="Visa" className="h-6 w-auto" loading="lazy" />
+              <img src="https://lojas-epoca.store/products/american_14ea82d3.svg" alt="American Express" className="h-6 w-auto" loading="lazy" />
+              <img src="https://lojas-epoca.store/products/diners_51bb3e44.svg" alt="Diners" className="h-6 w-auto" loading="lazy" />
+              <img src="https://lojas-epoca.store/products/elo_d5a53e07.svg" alt="Elo" className="h-6 w-auto" loading="lazy" />
+              <img src="https://lojas-epoca.store/products/hiper_1ce5ac20.svg" alt="Hipercard" className="h-6 w-auto" loading="lazy" />
+              <img src="https://lojas-epoca.store/products/pix_7665d642.svg" alt="Pix" className="h-6 w-auto" loading="lazy" />
             </div>
           </div>
         </div>
