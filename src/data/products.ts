@@ -66,28 +66,6 @@ const rawProducts: Product[] = [
     "category": "cosmeticos-cabelos-oleo"
   },
   {
-    "id": "epoca-la-vie-est-belle-eau-de-parfum-lancome-perfume-feminino",
-    "ean": "3605532612690",
-    "name": "Perfume La Vie Est Belle Lancôme Eau de Parfum Feminino 30ml",
-    "image": "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/8c0a88e3/la-vie-est-belle-eau-de-parfum-lancome-perfume-feminino--1-.jpg",
-    "images": [
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/8c0a88e3/la-vie-est-belle-eau-de-parfum-lancome-perfume-feminino--1-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/f3be0ef4/la-vie-est-belle-eau-de-parfum-lancome-perfume-feminino--8-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/0d89d894/la-vie-est-belle-eau-de-parfum-lancome-perfume-feminino--11-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/2a1cc483/la-vie-est-belle-eau-de-parfum-lancome-perfume-feminino--10-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/ee8fbee3/la-vie-est-belle-eau-de-parfum-lancome-perfume-feminino--9-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/ef6ed0b7/la-vie-est-belle-eau-de-parfum-lancome-perfume-feminino--14-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/efcf716a/la-vie-est-belle-eau-de-parfum-lancome-perfume-feminino--13-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/ed02d026/la-vie-est-belle-eau-de-parfum-lancome-perfume-feminino--12-.jpg"
-    ],
-    "price": 391.3,
-    "originalPrice": 809,
-    "discount": 52,
-    "installment": "R$ 32,61",
-    "hasVariants": true,
-    "category": "cosmeticos-perfumes-perfume-feminino"
-  },
-  {
     "id": "epoca-mascara-de-tratamento-l-oreal-professionnel-serie-expert-absolut-repair-molecular",
     "name": "Máscara de Tratamento L'Oréal Professionnel Absolut Repair Molecular 250ml",
     "image": "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/dbab36fe/mascara-de-tratamento-l-oreal-professionnel-serie-expert-absolut-repair-molecular-20-4-.jpg.jpg",
@@ -228,58 +206,6 @@ const rawProducts: Product[] = [
     "installment": "R$ 4,66",
     "hasVariants": true,
     "category": "cosmeticos-dermocosmeticos-protetor-solar-com-cor"
-  },
-  {
-    "id": "epoca-libre-yves-saint-laurent-perfume-feminino-eau-de-parfum",
-    "ean": "3365440377912",
-    "name": "Libre Yves Saint Laurent Perfume Feminino - Eau de Parfum 30ml",
-    "image": "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/09e15966/libre-yves-saint-laurent-perfume-feminino-eau-de-parfum-30ml--1-.jpg",
-    "images": [
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/09e15966/libre-yves-saint-laurent-perfume-feminino-eau-de-parfum-30ml--1-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/6bc79585/libre-yves-saint-laurent-perfume-feminino-eau-de-parfum-30ml--2-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/88635aae/libre-yves-saint-laurent-perfume-feminino-eau-de-parfum--4-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/745ec555/libre-yves-saint-laurent-perfume-feminino-eau-de-parfum--1-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/330b3e36/libre-yves-saint-laurent-perfume-feminino-eau-de-parfum--3-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/a711d25c/libre-yves-saint-laurent-perfume-feminino-eau-de-parfum--2-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/7da8d300/3614272648418.01.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/0a55540a/libre-yves-saint-laurent-perfume-feminino-eau-de-parfum-50ml--1-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/484e31ba/3614272648425.01.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/9a3f9753/libre-yves-saint-laurent-perfume-feminino-eau-de-parfum-90ml--9-.jpg"
-    ],
-    "price": 342.51,
-    "originalPrice": 699,
-    "discount": 51,
-    "installment": "R$ 28,54",
-    "hasVariants": true,
-    "category": "cosmeticos-perfumes-perfume-feminino"
-  },
-  {
-    "id": "epoca-idole-lancome-perfume-feminino-eau-de-parfum",
-    "name": "Perfume Idôle Lancôme Feminino Eau de Parfum 25ml",
-    "image": "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/f57c5cb2/idole-lancome-perfume-feminino-eau-de-parfum--1-.jpg",
-    "images": [
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/f57c5cb2/idole-lancome-perfume-feminino-eau-de-parfum--1-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/f9103954/idole-lancome-perfume-feminino-eau-de-parfum--8-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/c0bf2e8d/idole-lancome-perfume-feminino-eau-de-parfum--7-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/ba929a8f/idole-lancome-perfume-feminino-eau-de-parfum--6-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/53e7c71f/idole-lancome-perfume-feminino-eau-de-parfum--5-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/ae463831/idole-lancome-perfume-feminino-eau-de-parfum--4-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/cb4725fe/idole-lancome-perfume-feminino-eau-de-parfum--3-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/29656ba6/idole-lancome-perfume-feminino-eau-de-parfum--2-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/6c1d6c66/Idole-Lancome---Perfume-Feminino-Eau-de-Parfum.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/010134ce/3614272629370-3614272639638-03.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/b106f302/3614272629370-3614272639638-04.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/cbd25dd4/3614272629370-3614272639638-05.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/78f19027/06.-3614272629370-3614273069175-3614272639638.jpg.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/aa5e4954/idole-lancome-perfume-feminino-eau-de-parfum-refill--2-.jpg.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/0ddacf7f/idole-lancome-perfume-feminino-eau-de-parfum-refill--7-.jpg.jpg"
-    ],
-    "price": 228.77,
-    "originalPrice": 509,
-    "discount": 55,
-    "installment": "R$ 19,06",
-    "hasVariants": true,
-    "category": "cosmeticos-perfumes-perfume-feminino"
   },
   {
     "id": "epoca-po-compacto-protetor-solar-mantecorp-skincare-episol-fps-50",
@@ -787,39 +713,6 @@ const rawProducts: Product[] = [
     "category": "cosmeticos-mundo-epoca-mundo-epoca"
   },
   {
-    "id": "epoca-yves-saint-laurent-myslf-perfume-masculino-eau-de-parfum",
-    "name": "Perfume MYSLF Yves Saint Laurent Eau de Parfum Masculino 150ml",
-    "image": "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/f3e96e8b/3614273852807.01.jpg",
-    "images": [
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/f3e96e8b/3614273852807.01.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/27d2f80b/3614273852807.02.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/ab923499/3614273852807.03.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/fc25faa0/3614273852807.05.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/218a7002/3614273852807.06.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/3c9735f9/3614273852807.08.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/e53b41a2/3614273852814.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/dc73fb15/3614273852814.02--1-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/372589d7/3614273852814.03.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/664023fb/yves-saint-laurent-myslf-perfume-masculino-eau-de-parfum--9-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/49e48d54/yves-saint-laurent-myslf-perfume-masculino-eau-de-parfum--1-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/20b1f0f2/3614273852814.08-3614273852807.08.jpg.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/b27a7cea/3614273852821.02.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/7c85756b/3614273852821.03.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/366812ee/3614273852821-3614273852814.08.jpg.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/a089e653/yves-saint-laurent-myslf-perfume-masculino-eau-de-parfum--5-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/7ccc2c21/yves-saint-laurent-myslf-perfume-masculino-eau-de-parfum--8-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/51e1b496/yves-saint-laurent-myslf-perfume-masculino-eau-de-parfum--10-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/567c2b36/yves-saint-laurent-myslf-perfume-masculino-eau-de-parfum--7-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/ecb9aa62/yves-saint-laurent-myslf-perfume-masculino-eau-de-parfum--3-.jpg"
-    ],
-    "price": 756.66,
-    "originalPrice": 1429,
-    "discount": 47,
-    "installment": "R$ 63,05",
-    "hasVariants": true,
-    "category": "cosmeticos-perfumes-perfume-masculino"
-  },
-  {
     "id": "epoca-contorno-oceane-stick-edition",
     "name": "Contorno Cremoso em Bastão  Océane Edition - Contour Stick Marrom Claro",
     "image": "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/7e5ddf3e/7908725500481--9-.jpg",
@@ -1105,28 +998,6 @@ const rawProducts: Product[] = [
     "installment": "R$ 1,15",
     "hasVariants": false,
     "category": "cosmeticos-maquiagem-esponja"
-  },
-  {
-    "id": "epoca-prada-paradoxe-perfume-feminino-eau-de-parfum",
-    "name": "Perfume Prada Paradoxe Feminino Eau de Parfum 30ml",
-    "image": "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/26088c7a/prada-paradoxe-perfume-feminino-eau-de-parfum--1-.jpg",
-    "images": [
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/26088c7a/prada-paradoxe-perfume-feminino-eau-de-parfum--1-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/aa2d0fc2/prada-paradoxe-perfume-feminino-eau-de-parfum--8-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/4c4a62db/prada-paradoxe-perfume-feminino-eau-de-parfum--7-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/13bf4536/prada-paradoxe-perfume-feminino-eau-de-parfum--6-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/188380e6/prada-paradoxe-perfume-feminino-eau-de-parfum--5-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/0d48f732/prada-paradoxe-perfume-feminino-eau-de-parfum--3-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/423deb6d/prada-paradoxe-perfume-feminino-eau-de-parfum--4-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/46c13ae8/prada-paradoxe-perfume-feminino-eau-de-parfum--2-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/f8440d27/prada-paradoxe-perfume-feminino-eau-de-parfum--14-.jpg"
-    ],
-    "price": 342.51,
-    "originalPrice": 699,
-    "discount": 51,
-    "installment": "R$ 28,54",
-    "hasVariants": true,
-    "category": "cosmeticos-perfumes-perfume-feminino"
   },
   {
     "id": "epoca-cetaphil-kit-com-dois-cremes-hidratantes",
@@ -1907,35 +1778,6 @@ const rawProducts: Product[] = [
     "category": "cosmeticos-cabelos-danificados"
   },
   {
-    "id": "epoca-212-vip-black-carolina-herrera-perfume-masculino-eau-de-parfum",
-    "ean": "0885171004022",
-    "name": "Perfume 212 Vip Black Carolina Herrera Eau de Parfum 50ml",
-    "image": "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/52c33bc0/212-vip-black-carolina-herrera-perfume-masculino-eau-de-parfum2--1-.jpg",
-    "images": [
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/52c33bc0/212-vip-black-carolina-herrera-perfume-masculino-eau-de-parfum2--1-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/9e08ee29/212-vip-black-carolina-herrera-perfume-masculino-eau-de-parfum2--2-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/86b16332/212-vip-black-carolina-herrera-perfume-masculino-eau-de-parfum2--3-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/e86e19b0/212-vip-black-carolina-herrera-perfume-masculino-eau-de-parfum2--4-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/d920d8fd/212-vip-black-carolina-herrera-perfume-masculino-eau-de-parfum2--5-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/3f1b86c8/212-vip-black-carolina-herrera-perfume-masculino-eau-de-parfum2--6-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/b3f876f1/SELO-ADIPEC-1.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/5bd0edea/212-vip-black-200ml--1-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/a6df2022/212-vip-black-200ml--2-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/43cf42bd/212-vip-black-200ml--4-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/b1af27dc/212-vip-black-carolina-herrera-perfume-masculino-eau-de-parfum--1-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/c89a25d2/212-vip-black-carolina-herrera-perfume-masculino-eau-de-parfum--2-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/31a3c26e/212-vip-black-carolina-herrera-perfume-masculino-eau-de-parfum--3-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/0ed7669f/212-vip-black-carolina-herrera-perfume-masculino-eau-de-parfum--5-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/48feff60/212-vip-black-carolina-herrera-perfume-masculino-eau-de-parfum--8-.jpg"
-    ],
-    "price": 419.3,
-    "originalPrice": 1049,
-    "discount": 60,
-    "installment": "R$ 34,94",
-    "hasVariants": true,
-    "category": "cosmeticos-perfumes-perfume-masculino"
-  },
-  {
     "id": "epoca-hidratante-facial-vichy-mineral-89",
     "name": "Sérum Fortalecedor Facial Hidratante com Ácido Hialurônico Vichy Minéral 89 50ml",
     "image": "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/d33d9bfe/3337875543248-1.jpg",
@@ -1982,48 +1824,6 @@ const rawProducts: Product[] = [
     "installment": "R$ 4,49",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-hidratantes"
-  },
-  {
-    "id": "epoca-good-girl-eau-de-parfum-carolina-herrera-perfume-feminino",
-    "ean": "8411061818961",
-    "name": "Good Girl Carolina Herrera - Perfume Feminino - Eau de Parfum 30ml",
-    "image": "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/a558d6a7/good-girl-eau-de-parfum-carolina-herrera-perfume-feminino--1-.jpg",
-    "images": [
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/a558d6a7/good-girl-eau-de-parfum-carolina-herrera-perfume-feminino--1-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/6ce5a254/good-girl-eau-de-parfum-carolina-herrera-perfume-feminino--2-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/21a27d2d/good-girl-eau-de-parfum-carolina-herrera-perfume-feminino--3-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/3f568f0e/good-girl-eau-de-parfum-carolina-herrera-perfume-feminino--4-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/b6264f4e/good-girl-eau-de-parfum-carolina-herrera-perfume-feminino--5-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/79cad93b/good-girl-eau-de-parfum-carolina-herrera-perfume-feminino--6-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/d500deaa/good-girl-eau-de-parfum-carolina-herrera-perfume-feminino--7-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/489b2329/good-girl-eau-de-parfum-carolina-herrera-perfume-feminino--12-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/8a75637a/good-girl-eau-de-parfum-carolina-herrera-perfume-feminino_-1-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/b036fa91/good-girl-eau-de-parfum-carolina-herrera-perfume-feminino_-7-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/48e7cf2b/good-girl-eau-de-parfum-carolina-herrera-perfume-feminino_-2-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/0a537484/good-girl-eau-de-parfum-carolina-herrera-perfume-feminino_-3-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/31edee0e/good-girl-eau-de-parfum-carolina-herrera-perfume-feminino_-4-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/f4c623ac/good-girl-eau-de-parfum-carolina-herrera-perfume-feminino_-5-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/2cde6437/good-girl-eau-de-parfum-carolina-herrera-perfume-feminino_-6-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/350fc4c2/_8411061026960_0065176535_0.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/d87b9af0/Adaptacao-Refil-8411061026960.jpg.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/79b0dd99/_8411061026960_0065176535_1.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/538f9330/good-girl-carolina-herrera-perfume-feminino-eau-de-parfum-refil.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/91923c02/Chart-de-Comparacao---CH---GG-Fem-8411061024164-8411061026960.jpg.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/917180d4/_8411061024164_0065175725_0.jpg.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/05e7ab15/8411061024164.jpg.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/d90d8859/good-girl-carolina-herrera-perfume-feminino-eau-de-parfum-refil--1-.jpg.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/41818c7b/good-girl-carolina-herrera-perfume-feminino-eau-de-parfum-refil.jpg.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/d5000aee/good-girl-carolina-herrera-perfume-feminino-eau-de-parfum-refil-20-1-.jpg.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/0f0ea4ac/good-girl-carolina-herrera-perfume-feminino-eau-de-parfum-refil-20-2-.jpg.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/737dc92d/good-girl-carolina-herrera-perfume-feminino-eau-de-parfum-refil-20-3-.jpg.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/54c2fb1c/good-girl-carolina-herrera-perfume-feminino-eau-de-parfum-refil--2-.jpg.jpg"
-    ],
-    "price": 363.3,
-    "originalPrice": 1129,
-    "discount": 68,
-    "installment": "R$ 30,28",
-    "hasVariants": true,
-    "category": "cosmeticos-perfumes-perfume-feminino"
   },
   {
     "id": "epoca-agua-micelar-solucao-de-limpeza-facial-5-em-1-l-oreal-paris-demaquilante",
@@ -2092,36 +1892,6 @@ const rawProducts: Product[] = [
     "installment": "R$ 2,5",
     "hasVariants": false,
     "category": "cosmeticos-cabelos-protetor-termico"
-  },
-  {
-    "id": "epoca-212-vip-rose-eau-de-parfum-carolina-herrera-perfume-feminino",
-    "ean": "0169238703067",
-    "name": "212 VIP Rosé Carolina Herrera - Perfume Feminino - Eau de Parfum 30ml",
-    "image": "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/e520dd7d/212-VIP-Rose-Carolina-Herrera---Perfume-Feminino---Eau-de-Parfum-30ml--1-.jpg",
-    "images": [
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/e520dd7d/212-VIP-Rose-Carolina-Herrera---Perfume-Feminino---Eau-de-Parfum-30ml--1-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/1edd83c8/212-VIP-Rose-Carolina-Herrera---Perfume-Feminino---Eau-de-Parfum-30ml--2-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/d62c12ea/212-VIP-Rose-Carolina-Herrera---Perfume-Feminino---Eau-de-Parfum-30ml--3-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/3ae49c2c/212-VIP-Rose-Carolina-Herrera---Perfume-Feminino---Eau-de-Parfum-30ml--4-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/14effaae/212-VIP-Rose-Carolina-Herrera---Perfume-Feminino---Eau-de-Parfum-30ml--5-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/6fb928ce/212-VIP-Rose-Carolina-Herrera---Perfume-Feminino---Eau-de-Parfum-30ml--6-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/c49a6210/SELO-ADIPEC-1.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/0a6501b5/212-VIP-Rose-Carolina-Herrera---Perfume-Feminino---Eau-de-Parfum-50ml--1-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/3e0a810b/212-VIP-Rose-Carolina-Herrera---Perfume-Feminino---Eau-de-Parfum-50ml--2-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/e4bc10ae/212-VIP-Rose-Carolina-Herrera---Perfume-Feminino---Eau-de-Parfum-50ml--6-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/406f3425/Frasco-do-Perfume-Feminino-212VipRose-80m--1-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/09cdd8f7/Frasco-do-Perfume-Feminino-212VipRose-80m--2-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/ffbaf30e/212-sexy-men-eau-de-toilette-carolina-herrera-kit-perfume-masculino-locao-pos-barba-125ml--1-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/d8247c7e/212-sexy-men-eau-de-toilette-carolina-herrera-kit-perfume-masculino-locao-pos-barba-125ml--2-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/fb86caaa/212-sexy-men-eau-de-toilette-carolina-herrera-kit-perfume-masculino-locao-pos-barba-125ml--3-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/eaf27edd/212-sexy-men-eau-de-toilette-carolina-herrera-kit-perfume-masculino-locao-pos-barba-125ml--4-.jpg"
-    ],
-    "price": 342.3,
-    "originalPrice": 1029,
-    "discount": 67,
-    "installment": "R$ 28,53",
-    "hasVariants": true,
-    "category": "cosmeticos-perfumes-perfume-feminino"
   },
   {
     "id": "epoca-blemish-age-defense-skinceuticals-tratamento-antiacne",
@@ -2214,24 +1984,6 @@ const rawProducts: Product[] = [
     "installment": "R$ 0,0",
     "hasVariants": false,
     "category": "cosmeticos-ganhe-brindes-brinde"
-  },
-  {
-    "id": "epoca-perfume-good-girl-jasmine-absolute-carolina-herrera-feminino-edp",
-    "name": "Perfume Good Girl Jasmine Absolute Carolina Herrera Feminino Eau de Parfum 30ml",
-    "image": "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/dda8b516/perfume-good-girl-jasmine-absolute-carolina-herrera-feminino-edp_-1-.jpg",
-    "images": [
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/dda8b516/perfume-good-girl-jasmine-absolute-carolina-herrera-feminino-edp_-1-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/78af505b/perfume-good-girl-jasmine-absolute-carolina-herrera-feminino-edp_-2-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/059ec090/perfume-good-girl-jasmine-absolute-carolina-herrera-feminino-edp_-4-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/ccf1a45d/perfume-good-girl-jasmine-absolute-carolina-herrera-feminino-edp_-3-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/78fe864f/perfume-good-girl-jasmine-absolute-carolina-herrera-feminino-edp_-5-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/2883e8cb/perfume-good-girl-jasmine-absolute-carolina-herrera-feminino-edp_-6-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/f8cc6398/perfume-good-girl-jasmine-absolute-carolina-herrera-feminino-edp_-7-.jpg"
-    ],
-    "price": 391.3,
-    "installment": "R$ 32,61",
-    "hasVariants": true,
-    "category": "cosmeticos-perfumes-perfume-feminino"
   },
   {
     "id": "epoca-base-dior-forever-skin-wear-30ml",
@@ -2444,23 +2196,6 @@ const rawProducts: Product[] = [
     "category": "cosmeticos-cabelos-kits-para-cabelos"
   },
   {
-    "id": "epoca-body-mist-jo-malone-london-english-pear--freesia",
-    "ean": "0690251030705",
-    "name": "Body Mist Jo Malone London English Pear & Freesia 100ml",
-    "image": "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/c7b9ca36/body-mist-jo-malone-london-english-pear--freesia_-1-.jpg",
-    "images": [
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/c7b9ca36/body-mist-jo-malone-london-english-pear--freesia_-1-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/67276b72/body-mist-jo-malone-london-english-pear--freesia_-3-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/a1703b5c/body-mist-jo-malone-london-english-pear--freesia_-2-.jpg"
-    ],
-    "price": 267.54,
-    "originalPrice": 390,
-    "discount": 31,
-    "installment": "R$ 22,3",
-    "hasVariants": false,
-    "category": "cosmeticos-perfumes-perfume-para-o-corpo"
-  },
-  {
     "id": "epoca-biore-aqua-rich-watery-essence-kit-protetor-solar-fps-50-com-2-unidades",
     "name": "Bioré Aqua Rich Watery Essence Kit – Protetor Solar FPS 50 Com 2 Unidades 50g",
     "image": "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/d792a7a0/biore-aqua-rich-watery-essence-kit-protetor-solar-fps-50-com-2-unidades--1-.png",
@@ -2512,30 +2247,6 @@ const rawProducts: Product[] = [
     "installment": "R$ 8,83",
     "hasVariants": true,
     "category": "cosmeticos-cabelos-tratamentos-e-mascaras"
-  },
-  {
-    "id": "epoca-perfume-la-bomba-carolina-herrera-feminino-eau-de-parfum",
-    "ean": "8411061077160",
-    "name": "Perfume La Bomba Carolina Herrera Feminino Eau de Parfum 30ml",
-    "image": "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/aa5a41cd/_8411061077146_0065195952_0.jpg",
-    "images": [
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/aa5a41cd/_8411061077146_0065195952_0.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/b0e7a5db/perfume-la-bomba-carolina-herrera-feminino-eau-de-parfum--1-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/16d0576b/perfume-la-bomba-carolina-herrera-feminino-eau-de-parfum--2-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/8df16631/perfume-la-bomba-carolina-herrera-feminino-eau-de-parfum--3-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/0e3a8f6b/perfume-la-bomba-carolina-herrera-feminino-eau-de-parfum--4-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/2041a383/_8411061077153_0065195953_0.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/d93ee5d1/perfume-la-bomba-carolina-herrera-feminino-eau-de-parfum--8-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/3b50af38/perfume-la-bomba-carolina-herrera-feminino-eau-de-parfum.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/a8e0f819/refil-perfume-la-bomba-carolina-herrera-feminino-eau-de-parfum--1-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/35633cd7/refil-perfume-la-bomba-carolina-herrera-feminino-eau-de-parfum--2-.jpg"
-    ],
-    "price": 318.64,
-    "originalPrice": 569,
-    "discount": 44,
-    "installment": "R$ 26,55",
-    "hasVariants": true,
-    "category": "cosmeticos-perfumes-perfume-feminino"
   },
   {
     "id": "epoca-shampoo-fortificante-wella-professionals-blondorplex",
@@ -2654,54 +2365,6 @@ const rawProducts: Product[] = [
     "installment": "R$ 11,03",
     "hasVariants": false,
     "category": "cosmeticos-cabelos-normal-ou-todos-os-tipos"
-  },
-  {
-    "id": "epoca-perfume-the-most-wanted-azzaro-masculino-eau-de-parfum-intense",
-    "ean": "0746480243369",
-    "name": "Perfume The Most Wanted Azzaro Masculino Eau de Parfum Intense 50ml",
-    "image": "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/a18aeea7/perfume-the-most-wanted-azzaro-masculino-eau-de-parfum-intense--8-.jpg",
-    "images": [
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/a18aeea7/perfume-the-most-wanted-azzaro-masculino-eau-de-parfum-intense--8-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/71e462c6/perfume-the-most-wanted-azzaro-masculino-eau-de-parfum-intense--1-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/02bc3b6a/perfume-the-most-wanted-azzaro-masculino-eau-de-parfum-intense--3-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/6fb9f29a/perfume-the-most-wanted-azzaro-masculino-eau-de-parfum-intense--4-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/cefb2326/perfume-the-most-wanted-azzaro-masculino-eau-de-parfum-intense--5-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/14b76748/perfume-the-most-wanted-azzaro-masculino-eau-de-parfum-intense--2-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/0470e32a/perfume-the-most-wanted-azzaro-masculino-eau-de-parfum-intense--6-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/40a263e0/perfume-the-most-wanted-azzaro-masculino-eau-de-parfum-intense--7-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/bac7d17a/perfume-the-most-wanted-azzaro-masculino-eau-de-parfum-intense_-1-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/15722634/perfume-the-most-wanted-azzaro-masculino-eau-de-parfum-intense_-2-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/870afb03/perfume-the-most-wanted-azzaro-masculino-eau-de-parfum-intense_-3-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/de449eab/perfume-the-most-wanted-azzaro-masculino-eau-de-parfum-intense_-4-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/c00b04e8/perfume-the-most-wanted-azzaro-masculino-eau-de-parfum-intense_-5-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/85cd12d7/perfume-the-most-wanted-azzaro-masculino-eau-de-parfum-intense_-8-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/af357574/perfume-the-most-wanted-azzaro-masculino-eau-de-parfum-intense_-6-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/95372a58/perfume-the-most-wanted-azzaro-masculino-eau-de-parfum-intense_-7-.jpg"
-    ],
-    "price": 355.65,
-    "originalPrice": 679,
-    "discount": 48,
-    "installment": "R$ 29,64",
-    "hasVariants": true,
-    "category": "cosmeticos-perfumes-perfume-masculino"
-  },
-  {
-    "id": "epoca-lattafa-yara-eau-de-parfum---perfume-feminino-85580",
-    "ean": "6290360594552",
-    "name": "Lattafa Yara Eau De Parfum Perfume Árabe Feminino Lattafa Yara Eau De Parfum Perfume Árabe Feminino 100ml",
-    "image": "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/dfffac86/17581404894336.jpg",
-    "images": [
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/dfffac86/17581404894336.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/e1738d01/17581404897255.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/50ae113d/17581404899148.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/462441ab/17581404907501.jpg"
-    ],
-    "price": 130.2,
-    "originalPrice": 449,
-    "discount": 71,
-    "installment": "R$ 10,85",
-    "hasVariants": false,
-    "category": "cosmeticos-perfumes-perfume-feminino"
   },
   {
     "id": "epoca-serum-antirrugas-la-roche-posay-pure-vitamin-c12-oil-control",
@@ -3092,29 +2755,6 @@ const rawProducts: Product[] = [
     "category": "cosmeticos-cabelos-normal-ou-todos-os-tipos"
   },
   {
-    "id": "epoca-prada-paradoxe-perfume-feminino-eau-de-parfum-intense",
-    "ean": "8435137764730",
-    "name": "Perfume Feminino Prada Paradoxe Intense Eau de Parfum 100ml",
-    "image": "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/1185da2b/prada-paradoxe-perfume-feminino-eau-de-parfum-intense--1-.jpg",
-    "images": [
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/1185da2b/prada-paradoxe-perfume-feminino-eau-de-parfum-intense--1-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/118227fa/prada-paradoxe-perfume-feminino-eau-de-parfum-intense--8-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/59941965/prada-paradoxe-perfume-feminino-eau-de-parfum-intense--7-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/2297019f/prada-paradoxe-perfume-feminino-eau-de-parfum-intense--6-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/284c893a/prada-paradoxe-perfume-feminino-eau-de-parfum-intense--5-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/ff24f2fc/prada-paradoxe-perfume-feminino-eau-de-parfum-intense--4-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/ee12c630/prada-paradoxe-perfume-feminino-eau-de-parfum-intense--3-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/47dcf3d9/prada-paradoxe-perfume-feminino-eau-de-parfum-intense--2-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/866136ae/prada-paradoxe-perfume-feminino-eau-de-parfum-intense--14-.jpg"
-    ],
-    "price": 720.3,
-    "originalPrice": 1309,
-    "discount": 45,
-    "installment": "R$ 60,02",
-    "hasVariants": true,
-    "category": "cosmeticos-perfumes-perfume-feminino"
-  },
-  {
     "id": "epoca-base-liquida-catharine-hill-angel-wings-alta-cobertura",
     "name": "Base Líquida Alta Cobertura Pri Lessa by Catharine Hill - Angel Wings A1",
     "image": "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/459a0f81/7898600994132_2.jpg",
@@ -3374,36 +3014,6 @@ const rawProducts: Product[] = [
     "installment": "R$ 7,74",
     "hasVariants": false,
     "category": "cosmeticos-cabelos-seco-e-ressecados"
-  },
-  {
-    "id": "epoca-good-girl-blush-carolina-herrera-perfume-feminino-eau-de-parfum",
-    "name": "Good Girl Blush Carolina Herrera - Perfume Feminino - Eau de Parfum 80ml",
-    "image": "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/ddb8ee75/good-girl-blush-carolina-herrera-perfume-feminino-eau-de-parfum--1-.jpg",
-    "images": [
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/ddb8ee75/good-girl-blush-carolina-herrera-perfume-feminino-eau-de-parfum--1-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/8905fc63/good-girl-blush-carolina-herrera-perfume-feminino-eau-de-parfum--2-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/fa3012fa/good-girl-blush-carolina-herrera-perfume-feminino-eau-de-parfum--4-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/c2299b3b/good-girl-blush-carolina-herrera-perfume-feminino-eau-de-parfum--5-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/3ab414e7/good-girl-blush-carolina-herrera-perfume-feminino-eau-de-parfum--8-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/ccd628b8/good-girl-blush-carolina-herrera-perfume-feminino-eau-de-parfum--3-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/bd18ef62/good-girl-blush-carolina-herrera-perfume-feminino-eau-de-parfum--6-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/6d2af413/good-girl-blush-carolina-herrera-perfume-feminino-eau-de-parfum--7-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/a88d08e7/good-girl-blush-carolina-herrera-perfume-feminino-eau-de-parfum--9-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/a3402ce8/good-girl-blush-carolina-herrera-perfume-feminino-eau-de-parfum_-1-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/bd7f7b98/good-girl-blush-carolina-herrera-perfume-feminino-eau-de-parfum_-2-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/8ae96849/good-girl-blush-carolina-herrera-perfume-feminino-eau-de-parfum_-9-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/639f8674/good-girl-blush-carolina-herrera-perfume-feminino-eau-de-parfum_-11-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/76402b1e/good-girl-blush-carolina-herrera-perfume-feminino-eau-de-parfum_-14-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/d0a207c3/good-girl-blush-carolina-herrera-perfume-feminino-eau-de-parfum_-10-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/02d62911/good-girl-blush-carolina-herrera-perfume-feminino-eau-de-parfum_-12-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/77a3c359/good-girl-blush-carolina-herrera-perfume-feminino-eau-de-parfum_-13-.jpg"
-    ],
-    "price": 720.3,
-    "originalPrice": 1209,
-    "discount": 40,
-    "installment": "R$ 60,02",
-    "hasVariants": true,
-    "category": "cosmeticos-perfumes-perfume-feminino"
   },
   {
     "id": "epoca-mascara-para-cilios-vizzela-big-no-panda",
@@ -3880,28 +3490,6 @@ const rawProducts: Product[] = [
     "installment": "R$ 3,73",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-gel-de-limpeza"
-  },
-  {
-    "id": "epoca-my-way-giorgio-armani-perfume-feminino-edp",
-    "ean": "3614272907690",
-    "name": "Perfume My Way Giorgio Armani Feminino Eau de Parfum 90ml",
-    "image": "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/b08d952f/my-way-giorgio-armani-perfume-feminino-edp--1-.jpg",
-    "images": [
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/b08d952f/my-way-giorgio-armani-perfume-feminino-edp--1-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/ef330aeb/my-way-giorgio-armani-perfume-feminino-edp--8-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/2ffb5a81/my-way-giorgio-armani-perfume-feminino-edp--10-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/bcaae9c1/my-way-giorgio-armani-perfume-feminino-edp--9-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/5660017f/my-way-giorgio-armani-perfume-feminino-edp--12-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/649e8cc6/my-way-giorgio-armani-perfume-feminino-edp--11-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/3c51bb98/my-way-giorgio-armani-perfume-feminino-edp--13-.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/50481b2e/my-way-giorgio-armani-perfume-feminino-edp--14-.jpg"
-    ],
-    "price": 536.14,
-    "originalPrice": 1099,
-    "discount": 51,
-    "installment": "R$ 44,68",
-    "hasVariants": true,
-    "category": "cosmeticos-perfumes-perfume-feminino"
   },
   {
     "id": "epoca-protetor-solar-neutrogena-sun-fresh-derm-care-facial-fps70",
@@ -4622,24 +4210,6 @@ const rawProducts: Product[] = [
     "category": "cosmeticos-dermocosmeticos-hidratantes-corporais"
   },
   {
-    "id": "epoca-sauvage-eau-de-parfum--dior-perfume-masculino",
-    "ean": "3348901069830",
-    "name": "Perfume Dior Sauvage Eau de Parfum Masculino 60ml",
-    "image": "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/aaeb7624/sauvage-eau-de-parfum--dior-perfume-masculino-20-4-.jpg.jpg",
-    "images": [
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/aaeb7624/sauvage-eau-de-parfum--dior-perfume-masculino-20-4-.jpg.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/3fccff51/sauvage-eau-de-parfum--dior-perfume-masculino-20-5-.jpg.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/404540ea/3.3348901428545-3.3348901368254-3.3348901608053-4.3348901368247.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/2e04c081/4.3348901428545-4.3348901368254-4.3348901608053-5.3348901321129-5.3348901368247-5.3348901486392-5.3348901486385-5.3348901520195-5.3348901608060-5.3348901640916-5.3348901728836-6.3348901250146-6.3348901368.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/2718169f/5.3348901428545-5.3348901368254-5.3348901608053-6.3348901250153-6.3348901321129-6.3348901608060-7.3348901567572-6.3348901640916-6.3348901728836-7.3348901250146-7.3348901368247-6.3348901486392.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/6e5118b2/6.3348901428545-6.3348901608053.jpg"
-    ],
-    "price": 608.3,
-    "installment": "R$ 50,69",
-    "hasVariants": true,
-    "category": "cosmeticos-perfumes-perfume-masculino"
-  },
-  {
     "id": "epoca-gel-de-limpeza-facial-avene-cleanance-gel",
     "name": "Avène Cleanance Gel de Limpeza Facial 150g",
     "image": "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/fa092f8e/gel-de-limpeza-facial-avene-cleanance-gel--2-.jpg",
@@ -4896,27 +4466,6 @@ const rawProducts: Product[] = [
     "installment": "R$ 7,58",
     "hasVariants": true,
     "category": "cosmeticos-tratamentos-protetor-solar"
-  },
-  {
-    "id": "epoca-sauvage-eau-de-toilette-dior-perfume-masculino",
-    "ean": "0885204292594",
-    "name": "Perfume Sauvage Eau de toilette Dior Masculino 100ml",
-    "image": "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/4ba09944/sauvage-eau-de-toilette-dior-perfume-masculino-20-1-.jpg.jpg",
-    "images": [
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/4ba09944/sauvage-eau-de-toilette-dior-perfume-masculino-20-1-.jpg.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/3f53d246/sauvage-eau-de-toilette-dior-perfume-masculino-20-6-.jpg.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/6187e9b8/3.3348901321129-3.3348901250153-3.3348901520195-4.3348901250146.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/6a8a6c63/4.3348901250153-4.3348901321129-4.3348901520195.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/131f2fa5/4.3348901428545-4.3348901368254-4.3348901608053-5.3348901321129-5.3348901368247-5.3348901486392-5.3348901486385-5.3348901520195-5.3348901608060-5.3348901640916-5.3348901728836-6.3348901250146-6.3348901368.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/4ce81075/5.3348901428545-5.3348901368254-5.3348901608053-6.3348901250153-6.3348901321129-6.3348901608060-7.3348901567572-6.3348901640916-6.3348901728836-7.3348901250146-7.3348901368247-6.3348901486392.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/df55498c/sauvage-eau-de-toilette-dior-perfume-masculino-20-5-.jpg.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/b5fd1fac/sauvage-eau-de-toilette-dior-perfume-masculino-20-3-.jpg.jpg",
-      "https://tisvtkymwswqezauylmu.supabase.co/storage/v1/object/public/product-images/9888ba5f/sauvage-eau-de-toilette-dior-perfume-masculino-20-2-.jpg.jpg"
-    ],
-    "price": 608.3,
-    "installment": "R$ 50,69",
-    "hasVariants": true,
-    "category": "cosmeticos-perfumes-perfume-masculino"
   },
   {
     "id": "epoca-rapunzel-tonico-do-crescimento-lola-cosmetics-tratamento-antiqueda",
