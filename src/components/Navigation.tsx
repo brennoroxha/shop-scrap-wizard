@@ -77,13 +77,6 @@ const cosmeticosSubcategories: SubItem[] = [
     ],
   },
   {
-    label: "Ganhe Brindes",
-    path: "/collections/cosmeticos-ganhe-brindes",
-    children: [
-      { label: "Brinde", path: "/collections/cosmeticos-ganhe-brindes-brinde" },
-    ],
-  },
-  {
     label: "Maquiagem",
     path: "/collections/cosmeticos-maquiagem",
     children: [

@@ -24,7 +24,7 @@ const categoryMap: Record<string, { title: string; slug: string; prefix?: boolea
   "cosmeticos-cabelos": { title: "Cabelos", slug: "cosmeticos-cabelos", prefix: true, parents: [{ slug: "cosmeticos", title: "Cosméticos" }] },
   "cosmeticos-cuidados-pessoais": { title: "Cuidados Pessoais", slug: "cosmeticos-cuidados-pessoais", prefix: true, parents: [{ slug: "cosmeticos", title: "Cosméticos" }] },
   "cosmeticos-dermocosmeticos": { title: "Dermocosméticos", slug: "cosmeticos-dermocosmeticos", prefix: true, parents: [{ slug: "cosmeticos", title: "Cosméticos" }] },
-  "cosmeticos-ganhe-brindes": { title: "Ganhe Brindes", slug: "cosmeticos-ganhe-brindes", prefix: true, parents: [{ slug: "cosmeticos", title: "Cosméticos" }] },
+  
   "cosmeticos-maquiagem": { title: "Maquiagem", slug: "cosmeticos-maquiagem", prefix: true, parents: [{ slug: "cosmeticos", title: "Cosméticos" }] },
   "cosmeticos-mundo-epoca": { title: "Mundo Época", slug: "cosmeticos-mundo-epoca", prefix: true, parents: [{ slug: "cosmeticos", title: "Cosméticos" }] },
   "cosmeticos-perfumes": { title: "Perfumes", slug: "cosmeticos-perfumes", prefix: true, parents: [{ slug: "cosmeticos", title: "Cosméticos" }] },
@@ -59,7 +59,7 @@ const categoryMap: Record<string, { title: string; slug: string; prefix?: boolea
   "cosmeticos-dermocosmeticos-shampoo": { title: "Shampoo", slug: "cosmeticos-dermocosmeticos-shampoo", parents: [{ slug: "cosmeticos", title: "Cosméticos" }, { slug: "cosmeticos-dermocosmeticos", title: "Dermocosméticos" }] },
   "cosmeticos-dermocosmeticos-tonicos": { title: "Tônicos", slug: "cosmeticos-dermocosmeticos-tonicos", parents: [{ slug: "cosmeticos", title: "Cosméticos" }, { slug: "cosmeticos-dermocosmeticos", title: "Dermocosméticos" }] },
   "cosmeticos-dermocosmeticos-tratamentos": { title: "Tratamentos", slug: "cosmeticos-dermocosmeticos-tratamentos", parents: [{ slug: "cosmeticos", title: "Cosméticos" }, { slug: "cosmeticos-dermocosmeticos", title: "Dermocosméticos" }] },
-  "cosmeticos-ganhe-brindes-brinde": { title: "Brinde", slug: "cosmeticos-ganhe-brindes-brinde", parents: [{ slug: "cosmeticos", title: "Cosméticos" }, { slug: "cosmeticos-ganhe-brindes", title: "Ganhe Brindes" }] },
+  
   "cosmeticos-maquiagem-acessorios-de-remocao-da-maquiagem": { title: "Acessórios de Remoção da Maquiagem", slug: "cosmeticos-maquiagem-acessorios-de-remocao-da-maquiagem", parents: [{ slug: "cosmeticos", title: "Cosméticos" }, { slug: "cosmeticos-maquiagem", title: "Maquiagem" }] },
   "cosmeticos-maquiagem-base": { title: "Base", slug: "cosmeticos-maquiagem-base", parents: [{ slug: "cosmeticos", title: "Cosméticos" }, { slug: "cosmeticos-maquiagem", title: "Maquiagem" }] },
   "cosmeticos-maquiagem-batom": { title: "Batom", slug: "cosmeticos-maquiagem-batom", parents: [{ slug: "cosmeticos", title: "Cosméticos" }, { slug: "cosmeticos-maquiagem", title: "Maquiagem" }] },
