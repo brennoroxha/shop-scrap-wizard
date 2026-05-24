@@ -4710,8 +4710,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1150268/17608011903527.jpg"
     ],
     "price": 52.21,
-    "originalPrice": 94.93,
-    "discount": 45,
     "installment": "R$ 4,35",
     "hasVariants": false,
     "category": "cosmeticos-maquiagem-batom"
@@ -4727,8 +4725,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/683815/hidratante-oil-free-bepantol-derma-toque-seco--1-.jpg.jpg"
     ],
     "price": 27.27,
-    "originalPrice": 49.58,
-    "discount": 45,
     "installment": "R$ 2,27",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-hidratantes-corporais"
@@ -4744,8 +4740,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/477072/creme-de-limpeza-clareador-bioderma-pigmentbio-foaming-cream--3-.jpg"
     ],
     "price": 76.02,
-    "originalPrice": 138.22,
-    "discount": 45,
     "installment": "R$ 6,33",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-cuidados-faciais-especificos"
@@ -4761,8 +4755,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1119050/17585623885775.jpg"
     ],
     "price": 8.88,
-    "originalPrice": 16.15,
-    "discount": 45,
     "installment": "R$ 0,74",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-tratamentos"
@@ -4777,8 +4769,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/869613/17490533669044.jpg"
     ],
     "price": 122.3,
-    "originalPrice": 222.36,
-    "discount": 45,
     "installment": "R$ 10,19",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-protetor-solar"
@@ -4794,8 +4784,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1820958/17752154720662.jpg"
     ],
     "price": 17.49,
-    "originalPrice": 31.8,
-    "discount": 45,
     "installment": "R$ 1,46",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-hidratantes-corporais"
@@ -4811,8 +4799,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/223795/lanciono.jpg"
     ],
     "price": 44.03,
-    "originalPrice": 80.05,
-    "discount": 45,
     "installment": "R$ 3,67",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-tratamentos"
@@ -4828,8 +4814,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/616298/creme-de-olhos-creamy-eye-cream--4-.jpg"
     ],
     "price": 92.91,
-    "originalPrice": 168.93,
-    "discount": 45,
     "installment": "R$ 7,74",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-hidratantes-corporais"
@@ -4845,8 +4829,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1120208/17594168934772.jpg"
     ],
     "price": 42.09,
-    "originalPrice": 76.53,
-    "discount": 45,
     "installment": "R$ 3,51",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-tratamentos"
@@ -4862,8 +4844,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1137525/17593524844603.jpg"
     ],
     "price": 62.41,
-    "originalPrice": 113.47,
-    "discount": 45,
     "installment": "R$ 5,20",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-tratamentos"
@@ -4877,8 +4857,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1120381/17590718585202.jpg"
     ],
     "price": 64.97,
-    "originalPrice": 118.13,
-    "discount": 45,
     "installment": "R$ 5,41",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-hidratantes-corporais"
@@ -4892,8 +4870,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1233980/17589263998045.jpg"
     ],
     "price": 51.58,
-    "originalPrice": 93.78,
-    "discount": 45,
     "installment": "R$ 4,30",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-gel-de-limpeza"
@@ -4909,8 +4885,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1402613/17585513305770.jpg"
     ],
     "price": 55.36,
-    "originalPrice": 100.65,
-    "discount": 45,
     "installment": "R$ 4,61",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-protetor-solar"
@@ -4926,8 +4900,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/996734/17570957572164.jpg"
     ],
     "price": 39.83,
-    "originalPrice": 72.42,
-    "discount": 45,
     "installment": "R$ 3,32",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-hidratantes-corporais"
@@ -4942,8 +4914,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2079302/17786058999964.jpg"
     ],
     "price": 169.33,
-    "originalPrice": 307.87,
-    "discount": 45,
     "installment": "R$ 14,11",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-tratamentos"
@@ -4959,8 +4929,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1071365/17583580480189.jpg"
     ],
     "price": 90.01,
-    "originalPrice": 163.65,
-    "discount": 45,
     "installment": "R$ 7,50",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-hidratantes-corporais"
@@ -4975,8 +4943,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1575078/17678427669358.jpg"
     ],
     "price": 34.3,
-    "originalPrice": 62.36,
-    "discount": 45,
     "installment": "R$ 2,86",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-protetor-solar"
@@ -4992,8 +4958,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1011460/17570065273438.jpg"
     ],
     "price": 150.53,
-    "originalPrice": 273.69,
-    "discount": 45,
     "installment": "R$ 12,54",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-tratamentos"
@@ -5009,8 +4973,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/975300/gel-de-limpeza-facial-principia-gl-01--7-.jpg"
     ],
     "price": 37.8,
-    "originalPrice": 68.73,
-    "discount": 45,
     "installment": "R$ 3,15",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-gel-de-limpeza"
@@ -5026,8 +4988,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1343768/17629712722766.jpg"
     ],
     "price": 62.93,
-    "originalPrice": 114.42,
-    "discount": 45,
     "installment": "R$ 5,24",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-tratamentos"
@@ -5041,8 +5001,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1116168/17585739109606.jpg"
     ],
     "price": 127.61,
-    "originalPrice": 232.02,
-    "discount": 45,
     "installment": "R$ 10,63",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-hidratantes-corporais"
@@ -5058,8 +5016,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1041999/17448955279612.jpg"
     ],
     "price": 45.85,
-    "originalPrice": 83.36,
-    "discount": 45,
     "installment": "R$ 3,82",
     "hasVariants": false,
     "category": "cosmeticos-cuidados-pessoais-sabonetes"
@@ -5075,8 +5031,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1119449/17585487728230.jpg"
     ],
     "price": 64.44,
-    "originalPrice": 117.16,
-    "discount": 45,
     "installment": "R$ 5,37",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-hidratantes-corporais"
@@ -5092,8 +5046,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1394196/17690026465191.jpg"
     ],
     "price": 74.62,
-    "originalPrice": 135.67,
-    "discount": 45,
     "installment": "R$ 6,22",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-hidratantes-corporais"
@@ -5109,8 +5061,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/641652/17253257977520.jpg"
     ],
     "price": 65.73,
-    "originalPrice": 119.51,
-    "discount": 45,
     "installment": "R$ 5,48",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-protetor-solar"
@@ -5126,8 +5076,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1100640/protetor-solar-facial-darrow-actine-aquafluid-fps-60 -5-.jpg"
     ],
     "price": 50.12,
-    "originalPrice": 91.13,
-    "discount": 45,
     "installment": "R$ 4,18",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-protetor-solar"
@@ -5142,8 +5090,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2144392/17787414491904.jpg"
     ],
     "price": 160.93,
-    "originalPrice": 292.6,
-    "discount": 45,
     "installment": "R$ 13,41",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-tratamentos"
@@ -5159,8 +5105,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1628074/7908966548297--3-.jpg"
     ],
     "price": 28.17,
-    "originalPrice": 51.22,
-    "discount": 45,
     "installment": "R$ 2,35",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-hidratantes"
@@ -5173,8 +5117,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1240901/17630657155786.jpg"
     ],
     "price": 199.43,
-    "originalPrice": 362.6,
-    "discount": 45,
     "installment": "R$ 16,62",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-tratamentos"
@@ -5189,8 +5131,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1101429/17593299803793.jpg"
     ],
     "price": 38.58,
-    "originalPrice": 70.15,
-    "discount": 45,
     "installment": "R$ 3,21",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-hidratantes-corporais"
@@ -5206,8 +5146,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1119363/17585679789875.jpg"
     ],
     "price": 128.74,
-    "originalPrice": 234.07,
-    "discount": 45,
     "installment": "R$ 10,73",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-tratamentos"
@@ -5223,8 +5161,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/443677/hidratante-mustela-hydra-bebe-4.jpg"
     ],
     "price": 84.52,
-    "originalPrice": 153.67,
-    "discount": 45,
     "installment": "R$ 7,04",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-hidratantes-corporais"
@@ -5240,8 +5176,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2078992/17782632557622.jpg"
     ],
     "price": 84.7,
-    "originalPrice": 154.0,
-    "discount": 45,
     "installment": "R$ 7,06",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-tratamentos"
@@ -5257,8 +5191,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/465599/3337875696548_PRINCIPAL_1000px.jpg"
     ],
     "price": 94.99,
-    "originalPrice": 172.71,
-    "discount": 45,
     "installment": "R$ 7,92",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-hidratantes-corporais"
@@ -5273,8 +5205,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1569989/17706869452474.jpg"
     ],
     "price": 18.75,
-    "originalPrice": 34.09,
-    "discount": 45,
     "installment": "R$ 1,56",
     "hasVariants": false,
     "category": "cosmeticos-maquiagem-batom"
@@ -5290,8 +5220,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/873770/17490405441961.jpg"
     ],
     "price": 38.86,
-    "originalPrice": 70.65,
-    "discount": 45,
     "installment": "R$ 3,24",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-tratamentos"
@@ -5307,8 +5235,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/780923/00417405966166605.jpg"
     ],
     "price": 38.91,
-    "originalPrice": 70.75,
-    "discount": 45,
     "installment": "R$ 3,24",
     "hasVariants": false,
     "category": "cosmeticos-maquiagem-batom"
@@ -5321,8 +5247,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/614493/gel-de-limpeza-principia-gl02.jpg"
     ],
     "price": 34.3,
-    "originalPrice": 62.36,
-    "discount": 45,
     "installment": "R$ 2,86",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-gel-de-limpeza"
@@ -5338,8 +5262,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1213850/17628167416403.jpg"
     ],
     "price": 14.4,
-    "originalPrice": 26.18,
-    "discount": 45,
     "installment": "R$ 1,20",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-hidratantes-corporais"
@@ -5353,8 +5275,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1574640/17585496037269.jpg"
     ],
     "price": 51.32,
-    "originalPrice": 93.31,
-    "discount": 45,
     "installment": "R$ 4,28",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-hidratantes-corporais"
@@ -5370,8 +5290,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1092796/17590540395279.jpg"
     ],
     "price": 156.3,
-    "originalPrice": 284.18,
-    "discount": 45,
     "installment": "R$ 13,03",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-hidratantes-corporais"
@@ -5386,8 +5304,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1462194/17710846142856.jpg"
     ],
     "price": 40.67,
-    "originalPrice": 73.95,
-    "discount": 45,
     "installment": "R$ 3,39",
     "hasVariants": false,
     "category": "cosmeticos-maquiagem-batom"
@@ -5403,8 +5319,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1120423/17583160981119.jpg"
     ],
     "price": 21.41,
-    "originalPrice": 38.93,
-    "discount": 45,
     "installment": "R$ 1,78",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-hidratantes-corporais"
@@ -5420,8 +5334,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/735528/7898968269477-3.jpg.jpg"
     ],
     "price": 94.38,
-    "originalPrice": 171.6,
-    "discount": 45,
     "installment": "R$ 7,86",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-protetor-solar"
@@ -5437,8 +5349,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/641736/17253077778244.jpg"
     ],
     "price": 45.82,
-    "originalPrice": 83.31,
-    "discount": 45,
     "installment": "R$ 3,82",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-hidratantes-corporais"
@@ -5451,8 +5361,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1237011/17594392850661.jpg"
     ],
     "price": 4.19,
-    "originalPrice": 7.62,
-    "discount": 45,
     "installment": "R$ 0,35",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-tratamentos"
@@ -5466,8 +5374,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1143896/17585739187944.jpg"
     ],
     "price": 65.03,
-    "originalPrice": 118.24,
-    "discount": 45,
     "installment": "R$ 5,42",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-hidratantes-corporais"
@@ -5483,8 +5389,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/721829/3.-3348901713573.jpg"
     ],
     "price": 244.3,
-    "originalPrice": 444.18,
-    "discount": 45,
     "installment": "R$ 20,36",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-tratamentos"
@@ -5500,8 +5404,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1574411/17706812147384.jpg"
     ],
     "price": 30.09,
-    "originalPrice": 54.71,
-    "discount": 45,
     "installment": "R$ 2,51",
     "hasVariants": false,
     "category": "cosmeticos-maquiagem-batom"
@@ -5517,8 +5419,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/2082443/17782554105823.jpg"
     ],
     "price": 13.52,
-    "originalPrice": 24.58,
-    "discount": 45,
     "installment": "R$ 1,13",
     "hasVariants": false,
     "category": "cosmeticos-maquiagem-batom"
@@ -5533,8 +5433,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1148976/body-mist-jo-malone-london-english-pear--freesia -2-.jpg"
     ],
     "price": 254.16,
-    "originalPrice": 462.11,
-    "discount": 45,
     "installment": "R$ 21,18",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-tratamentos"
@@ -5548,8 +5446,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/767957/17400017043636.jpg"
     ],
     "price": 89.45,
-    "originalPrice": 162.64,
-    "discount": 45,
     "installment": "R$ 7,45",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-tratamentos"
@@ -5565,8 +5461,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1581365/17720375964511.jpg"
     ],
     "price": 37.79,
-    "originalPrice": 68.71,
-    "discount": 45,
     "installment": "R$ 3,15",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-tratamentos"
@@ -5582,8 +5476,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1105012/17596165475696.jpg"
     ],
     "price": 59.66,
-    "originalPrice": 108.47,
-    "discount": 45,
     "installment": "R$ 4,97",
     "hasVariants": false,
     "category": "cosmeticos-maquiagem-batom"
@@ -5599,8 +5491,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1120087/17594167653648.jpg"
     ],
     "price": 85.11,
-    "originalPrice": 154.75,
-    "discount": 45,
     "installment": "R$ 7,09",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-gel-de-limpeza"
@@ -5616,8 +5506,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1964247/17755926511083.jpg"
     ],
     "price": 61.53,
-    "originalPrice": 111.87,
-    "discount": 45,
     "installment": "R$ 5,13",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-tratamentos"
@@ -5630,8 +5518,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1277996/17634833698263.jpg"
     ],
     "price": 57.48,
-    "originalPrice": 104.51,
-    "discount": 45,
     "installment": "R$ 4,79",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-tratamentos"
@@ -5647,8 +5533,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1072158/17583576329062.jpg"
     ],
     "price": 106.43,
-    "originalPrice": 193.51,
-    "discount": 45,
     "installment": "R$ 8,87",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-gel-de-limpeza"
@@ -5664,8 +5548,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1399471/la-vie-est-belle-eau-de-parfum-lancome-perfume-feminino--10-.jpg"
     ],
     "price": 238.73,
-    "originalPrice": 434.05,
-    "discount": 45,
     "installment": "R$ 19,89",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-tratamentos"
@@ -5678,8 +5560,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1109642/17585506760998.jpg"
     ],
     "price": 88.13,
-    "originalPrice": 160.24,
-    "discount": 45,
     "installment": "R$ 7,34",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-tratamentos"
@@ -5695,8 +5575,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1578388/17722029979372.jpg"
     ],
     "price": 37.62,
-    "originalPrice": 68.4,
-    "discount": 45,
     "installment": "R$ 3,13",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-hidratantes-corporais"
@@ -5712,8 +5590,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1073106/17583581718579.jpg"
     ],
     "price": 85.27,
-    "originalPrice": 155.04,
-    "discount": 45,
     "installment": "R$ 7,11",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-hidratantes-corporais"
@@ -5729,8 +5605,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1347065/17659810132685.jpg"
     ],
     "price": 18.83,
-    "originalPrice": 34.24,
-    "discount": 45,
     "installment": "R$ 1,57",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-hidratantes-corporais"
@@ -5745,8 +5619,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1179109/17585501447448.jpg"
     ],
     "price": 69.93,
-    "originalPrice": 127.15,
-    "discount": 45,
     "installment": "R$ 5,83",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-protetor-solar"
@@ -5759,8 +5631,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1348315/17659151052977.jpg"
     ],
     "price": 18.19,
-    "originalPrice": 33.07,
-    "discount": 45,
     "installment": "R$ 1,52",
     "hasVariants": false,
     "category": "cosmeticos-cuidados-pessoais-sabonetes"
@@ -5776,8 +5646,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/911986/17523415137249.jpg"
     ],
     "price": 81.47,
-    "originalPrice": 148.13,
-    "discount": 45,
     "installment": "R$ 6,79",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-tratamentos"
@@ -5793,8 +5661,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1650967/creme-hidratante-corporal-mantecorp-skincare-epidrat-corpo-intensivo6.jpg"
     ],
     "price": 51.89,
-    "originalPrice": 94.35,
-    "discount": 45,
     "installment": "R$ 4,32",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-hidratantes-corporais"
@@ -5807,8 +5673,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1496452/17715937835494.jpg"
     ],
     "price": 41.65,
-    "originalPrice": 75.73,
-    "discount": 45,
     "installment": "R$ 3,47",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-tratamentos"
@@ -5824,8 +5688,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/755758/17389636756632.jpg"
     ],
     "price": 64.4,
-    "originalPrice": 117.09,
-    "discount": 45,
     "installment": "R$ 5,37",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-tratamentos"
@@ -5841,8 +5703,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1184864/17610762224449.jpg"
     ],
     "price": 251.37,
-    "originalPrice": 457.04,
-    "discount": 45,
     "installment": "R$ 20,95",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-tratamentos"
@@ -5857,8 +5717,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1120224/17585412509274.jpg"
     ],
     "price": 31.49,
-    "originalPrice": 57.25,
-    "discount": 45,
     "installment": "R$ 2,62",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-hidratantes-corporais"
@@ -5874,8 +5732,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1096179/17585647145546.jpg"
     ],
     "price": 26.03,
-    "originalPrice": 47.33,
-    "discount": 45,
     "installment": "R$ 2,17",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-hidratantes-corporais"
@@ -5888,8 +5744,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1072222/17583582139447.jpg"
     ],
     "price": 65.11,
-    "originalPrice": 118.38,
-    "discount": 45,
     "installment": "R$ 5,43",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-tratamentos"
@@ -5903,8 +5757,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/244402/oleo-pos-banho-amendoas-doces-natuflora-desodorante-corporal-125ml1.jpg"
     ],
     "price": 24.43,
-    "originalPrice": 44.42,
-    "discount": 45,
     "installment": "R$ 2,04",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-tratamentos"
@@ -5918,8 +5770,6 @@ const rawProducts: Product[] = [
       "https://epocacosmeticos.vteximg.com.br/arquivos/ids/259395/phytoderm-glamour-kit-deo-colonia-desodorante1.jpg"
     ],
     "price": 41.93,
-    "originalPrice": 76.24,
-    "discount": 45,
     "installment": "R$ 3,49",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-tratamentos"
