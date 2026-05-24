@@ -1020,8 +1020,8 @@ const TrustBadges = () => (
 /* Checkout Footer */
 const CheckoutFooter = () => (
   <div className="rounded-2xl bg-white p-5 pt-4 text-center shadow-sm">
-    <p className="text-xs text-gray-500">Drog Farmacêutica LTDA</p>
-    <p className="text-xs text-gray-500">CNPJ: 54.375.647/1166-72</p>
+    <p className="text-xs text-gray-500">Tendencia Cosmeticos</p>
+    <p className="text-xs text-gray-500">CNPJ: 22.556.253/0002-60</p>
     <div className="mt-4 flex items-center justify-center gap-6">
       <div className="flex items-center gap-1.5">
         <ShieldCheck className="h-5 w-5 text-foreground" />
