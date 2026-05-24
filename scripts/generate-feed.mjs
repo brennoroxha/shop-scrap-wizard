@@ -49,7 +49,14 @@ const KNOWN_BRANDS = [
 const normalize = (s) => s.replace(/[’‘`]/g, "'").toLowerCase();
 const detectBrand = (name) => {
   const n = normalize(name);
-  return KNOWN_BRANDS.find((b) => n.includes(normalize(b))) || DEFAULT_BRAND;
+  const found = KNOWN_BRANDS.find((b) => n.includes(normalize(b)));
+  if (found) return found;
+  // Fallback: tenta pegar a primeira palavra significativa se não achou nas conhecidas
+  const firstWord = name.split(" ")[0];
+  if (firstWord && firstWord.length > 2 && !["Combo", "Kit", "Duo", "Presente"].includes(firstWord)) {
+    return firstWord;
+  }
+  return DEFAULT_BRAND;
 };
 
 const CATEGORY_MAP = {
@@ -303,17 +310,27 @@ const items = unique.map((p) => {
   const addl = p.additional.map((u) => `      <g:additional_image_link>${esc(safeUrl(u))}</g:additional_image_link>`).join("\n");
   const groupId = itemGroupId(p.id);
 
-  // GTIN handling: se duplicado e o produto não é o "vencedor", emite identifier_exists=false.
-  let idLine;
-  if (p.ean) {
+  // GTIN handling: Google só aceita 8, 12, 13 ou 14 dígitos.
+  const isValidGtin = (gtin) => /^\d{8}$|^\d{12}$|^\d{13}$|^\d{14}$/.test(gtin);
+  
+  let gtinField = "";
+  let identifierExists = "true";
+  let mpnField = `<g:mpn>${esc(p.id)}</g:mpn>`;
+
+  if (p.ean && isValidGtin(p.ean)) {
+    // Se duplicado e não é o vencedor do grupo, desativa identifier_exists
     if (gtinCounts[p.ean] > 1 && winnerByGtin[p.ean] !== p.id) {
-      idLine = `<g:identifier_exists>false</g:identifier_exists>\n      <g:mpn>${esc(p.id)}</g:mpn>`;
+      identifierExists = "false";
+      gtinField = "";
     } else {
-      idLine = `<g:gtin>${esc(p.ean)}</g:gtin>`;
+      gtinField = `<g:gtin>${esc(p.ean)}</g:gtin>`;
     }
   } else {
-    idLine = `<g:identifier_exists>false</g:identifier_exists>\n      <g:mpn>${esc(p.id)}</g:mpn>`;
+    identifierExists = "false";
+    gtinField = "";
   }
+
+  const identifierExistsTag = identifierExists === "false" ? `<g:identifier_exists>false</g:identifier_exists>` : "";
 
   return `    <item>
       <g:id>${esc(p.id)}</g:id>
@@ -326,7 +343,9 @@ ${addl}
       <g:price>${p.price.toFixed(2)} BRL</g:price>
       <g:condition>new</g:condition>
       <g:brand>${esc(brand)}</g:brand>
-      ${idLine}
+      ${gtinField}
+      ${identifierExistsTag}
+      ${mpnField}
       <g:google_product_category>${esc(googleCategory)}</g:google_product_category>
       <g:product_type>${esc(productTypeFromCategory(p.category))}</g:product_type>
       <g:item_group_id>${esc(groupId)}</g:item_group_id>
