@@ -9,7 +9,7 @@ import { fileURLToPath } from "node:url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
-const BASE_URL = "https://tendenciacosmeticos.com.br";
+const BASE_URL = "https://lojas-epoca.store";
 
 // Static routes
 const staticRoutes = [
@@ -35,7 +35,7 @@ const categoryRoutes = categorySlugs.map((slug) => ({
 
 // Produtos
 const productsSrc = fs.readFileSync(path.join(ROOT, "src/data/products.ts"), "utf8");
-const productIds = [...new Set([...productsSrc.matchAll(/id:\s*"([^"]+)"/g)].map((m) => m[1]))];
+const productIds = [...new Set([...productsSrc.matchAll(/"?id"?\s*:\s*"([^"]+)"/g)].map((m) => m[1]))];
 const productRoutes = productIds.map((id) => ({
   path: `/produtos/${id}`,
   changefreq: "weekly",
