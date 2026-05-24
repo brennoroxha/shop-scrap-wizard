@@ -27,6 +27,7 @@ import dailyWheyMorango from "@/assets/products/daily-whey-morango.png";
 import multivitaminico120 from "@/assets/products/multivitaminico-120.png";
 import kitElseveCollagenLifter from "@/assets/products/kit-elseve-collagen-lifter.png";
 import eucerinAquaphorDuopack from "@/assets/products/eucerin-aquaphor-duopack.png";
+import wellaInvigoNutriEnrichShampoo50ml from "@/assets/products/wella-invigo-nutri-enrich-shampoo-50ml.png";
 
 export interface Product {
   id: string;
@@ -4562,6 +4563,18 @@ const rawProducts: Product[] = [
     "installment": "R$ 4,16",
     "hasVariants": false,
     "category": "cosmeticos-dermocosmeticos-cuidados-corporais-especificos"
+  },
+  {
+    "id": "wella-professionals-invigo-nutri-enrich-shampoo-50ml",
+    "name": "Wella Professionals Invigo Nutri-enrich Shampoo 50ml",
+    "image": wellaInvigoNutriEnrichShampoo50ml,
+    "images": [wellaInvigoNutriEnrichShampoo50ml],
+    "price": 19.90,
+    "originalPrice": 39.90,
+    "discount": 50,
+    "installment": "R$ 1,66",
+    "hasVariants": false,
+    "category": "cosmeticos-cabelos-normal-ou-todos-os-tipos"
   }
 ];
 

@@ -15845,6 +15845,33 @@ Sim, o Potion 9 Lit é adequado para cabelos quimicamente tratados. Sua composi�
 <li><strong>2 bisnagas de 10ml</strong></li>
 </ul>`,
   },
+"wella-professionals-invigo-nutri-enrich-shampoo-50ml": {
+    slug: "wella-professionals-invigo-nutri-enrich-shampoo-50ml",
+    descriptionHtml: `<h3>Descrição</h3>
+<strong>Wella Professionals Invigo Nutri-Enrich Shampoo 50ml</strong><br/>
+<h2><strong>O que é e para que serve?</strong></h2>
+<span style="font-size:16px">O Shampoo Wella Professionals Invigo Nutri-Enrich é um cuidado profundo de nutrição para cabelos secos e estressados. Enriquecido com Goji Berry, antioxidante natural, sua fórmula limpa suavemente enquanto repõe a hidratação e devolve maciez, brilho e vitalidade aos fios.</span><br/>
+<h2><strong>Benefícios</strong></h2>
+- Limpeza suave e nutritiva;<br/>
+- Hidratação profunda para fios secos;<br/>
+- Aumenta o brilho e a maciez;<br/>
+- Reduz o frizz e o aspecto opaco;<br/>
+- Versão travel size de 50ml, ideal para viagens.<br/>
+<h2><strong>Indicação</strong></h2>
+<span style="font-size:16px">Indicado para cabelos secos, ressecados e que precisam de nutrição intensa.</span><br/>
+<h2><strong>Modo de uso</strong></h2>
+1- Aplique sobre os cabelos molhados;<br/>
+2- Massageie suavemente o couro cabeludo;<br/>
+3- Enxágue bem e siga com o condicionador da linha.<br/>
+<h3>Marca</h3>
+<p>Wella Professionals</p>
+<h3>Categoria</h3>
+<p>Cosméticos/Cabelos/Normal ou Todos os Tipos</p>
+<h3>Conteúdo</h3>
+<ul>
+<li><strong>Shampoo 50ml</strong></li>
+</ul>`,
+  },
 });
 
 export const getProductDescription = (productId: string): ProductDescription | undefined => {
