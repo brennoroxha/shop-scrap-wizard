@@ -15780,6 +15780,44 @@ Sim, o Potion 9 Lit é adequado para cabelos quimicamente tratados. Sua composi�
 </ul>
 <p><strong>EAN:</strong> 0353648387232</p>`,
   },
+"kit-elseve-collagen-lifter-shampoo-encorpador-400ml-condicionador-redensifica-fios-400ml-leave-in-injecao-de-massa-100ml-tratamento-efeito-teia": {
+    slug: "kit-elseve-collagen-lifter-shampoo-encorpador-400ml-condicionador-redensifica-fios-400ml-leave-in-injecao-de-massa-100ml-tratamento-efeito-teia",
+    descriptionHtml: `<h3>Descrição</h3>
+<strong>Kit Elseve Collagen Lifter L'Oréal Paris</strong><br/>
+<h2><strong>O que é e para que serve?</strong></h2>
+<span style="font-size:16px">O Kit Elseve Collagen Lifter foi desenvolvido especialmente para cabelos afinados e sem volume. Com a tecnologia de Peptídeos de Colágeno, a linha redensifica os fios desde o primeiro uso, devolvendo corpo, volume e movimento natural.</span><br/>
+<h2><strong>O que vem no kit?</strong></h2>
+<ul>
+<li><strong>Shampoo Encorpador Collagen Lifter 400ml</strong> — limpa suavemente enquanto encorpa os fios desde a raiz.</li>
+<li><strong>Condicionador Redensifica Fios Collagen Lifter 400ml</strong> — desembaraça e devolve densidade aos cabelos afinados.</li>
+<li><strong>Leave-in Injeção de Massa Collagen Lifter 100ml</strong> — com 7% de complexo de peptídeos de colágeno, proporciona até +61% de volume saudável.</li>
+<li><strong>Tratamento Efeito Teia Resgate de Massa 300g</strong> — máscara com efeito teia que resgata a massa capilar e devolve resistência aos fios.</li>
+</ul>
+<h2><strong>Benefícios</strong></h2>
+- Cabelos visivelmente encorpados desde o 1º uso;<br/>
+- Mais volume e movimento natural;<br/>
+- Fios mais resistentes e densos;<br/>
+- Toque leve, sem pesar;<br/>
+- Perfume marcante e duradouro.<br/>
+<h2><strong>Indicação</strong></h2>
+<span style="font-size:16px">Indicado para cabelos afinados, sem volume e que precisam de mais densidade e corpo.</span><br/>
+<h2><strong>Modo de uso</strong></h2>
+1- Aplique o Shampoo Encorpador nos cabelos molhados, massageie e enxágue;<br/>
+2- Em seguida, aplique o Condicionador Redensifica Fios no comprimento e pontas, deixe agir por alguns minutos e enxágue;<br/>
+3- Use o Tratamento Efeito Teia 1 a 2 vezes por semana após o shampoo, deixando agir de 3 a 5 minutos;<br/>
+4- Finalize com o Leave-in Injeção de Massa nos cabelos úmidos e modele como desejar.<br/>
+<h3>Marca</h3>
+<p>L'Oréal Paris - Elseve</p>
+<h3>Categoria</h3>
+<p>Cosméticos/Cabelos/Kits/</p>
+<h3>Itens do kit</h3>
+<ul>
+<li><strong>Shampoo 400ml</strong></li>
+<li><strong>Condicionador 400ml</strong></li>
+<li><strong>Leave-in 100ml</strong></li>
+<li><strong>Tratamento Efeito Teia 300g</strong></li>
+</ul>`,
+  },
 });
 
 export const getProductDescription = (productId: string): ProductDescription | undefined => {
