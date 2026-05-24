@@ -261,16 +261,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://lojas-epoca.store/collections/cosmeticos-ganhe-brindes</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://lojas-epoca.store/collections/cosmeticos-ganhe-brindes-brinde</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://lojas-epoca.store/collections/cosmeticos-maquiagem</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
