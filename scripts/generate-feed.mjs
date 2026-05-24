@@ -395,9 +395,17 @@ const buildShortProductId = (product) => {
 
 const appendSuffix = (base, suffix, max = MAX_ID_LEN) => {
   const cleanSuffix = slugify(suffix);
-  if (!cleanSuffix) return limitSlug(base, max);
-  const baseMax = Math.max(1, max - cleanSuffix.length - 1);
-  const trimmedBase = limitSlug(base, baseMax);
+  if (!cleanSuffix) return base.slice(0, max);
+  
+  const limit = max - cleanSuffix.length - 1;
+  let trimmedBase = base.slice(0, limit);
+  
+  // Evita quebrar no meio de uma palavra se possível
+  const lastHyphen = trimmedBase.lastIndexOf("-");
+  if (lastHyphen !== -1 && lastHyphen > limit * 0.7) {
+    trimmedBase = trimmedBase.slice(0, lastHyphen);
+  }
+  
   return `${trimmedBase}-${cleanSuffix}`.replace(/-+/g, "-").replace(/^-+|-+$/g, "");
 };
 
