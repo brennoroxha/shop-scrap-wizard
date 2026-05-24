@@ -232,18 +232,47 @@ const CATEGORY_OVERRIDES = {
   "epoca-esmalte-impala-cremoso-jane-75ml-170147": "Health & Beauty > Personal Care > Cosmetics > Nail Care > Nail Polish",
   "epoca-iluminador-liquido-dior-forever-glow-maximizer": "Health & Beauty > Personal Care > Cosmetics > Face Makeup > Highlighters & Luminizers",
   "epoca-creme-de-olhos-creamy-eye-cream": "Health & Beauty > Personal Care > Skin Care > Eye Creams & Treatments",
-  "epoca-acnezil-gel-5-com-20g-145487": "Health & Beauty > Health Care > Medicine & Drugs",
+  "epoca-acnezil-gel-5-com-20g-145487": "Health & Beauty > Personal Care > Skin Care > Facial Treatments & Masks",
+  "epoca-acnase-creme-25g-145781": "Health & Beauty > Personal Care > Skin Care > Facial Treatments & Masks",
   "epoca-gel-facial-zella-150mg-acido-azelaico-30g-169655": "Health & Beauty > Personal Care > Skin Care > Facial Treatments & Masks",
 };
 
 const getCategory = (id, cat) =>
   CATEGORY_OVERRIDES[id] || CATEGORY_MAP[cat] || DEFAULT_CATEGORY;
 
-// product_type derivado do slug interno da categoria
+// product_type derivado do slug interno da categoria.
+// Os 2 primeiros segmentos são níveis hierárquicos; o restante forma o nome
+// do sub-nível, com conectores (de, e, a, o, com, para, em, ou, da, do) em minúscula.
+const PT_ACCENTS = {
+  cosmeticos: "Cosméticos", dermocosmeticos: "Dermocosméticos", maquiagem: "Maquiagem",
+  cabelos: "Cabelos", cuidados: "Cuidados", pessoais: "Pessoais", tratamentos: "Tratamentos",
+  mascara: "Máscara", mascaras: "Máscaras", cilios: "Cílios", sobrancelhas: "Sobrancelhas",
+  especificos: "Específicos", tonicos: "Tônicos", oleo: "Óleo", oleos: "Óleos",
+  cacheado: "Cacheado", crespo: "Crespo", acessorios: "Acessórios", remocao: "Remoção",
+  balsamo: "Bálsamo", agua: "Água", po: "Pó", estojo: "Estojo", termico: "Térmico",
+  protetor: "Protetor", rejuvenescedores: "Rejuvenescedores", hidratantes: "Hidratantes",
+  faciais: "Faciais", corporais: "Corporais", limpadores: "Limpadores", ativador: "Ativador",
+  cachos: "Cachos", fixador: "Fixador", contorno: "Contorno", labial: "Labial",
+  demaquilante: "Demaquilante", sabonetes: "Sabonetes", micelar: "Micelar",
+  marcas: "Marcas", loiros: "Loiros", descoloridos: "Descoloridos", coloridos: "Coloridos",
+  mechas: "Mechas", danificados: "Danificados", seco: "Seco", ressecados: "Ressecados",
+  normal: "Normal", todos: "Todos", tipos: "Tipos", base: "Base", blush: "Blush",
+  esponja: "Esponja", corretivo: "Corretivo", compacto: "Compacto", facial: "Facial",
+  sombra: "Sombra", lapis: "Lápis", kajal: "Kajal", batom: "Batom", gloss: "Gloss",
+  gel: "Gel", limpeza: "Limpeza", anti: "Anti", fino: "Fino", kit: "Kit", kits: "Kits",
+  shampoo: "Shampoo", solar: "Solar", cor: "Cor",
+};
+const PT_CONNECTORS = new Set(["de", "da", "do", "e", "a", "o", "com", "para", "em", "ou"]);
+
 const productTypeFromCategory = (cat) => {
   if (!cat) return "Cosméticos";
   const parts = cat.split("-").filter(Boolean);
-  return parts.map((w) => w[0].toUpperCase() + w.slice(1)).join(" > ");
+  const cap = (w) => PT_ACCENTS[w] || (w[0].toUpperCase() + w.slice(1));
+  const joinWords = (arr) => arr
+    .map((w, i) => (i > 0 && PT_CONNECTORS.has(w)) ? w : cap(w))
+    .join(" ");
+  if (parts.length <= 2) return parts.map(cap).join(" > ");
+  return [cap(parts[0]), cap(parts[1]), joinWords(parts.slice(2))].join(" > ");
 };
 
 // item_group_id: agrupa variantes pelo tronco do slug (sem sufixos de tamanho/volume).
@@ -371,12 +400,54 @@ const volumeFromName = (name) => {
   return m ? m[1] : null;
 };
 
-const generateDescription = (name, brand, googleCategory) => {
+const BRAND_NOTES = {
+  "Bioderma": "Dermatologicamente testado, ideal para peles sensíveis.",
+  "La Roche-Posay": "Recomendado por dermatologistas, com Água Termal de La Roche-Posay.",
+  "La Roche Posay": "Recomendado por dermatologistas, com Água Termal de La Roche-Posay.",
+  "Vichy": "Tecnologia dermatológica francesa com minerais ativos.",
+  "Eucerin": "Cuidado dermatológico avançado para pele sensível e ressecada.",
+  "L'Oréal Professionnel": "Performance profissional de salão para resultados visíveis.",
+  "L'Oréal Paris": "Beleza acessível com tecnologia de ponta.",
+  "Wella Professionals": "Linha profissional para cabelos saudáveis, brilhantes e fortes.",
+  "Kérastase": "Cuidado capilar de luxo com ingredientes premium.",
+  "Kerastase": "Cuidado capilar de luxo com ingredientes premium.",
+  "SkinCeuticals": "Antioxidantes potentes e ciência cosmecêutica avançada.",
+  "Neutrogena": "Dermatologicamente comprovado para resultados visíveis.",
+  "Garnier": "Fórmulas com ingredientes de origem natural.",
+  "CeraVe": "Desenvolvido com dermatologistas, com ceramidas essenciais.",
+  "Cetaphil": "Suave, hipoalergênico e indicado para peles sensíveis.",
+  "Avène": "Água Termal de Avène, calmante e regeneradora.",
+  "Avene": "Água Termal de Avène, calmante e regeneradora.",
+  "Nivea": "Tradição em cuidados com a pele e o corpo.",
+  "Carmed": "Hidratação intensa e brilho aos lábios com a fórmula icônica.",
+  "Mantecorp Skincare": "Ciência dermatológica brasileira de alta performance.",
+  "Bepantol": "Cuidado reparador e hidratante para a pele.",
+  "Bio-Oil": "Especialista em cuidados com marcas e cicatrizes.",
+  "Sebastian": "Estilo e tecnologia para cabelos com atitude.",
+  "Redken": "Ciência avançada para cabelos profissionalmente cuidados.",
+  "Cadiveu": "Tratamentos profissionais com tecnologia brasileira.",
+  "Lola Cosmetics": "Cosméticos com ingredientes naturais e divertidos.",
+  "Boticário": "Beleza brasileira para todos os momentos.",
+  "Maybelline": "Cores intensas e tendências para a maquiagem.",
+  "Dior": "Sofisticação e elegância da alta perfumaria francesa.",
+  "Jo Malone": "Fragrâncias britânicas exclusivas para combinar e camadar.",
+  "Acnezil": "Auxilia na limpeza e no controle da oleosidade da pele.",
+  "Acnase": "Cuidado direcionado para pele com tendência a oleosidade.",
+};
+
+const generateDescription = (name, brand, googleCategory, productId) => {
   const hint = inferCategoryHint(googleCategory);
   const vol = volumeFromName(name);
   const sizeBit = vol ? ` Apresentação: ${vol}.` : "";
-  const brandBit = brand !== STORE_NAME ? `Da marca ${brand}. ` : "";
-  return `${name}.${sizeBit} ${brandBit}${hint} Compre na ${STORE_NAME} com entrega rápida para todo o Brasil e pagamento via Pix com desconto.`;
+  const brandBit = brand && brand !== STORE_NAME ? ` Da marca ${brand}.` : "";
+  const brandNote = BRAND_NOTES[brand] ? ` ${BRAND_NOTES[brand]}` : "";
+  const surpriseNote = productId && productId.includes("carmed-selecoes-edicao-surpresa")
+    ? " Produto sortido/surpresa: a variação recebida pode ser diferente da imagem exibida."
+    : "";
+  const closing = ` Compre na ${STORE_NAME} com entrega rápida para todo o Brasil e pagamento via Pix com desconto.`;
+  let desc = `${name}.${sizeBit}${brandBit} ${hint}${brandNote}${surpriseNote}${closing}`.replace(/\s+/g, " ").trim();
+  if (desc.length > 500) desc = desc.slice(0, 497).replace(/\s+\S*$/, "") + "...";
+  return desc;
 };
 
 const buildShortProductId = (product) => {
@@ -447,7 +518,7 @@ const items = unique.map((p) => {
   const link = `${SITE}/produtos/${p.id}`;
   const googleCategory = getCategory(p.id, p.category);
   const brand = detectBrand(p.name);
-  let description = generateDescription(p.name, brand, googleCategory);
+  let description = generateDescription(p.name, brand, googleCategory, p.id);
   const addl = p.additional.map((u) => `      <g:additional_image_link>${esc(safeUrl(u))}</g:additional_image_link>`).join("\n");
   const shortPid = shortIdByOriginalId.get(p.id) || buildShortProductId(p);
   const groupId = limitSlug(itemGroupId(p.id));
@@ -478,7 +549,7 @@ const items = unique.map((p) => {
 
   const identifierExistsTag = identifierExists === "false" ? `\n      <g:identifier_exists>false</g:identifier_exists>` : "";
   const gtinTag = gtinField ? `\n      ${gtinField}` : "";
-  const mpnTag = identifierExists === "false" ? `\n      <g:mpn>${esc(shortPid)}</g:mpn>` : "";
+  const mpnTag = "";
 
   return `    <item>
       <g:id>${esc(shortPid)}</g:id>
