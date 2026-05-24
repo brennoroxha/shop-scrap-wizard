@@ -5340,7 +5340,7 @@ const rawProducts: Product[] = [
   },
   {
     "id": "epoca-bioderma-sensibio-h2o-agua-micelar-100ml-90174",
-    "name": "Bioderma Sensibio H2O Ãgua Micelar 100ml",
+    "name": "Bioderma Sensibio H2O Água Micelar 100ml",
     "image": "https://lojas-epoca.store/products/17389636752528_1adf9cfb.jpg",
     "images": [
       "https://lojas-epoca.store/products/17389636752528_1adf9cfb.jpg",
