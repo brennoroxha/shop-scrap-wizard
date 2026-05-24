@@ -1,0 +1,1 @@
+INSERT INTO public.app_settings (key, value) VALUES ('active_gateway', '"klivopay"'::jsonb) ON CONFLICT (key) DO UPDATE SET value = '"klivopay"'::jsonb, updated_at = now();
