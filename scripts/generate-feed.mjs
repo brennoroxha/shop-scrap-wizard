@@ -549,7 +549,7 @@ const items = unique.map((p) => {
 
   const identifierExistsTag = identifierExists === "false" ? `\n      <g:identifier_exists>false</g:identifier_exists>` : "";
   const gtinTag = gtinField ? `\n      ${gtinField}` : "";
-  const mpnTag = identifierExists === "false" ? `\n      <g:mpn>${esc(shortPid)}</g:mpn>` : "";
+  const mpnTag = "";
 
   return `    <item>
       <g:id>${esc(shortPid)}</g:id>
