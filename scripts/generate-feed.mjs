@@ -16,6 +16,20 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const MAX_ID_LEN = 50;
+
+const WORDS_TO_REMOVE = ["de", "e", "a", "o", "com", "para", "em", "kit", "profissional", "professionals", "professional"];
+const BRAND_ABBREVIATIONS = {
+  "wella-professionals": "wella",
+  "l-oreal-professionnel": "loreal-prof",
+  "la-roche-posay": "lrp",
+  "kerastase": "kerast",
+  "skinceuticals": "skinceut",
+  "mantecorp-skincare": "mantecorp",
+  "neutrogena": "neutrog",
+  "bioderma": "bioderm",
+  "eucerin": "eucerin"
+};
+
 const slugify = (value) => String(value ?? "")
   .normalize("NFD")
   .replace(/[\u0300-\u036f]/g, "")
@@ -26,40 +40,54 @@ const slugify = (value) => String(value ?? "")
   .replace(/^-+|-+$/g, "")
   .replace(/-+/g, "-");
 
-const limitSlug = (value, max = MAX_ID_LEN) => {
-  const clean = slugify(value);
-  if (clean.length <= max) return clean;
+/**
+ * Aplica as regras agressivas de encurtamento do Google Merchant.
+ */
+const applyGoogleShorteningRules = (id) => {
+  let slug = slugify(id);
 
-  const parts = clean.split("-").filter(Boolean);
-  let out = "";
-
-  for (const part of parts) {
-    const candidate = out ? `${out}-${part}` : part;
-    if (candidate.length > max) break;
-    out = candidate;
+  // Rule: Abrevie nomes de marcas conhecidas
+  for (const [full, short] of Object.entries(BRAND_ABBREVIATIONS)) {
+    if (slug.includes(full)) {
+      slug = slug.replace(new RegExp(full, "g"), short);
+    }
   }
 
-  return (out || clean.slice(0, max)).replace(/-+$/g, "");
+  // Rule: Remova palavras genéricas desnecessárias
+  const parts = slug.split("-");
+  const filteredParts = parts.filter(p => !WORDS_TO_REMOVE.includes(p));
+  slug = filteredParts.join("-");
+
+  // Rule: Remova o prefixo epoca- quando o resultado ainda ficar acima de 50 caracteres
+  if (slug.length > MAX_ID_LEN && slug.startsWith("epoca-")) {
+    slug = slug.replace(/^epoca-/, "");
+  }
+
+  if (slug.length <= MAX_ID_LEN) return slug.replace(/-+$/g, "");
+
+  // Rule: Se houver um número identificador ao final do ID original (ex: -67453, -71803), mantenha-o
+  const numericSuffixMatch = slug.match(/-(\d+)$/);
+  const numericSuffix = numericSuffixMatch ? numericSuffixMatch[0] : "";
+
+  if (numericSuffix) {
+    const limit = MAX_ID_LEN - numericSuffix.length;
+    const base = slug.slice(0, slug.lastIndexOf(numericSuffix));
+    const truncatedBase = base.slice(0, limit);
+    const lastHyphen = truncatedBase.lastIndexOf("-");
+    const finalBase = lastHyphen !== -1 ? truncatedBase.slice(0, lastHyphen) : truncatedBase;
+    slug = `${finalBase}${numericSuffix}`;
+  } else {
+    // Rule: Se ainda ultrapassar 50 caracteres, trunce garantindo que não quebre no meio de uma palavra
+    const truncated = slug.slice(0, MAX_ID_LEN);
+    const lastHyphen = truncated.lastIndexOf("-");
+    slug = lastHyphen !== -1 ? truncated.slice(0, lastHyphen) : truncated;
+  }
+
+  return slug.replace(/-+$/g, "").replace(/^-+/, "");
 };
 
-const joinIdParts = (parts, max = MAX_ID_LEN) => {
-  const cleaned = parts.map((part) => slugify(part)).filter(Boolean);
-  if (!cleaned.length) return "produto";
-  if (cleaned.length === 1) return limitSlug(cleaned[0], max);
-
-  const first = cleaned[0];
-  const tail = cleaned.at(-1);
-  const middle = cleaned.slice(1, -1);
-  let used = first;
-
-  for (const token of middle) {
-    const candidate = [used, token, tail].filter(Boolean).join("-");
-    if (candidate.length > max) break;
-    used = `${used}-${token}`;
-  }
-
-  const withTail = [used, tail].filter(Boolean).join("-");
-  return withTail.length <= max ? withTail : limitSlug(used, max);
+const limitSlug = (value, max = MAX_ID_LEN) => {
+  return applyGoogleShorteningRules(value);
 };
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
