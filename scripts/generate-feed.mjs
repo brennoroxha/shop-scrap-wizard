@@ -240,7 +240,7 @@ const items = unique.map((p) => {
       <g:image_link>${esc(p.image)}</g:image_link>
 ${addl}
       <g:availability>in stock</g:availability>
-      <g:price>${basePrice.toFixed(2)} BRL</g:price>${salePrice ? `\n      <g:sale_price>${salePrice.toFixed(2)} BRL</g:sale_price>` : ""}
+      <g:price>${basePrice.toFixed(2)} BRL</g:price>${salePrice ? `\n      <g:sale_price>${salePrice.toFixed(2)} BRL</g:sale_price>\n      <g:sale_price_effective_date>2026-05-24T00:00-03:00/2027-05-24T23:59-03:00</g:sale_price_effective_date>` : ""}
       <g:condition>new</g:condition>
       <g:brand>${esc(detectBrand(p.name))}</g:brand>
       ${p.ean ? `<g:gtin>${esc(p.ean)}</g:gtin>` : `<g:identifier_exists>false</g:identifier_exists>`}
