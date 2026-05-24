@@ -130,6 +130,19 @@ const CheckoutPage = () => {
   const pixTotal = totalPrice;
   const hasTrackedInitCheckout = useRef(false);
 
+  // Disable pinch/double-tap zoom on checkout
+  useEffect(() => {
+    const meta = document.querySelector('meta[name="viewport"]') as HTMLMetaElement | null;
+    const original = meta?.getAttribute("content") || "width=device-width, initial-scale=1.0";
+    meta?.setAttribute(
+      "content",
+      "width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"
+    );
+    return () => {
+      meta?.setAttribute("content", original);
+    };
+  }, []);
+
   useEffect(() => {
     if (!hasTrackedInitCheckout.current && items.length > 0) {
       hasTrackedInitCheckout.current = true;
