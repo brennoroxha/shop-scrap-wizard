@@ -27,7 +27,7 @@ export function ProductSEO({
   marca = "",
   gtin = "",
 }: ProductSEOProps) {
-  const url = `https://gcomerciosuplementos.com/products/${slug}`;
+  const url = `https://tendenciacosmeticos.com.br/products/${slug}`;
   const titulo = `${nome} | Tendencia Cosmeticos`;
   const descricaoMeta = descricao.length > 155
     ? descricao.substring(0, 152) + "..."

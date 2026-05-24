@@ -14,7 +14,7 @@ import { fileURLToPath } from "node:url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
-const SITE = "https://gcomerciosuplementos.com";
+const SITE = "https://tendenciacosmeticos.com.br";
 const DEFAULT_BRAND = "Tendencia Cosmeticos";
 const KNOWN_BRANDS = ["Growth Supplements", "Masterway", "Max Titanium", "Integralmédica", "Probiótica", "Black Skull", "Dux Nutrition", "Atlhetica", "Optimum Nutrition", "Nutrata", "Darkness"];
 const CATEGORY = "Health & Beauty > Health Care > Fitness & Nutrition > Nutritional Supplements";
