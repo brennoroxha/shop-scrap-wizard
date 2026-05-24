@@ -14,7 +14,7 @@ const STORE_NAME = "Tendência Cosméticos";
 const DEFAULT_BRAND = "Tendência Cosméticos";
 // Order matters: longer/more specific first
 const KNOWN_BRANDS = [
-  "L'Oréal Professionnel", "L'Oréal Paris", "L'Oréal", "L'Oreal", "Loreal",
+  "L'Oréal Professionnel", "L'Oréal Paris", "L'Oréal", "L'Oreal", "Loreal", "Elseve",
   "Wella Professionals", "Wella SP", "Wella",
   "La Roche-Posay", "La Roche Posay",
   "Mantecorp Skincare", "Mantecorp", "Epidrat",
