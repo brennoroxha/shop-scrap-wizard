@@ -10,7 +10,8 @@ import { fileURLToPath } from "node:url";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
 const SITE = "https://lojas-epoca.store";
-const DEFAULT_BRAND = "Época Cosméticos";
+const STORE_NAME = "Tendência Cosméticos";
+const DEFAULT_BRAND = "Tendência Cosméticos";
 const KNOWN_BRANDS = [
   "Wella", "L'Oréal", "L'Oreal", "Loreal", "Maybelline", "Vichy", "La Roche-Posay",
   "Eucerin", "Bioré", "Biore", "Neostrata", "SkinCeuticals", "Dior", "M·A·C", "MAC",
