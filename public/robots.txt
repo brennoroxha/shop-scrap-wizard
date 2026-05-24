@@ -22,4 +22,4 @@ Disallow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://gcomerciosuplementos.com/sitemap.xml
+Sitemap: https://tendenciacosmeticos.com.br/sitemap.xml
