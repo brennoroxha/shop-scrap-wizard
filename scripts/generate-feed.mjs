@@ -200,9 +200,9 @@ ${addl}
 const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:g="http://base.google.com/ns/1.0">
   <channel>
-    <title>Lojas Época</title>
+    <title>${STORE_NAME}</title>
     <link>${SITE}</link>
-    <description>Lojas Época — Cosméticos, maquiagem e cuidados com a pele com os melhores preços.</description>
+    <description>${STORE_NAME} — Cosméticos, maquiagem e cuidados com a pele com os melhores preços.</description>
 ${items}
   </channel>
 </rss>
