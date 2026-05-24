@@ -306,7 +306,7 @@ const items = unique.map((p) => {
   const link = `${SITE}/produtos/${p.id}`;
   const googleCategory = getCategory(p.id, p.category);
   const brand = detectBrand(p.name);
-  const description = generateDescription(p.name, brand, googleCategory);
+  let description = generateDescription(p.name, brand, googleCategory);
   const addl = p.additional.map((u) => `      <g:additional_image_link>${esc(safeUrl(u))}</g:additional_image_link>`).join("\n");
   const groupId = itemGroupId(p.id);
 
@@ -316,18 +316,23 @@ const items = unique.map((p) => {
   let gtinField = "";
   let identifierExists = "true";
   let mpnField = `<g:mpn>${esc(p.id)}</g:mpn>`;
+  let gtinForDescription = "";
 
   if (p.ean && isValidGtin(p.ean)) {
-    // Se duplicado e não é o vencedor do grupo, desativa identifier_exists
     if (gtinCounts[p.ean] > 1 && winnerByGtin[p.ean] !== p.id) {
       identifierExists = "false";
       gtinField = "";
     } else {
       gtinField = `<g:gtin>${esc(p.ean)}</g:gtin>`;
+      gtinForDescription = p.ean;
     }
   } else {
     identifierExists = "false";
     gtinField = "";
+  }
+
+  if (gtinForDescription) {
+    description = `${description} GTIN: ${gtinForDescription}.`;
   }
 
   const identifierExistsTag = identifierExists === "false" ? `\n      <g:identifier_exists>false</g:identifier_exists>` : "";
