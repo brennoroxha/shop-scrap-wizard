@@ -154,7 +154,10 @@ const CATEGORY_MAP = {
 const DEFAULT_CATEGORY = "Health & Beauty > Personal Care > Cosmetics";
 
 const getCategory = (cat) => CATEGORY_MAP[cat] || DEFAULT_CATEGORY;
-const detectBrand = (name) => KNOWN_BRANDS.find((b) => name.toLowerCase().includes(b.toLowerCase())) || DEFAULT_BRAND;
+const detectBrand = (name) => {
+  const n = normalize(name);
+  return KNOWN_BRANDS.find((b) => n.includes(normalize(b))) || DEFAULT_BRAND;
+};
 
 const src = fs.readFileSync(path.join(ROOT, "src/data/products.ts"), "utf8");
 
