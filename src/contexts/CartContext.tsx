@@ -1,5 +1,6 @@
 import { createContext, useContext, useState, useCallback, useEffect, type ReactNode } from "react";
 import type { Product } from "@/data/products";
+import { GIFT_PRODUCT, GIFT_THRESHOLD, isGiftProductId } from "@/data/giftProduct";
 
 export interface CartItem {
   product: Product;
@@ -45,6 +46,21 @@ export const CartProvider = ({ children }: { children: ReactNode }) => {
       localStorage.setItem(STORAGE_KEY, JSON.stringify(items));
     } catch {
       // ignore
+    }
+  }, [items]);
+
+  // Auto-add/remove free gift when non-gift subtotal reaches threshold
+  useEffect(() => {
+    const nonGiftSubtotal = items
+      .filter((i) => !isGiftProductId(i.product.id))
+      .reduce((sum, i) => sum + i.product.price * i.quantity, 0);
+    const hasGift = items.some((i) => isGiftProductId(i.product.id));
+    const qualifies = nonGiftSubtotal >= GIFT_THRESHOLD;
+
+    if (qualifies && !hasGift) {
+      setItems((prev) => [...prev, { product: GIFT_PRODUCT, quantity: 1 }]);
+    } else if (!qualifies && hasGift) {
+      setItems((prev) => prev.filter((i) => !isGiftProductId(i.product.id)));
     }
   }, [items]);
 

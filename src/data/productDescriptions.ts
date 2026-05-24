@@ -12777,23 +12777,6 @@ Uso diurno e noturno. Aplicar com a pele limpa e seca de 3 a 4 Gotas. Aplicar o 
 </ul>
 <p><strong>EAN:</strong> 4084500999206</p>`,
   },
-"epoca-brinde-full-size-vult-esmalte-5-free-amour-surpreender-8ml": {
-    slug:"epoca-brinde-full-size-vult-esmalte-5-free-amour-surpreender-8ml",
-    variantLabel:"Brinde",
-    variants: ["Brinde"],
-    variantImages: {"Brinde":"/products/7899852025766_ddde4fb2.jpg"},
-    variantPrices: {"Brinde": {"price": 0.01}},
-    descriptionHtml: `<h3>Descrição</h3>
-Brinde Full Size Vult Esmalte 5 Free Amour Surpreender 8ml (Imagem Ilustrativa). Exclusivo para ações da Época Cosméticos, não disponível para venda. Promoção sujeita a disponibilidade de estoque.<br/>
-<h3>Marca</h3>
-<p>Vult</p>
-<h3>Categoria</h3>
-<p>Cosméticos/Ganhe Brindes/Brinde/</p>
-<h3>Apresentações disponíveis</h3>
-<ul>
-<li><strong>Brinde</strong></li>
-</ul>`,
-  },
 "epoca-perfume-good-girl-jasmine-absolute-carolina-herrera-feminino-edp": {
     slug:"epoca-perfume-good-girl-jasmine-absolute-carolina-herrera-feminino-edp",
     variantLabel:"Tamanho",

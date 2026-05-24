@@ -2029,19 +2029,6 @@ const rawProducts: Product[] = [
     "category": "cosmeticos-cabelos-normal-ou-todos-os-tipos"
   },
   {
-    "id": "epoca-brinde-full-size-vult-esmalte-5-free-amour-surpreender-8ml",
-    "ean": "7899852003931",
-    "name": "Brinde Full Size Vult Esmalte 5 Free Amour Surpreender 8ml",
-    "image": "/products/7899852025766_ddde4fb2.jpg",
-    "images": [
-      "/products/7899852025766_ddde4fb2.jpg"
-    ],
-    "price": 0.01,
-    "installment": "R$ 0,0",
-    "hasVariants": false,
-    "category": "cosmeticos-ganhe-brindes-brinde"
-  },
-  {
     "id": "epoca-base-dior-forever-skin-wear-30ml",
     "ean": "3348901578691",
     "name": "Base Dior Forever Skin Wear 30ml 0 Neutral",
