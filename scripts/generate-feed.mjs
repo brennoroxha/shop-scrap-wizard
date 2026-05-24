@@ -349,14 +349,27 @@ const generateDescription = (name, brand, googleCategory) => {
   return `${name}.${sizeBit} ${brandBit}${hint} Compre na ${STORE_NAME} com entrega rápida para todo o Brasil e pagamento via Pix com desconto.`;
 };
 
+const buildShortProductId = (product) => {
+  const brand = detectBrand(product.name);
+  const withoutBrand = product.name.replace(new RegExp(`^${brand.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\s+`, "i"), "");
+  const volume = volumeFromName(product.name);
+  const volumeSlug = volume ? slugify(volume) : "";
+  const baseName = withoutBrand
+    .replace(/\b\d+\s?(?:ml|g|mg|kg|un|unidades?)\b/gi, "")
+    .replace(/\b(refil|kit|combo|duo|trio)\b/gi, "")
+    .trim();
+
+  return joinIdParts([brand, baseName || product.name, volumeSlug], MAX_ID_LEN);
+};
+
 const items = unique.map((p) => {
   const link = `${SITE}/produtos/${p.id}`;
   const googleCategory = getCategory(p.id, p.category);
   const brand = detectBrand(p.name);
   let description = generateDescription(p.name, brand, googleCategory);
   const addl = p.additional.map((u) => `      <g:additional_image_link>${esc(safeUrl(u))}</g:additional_image_link>`).join("\n");
-  const shortPid = shortenId(p.id);
-  const groupId = shortenId(itemGroupId(p.id));
+  const shortPid = buildShortProductId(p);
+  const groupId = limitSlug(itemGroupId(p.id));
 
   // GTIN handling: Google só aceita 8, 12, 13 ou 14 dígitos.
   const isValidGtin = (gtin) => /^\d{8}$|^\d{12}$|^\d{13}$|^\d{14}$/.test(gtin);
@@ -384,6 +397,7 @@ const items = unique.map((p) => {
 
   const identifierExistsTag = identifierExists === "false" ? `\n      <g:identifier_exists>false</g:identifier_exists>` : "";
   const gtinTag = gtinField ? `\n      ${gtinField}` : "";
+  const mpnTag = identifierExists === "false" ? `\n      <g:mpn>${esc(shortPid)}</g:mpn>` : "";
 
   return `    <item>
       <g:id>${esc(shortPid)}</g:id>
@@ -394,8 +408,7 @@ const items = unique.map((p) => {
       <g:availability>in stock</g:availability>
       <g:price>${p.price.toFixed(2)} BRL</g:price>
       <g:condition>new</g:condition>
-      <g:brand>${esc(brand)}</g:brand>${gtinTag}${identifierExistsTag}
-      <g:mpn>${esc(shortPid)}</g:mpn>
+      <g:brand>${esc(brand)}</g:brand>${gtinTag}${identifierExistsTag}${mpnTag}
       <g:google_product_category>${esc(googleCategory)}</g:google_product_category>
       <g:product_type>${esc(productTypeFromCategory(p.category))}</g:product_type>
       <g:item_group_id>${esc(groupId)}</g:item_group_id>
