@@ -212,7 +212,7 @@ const ProductPage = () => {
     .slice(0, 12);
 
   // ---------- SEO ----------
-  const canonicalUrl = `${SITE_URL}/products/${product.id}`;
+  const canonicalUrl = `${SITE_URL}/produtos/${product.id}`;
   const brand = guessBrand(product.name);
   const descPlainFull = desc ? stripHtml(desc.descriptionHtml) : product.name;
   const metaDescription = truncate(
