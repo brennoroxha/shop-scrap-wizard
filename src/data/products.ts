@@ -26,6 +26,7 @@ import dailyWheyBaunilha from "@/assets/products/daily-whey-baunilha.png";
 import dailyWheyMorango from "@/assets/products/daily-whey-morango.png";
 import multivitaminico120 from "@/assets/products/multivitaminico-120.png";
 import kitElseveCollagenLifter from "@/assets/products/kit-elseve-collagen-lifter.png";
+import eucerinAquaphorDuopack from "@/assets/products/eucerin-aquaphor-duopack.png";
 
 export interface Product {
   id: string;
