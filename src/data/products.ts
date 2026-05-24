@@ -25,6 +25,7 @@ import dailyWheyChocolate from "@/assets/products/daily-whey-chocolate.png";
 import dailyWheyBaunilha from "@/assets/products/daily-whey-baunilha.png";
 import dailyWheyMorango from "@/assets/products/daily-whey-morango.png";
 import multivitaminico120 from "@/assets/products/multivitaminico-120.png";
+import kitElseveCollagenLifter from "@/assets/products/kit-elseve-collagen-lifter.png";
 
 export interface Product {
   id: string;
@@ -4536,6 +4537,18 @@ const rawProducts: Product[] = [
     "installment": "R$ 4,0",
     "hasVariants": false,
     "category": "cosmeticos-cabelos-oleo"
+  },
+  {
+    "id": "kit-elseve-collagen-lifter-shampoo-encorpador-400ml-condicionador-redensifica-fios-400ml-leave-in-injecao-de-massa-100ml-tratamento-efeito-teia",
+    "name": "Kit Elseve Collagen Lifter Shampoo Encorpador 400ml + Condicionador Redensifica Fios 400ml + Leave-in Injeção De Massa 100ml + Tratamento Efeito Teia",
+    "image": kitElseveCollagenLifter,
+    "images": [kitElseveCollagenLifter],
+    "price": 159.90,
+    "originalPrice": 289.90,
+    "discount": 45,
+    "installment": "R$ 13,32",
+    "hasVariants": false,
+    "category": "cosmeticos-cabelos-normal-ou-todos-os-tipos"
   }
 ];
 
