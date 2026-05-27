@@ -521,72 +521,8 @@ const ProductPage = () => {
           );
         })()}
 
-        {/* Reviews */}
-        <section id="avaliacoes" className="mt-12 scroll-mt-24">
-          <h2 className="mb-4 text-xl font-bold text-foreground">Avaliações dos clientes</h2>
 
-          <div className="flex flex-col gap-4 rounded-lg border border-border bg-card p-5 sm:flex-row sm:items-center sm:gap-8">
-            <div className="flex flex-col items-center sm:items-start">
-              <span className="text-4xl font-bold text-foreground">{reviewStats.rating.toFixed(1)}</span>
-              <StarRating rating={reviewStats.rating} size={20} />
-              <span className="mt-1 text-xs text-muted-foreground">
-                Baseado em {formatReviewCount(reviewStats.count)} avaliações
-              </span>
-            </div>
-            <div className="flex-1 space-y-1.5">
-              {[5, 4, 3, 2, 1].map((star) => {
-                const pct =
-                  star === 5 ? 88 :
-                  star === 4 ? 10 :
-                  star === 3 ? 1.5 :
-                  star === 2 ? 0.3 : 0.2;
-                return (
-                  <div key={star} className="flex items-center gap-2 text-xs">
-                    <span className="w-6 text-foreground">{star}★</span>
-                    <div className="h-2 flex-1 overflow-hidden rounded-full bg-secondary">
-                      <div
-                        className="h-full bg-yellow-400"
-                        style={{ width: `${pct}%` }}
-                      />
-                    </div>
-                    <span className="w-12 text-right text-muted-foreground">
-                      {Math.round((reviewStats.count * pct) / 100).toLocaleString("pt-BR")}
-                    </span>
-                  </div>
-                );
-              })}
-            </div>
-          </div>
 
-          <ul className="mt-6 space-y-4">
-            {visibleReviews.map((rev, idx) => (
-              <li key={idx} className="rounded-lg border border-border bg-card p-4">
-                <div className="flex items-center justify-between">
-                  <div className="flex items-center gap-2">
-                    <StarRating rating={rev.rating} size={14} />
-                    <span className="text-sm font-semibold text-foreground">{rev.name}</span>
-                  </div>
-                  <span className="text-xs text-muted-foreground">{rev.date}</span>
-                </div>
-                {rev.title && (
-                  <p className="mt-2 text-sm font-semibold text-foreground">{rev.title}</p>
-                )}
-                <p className="mt-1 text-sm leading-relaxed text-foreground/90">{rev.text}</p>
-              </li>
-            ))}
-          </ul>
-
-          {!reviewsExpanded && (
-            <div className="mt-6 flex justify-center">
-              <button
-                onClick={() => setReviewsExpanded(true)}
-                className="rounded-md border border-border bg-card px-6 py-2.5 text-sm font-semibold text-foreground transition-colors hover:bg-secondary"
-              >
-                Exibir todas as avaliações
-              </button>
-            </div>
-          )}
-        </section>
 
 
 
