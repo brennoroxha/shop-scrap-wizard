@@ -147,7 +147,7 @@ const Footer = () => {
       {/* Mobile */}
       <div className="md:hidden container-page py-6">
         <div className="flex justify-start pb-4">
-          <img src={logo} alt="Tendência Cosméticos" className="h-8 w-auto" loading="lazy" />
+          <LogoSelector src={logo} alt="Tendência Cosméticos" className="h-8 w-auto" />
         </div>
 
         {/* Sobre */}
