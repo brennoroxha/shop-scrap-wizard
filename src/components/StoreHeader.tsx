@@ -53,7 +53,7 @@ const StoreHeader = ({ onToggleMobileMenu, mobileMenuOpen }: StoreHeaderProps) =
             <Menu className="h-7 w-7" />
           </button>
           <Link to="/" className="no-underline">
-            <img src={logo} alt="Tendência Cosméticos" className="h-[44px] w-auto"  loading="lazy"/>
+            <LogoSelector src={logo} alt="Tendência Cosméticos" className="h-[44px] w-auto" />
           </Link>
           <button
             onClick={() => setIsOpen(true)}
