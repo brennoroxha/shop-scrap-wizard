@@ -17,10 +17,10 @@ function readCache(): boolean | null {
 }
 
 export function useLogoProtectionSetting(): boolean {
-  // Default to true (protected) to avoid flashing the official logo while loading.
+  // Default to false (disabled) — protection is opt-in via admin panel.
   const [enabled, setEnabled] = useState<boolean>(() => {
     const cached = readCache();
-    return cached === null ? true : cached;
+    return cached === null ? false : cached;
   });
 
   useEffect(() => {
@@ -35,7 +35,7 @@ export function useLogoProtectionSetting(): boolean {
       .maybeSingle()
       .then(({ data }) => {
         if (cancelled) return;
-        const isEnabled = data?.value !== "false";
+        const isEnabled = data?.value === "true";
         try {
           sessionStorage.setItem(CACHE_KEY, isEnabled ? "true" : "false");
         } catch {}
