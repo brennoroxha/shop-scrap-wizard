@@ -14,7 +14,6 @@ const ProductCard = ({ product, fullWidth = false }: ProductCardProps) => {
   const [qty, setQty] = useState(1);
   const formatPrice = (value: number) =>
     `R$ ${value.toFixed(2).replace(".", ",")}`;
-  const stats = getReviewStats(product.id);
 
   const handleBuy = () => {
     addItem(product, qty);
