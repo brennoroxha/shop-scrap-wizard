@@ -578,10 +578,6 @@ const ProductCardGrid = ({
         <h3 className="mb-2 line-clamp-2 text-xs font-semibold leading-tight text-card-foreground">
           {product.name}
         </h3>
-        <div className="mb-2 flex items-center gap-1">
-          <StarRating rating={stats.rating} size={12} />
-          <span className="text-[11px] text-muted-foreground">({formatReviewCount(stats.count)})</span>
-        </div>
         <div className="mt-auto">
           <div className="flex items-baseline gap-2">
             <span className="text-base font-bold text-sale">
