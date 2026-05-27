@@ -2,7 +2,7 @@ import { useState, useEffect, useCallback, useRef, useMemo } from "react";
 import { useLocation, Link, useNavigate } from "react-router-dom";
 import { Copy, Check, Lock, Clock, HelpCircle, X, ChevronDown } from "lucide-react";
 import { QRCodeSVG } from "qrcode.react";
-import logo from "@/assets/full-logo.png";
+import LogoSelector from "@/components/LogoSelector";
 
 import UploadProof from "@/components/UploadProof";
 import { trackPurchase, trackGoogleAdsPurchase } from "@/utils/tracking";
