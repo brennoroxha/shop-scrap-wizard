@@ -1,4 +1,4 @@
-import { useMemo, type CSSProperties } from "react";
+import { useEffect, useMemo, useState, type CSSProperties } from "react";
 import ProtectedLogo from "./ProtectedLogo";
 import { useVisitorSource } from "@/hooks/useVisitorSource";
 
