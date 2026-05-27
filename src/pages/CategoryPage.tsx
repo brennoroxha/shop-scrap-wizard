@@ -516,8 +516,6 @@ const CategoryPage = () => {
 /* Grid-optimized product card (full width instead of fixed 200px) */
 import { ArrowDown } from "lucide-react";
 import type { Product } from "@/data/products";
-import StarRating from "@/components/StarRating";
-import { getReviewStats, formatReviewCount } from "@/data/reviews";
 
 const ProductCardGrid = ({
   product,
@@ -528,7 +526,7 @@ const ProductCardGrid = ({
 }) => {
   const formatPrice = (value: number) =>
     `R$ ${value.toFixed(2).replace(".", ",")}`;
-  const stats = getReviewStats(product.id);
+
 
   if (listMode) {
     return (
