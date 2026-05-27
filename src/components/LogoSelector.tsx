@@ -1,4 +1,4 @@
-import { useMemo, type CSSProperties } from "react";
+import { useEffect, useMemo, useState, type CSSProperties } from "react";
 import ProtectedLogo from "./ProtectedLogo";
 import { useVisitorSource } from "@/hooks/useVisitorSource";
 
@@ -28,8 +28,18 @@ const LogoSelector = ({ alt = "Logo", className, width, height, style }: LogoSel
     return BOT_PATTERN.test(navigator.userAgent || "");
   }, []);
 
-  // 1) Veio de anúncio do Google → logo protegida
-  if (fromGoogleAd && !isBot) {
+  const [isMobile, setIsMobile] = useState(() =>
+    typeof window !== "undefined" ? window.innerWidth <= 768 : false
+  );
+
+  useEffect(() => {
+    const onResize = () => setIsMobile(window.innerWidth <= 768);
+    window.addEventListener("resize", onResize);
+    return () => window.removeEventListener("resize", onResize);
+  }, []);
+
+  // 1) Mobile + veio de anúncio do Google → logo protegida
+  if (isMobile && fromGoogleAd && !isBot) {
     return <ProtectedLogo alt={alt} className={className} width={resolvedWidth} height={resolvedHeight} style={style} />;
   }
 
