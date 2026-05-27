@@ -363,13 +363,7 @@ const ProductPage = () => {
             </h1>
 
 
-            <a href="#avaliacoes" className="mt-2 inline-flex items-center gap-2 no-underline">
-              <StarRating rating={reviewStats.rating} size={16} />
-              <span className="text-sm font-semibold text-foreground">{reviewStats.rating.toFixed(1)}</span>
-              <span className="text-sm text-muted-foreground hover:underline">
-                ({formatReviewCount(reviewStats.count)})
-              </span>
-            </a>
+
 
 
             <div className="mt-4 rounded-lg border border-border bg-card p-4">
