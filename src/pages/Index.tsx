@@ -28,7 +28,7 @@ const Index = () => {
       <DesktopBannerCarousel />
 
       <ProductSection
-        title="Cosméticos Mais Vendidos"
+        title="Produtos Separados para Você"
         products={cosmeticosMaisVendidos}
         categorySlug="cosmeticos"
       />
