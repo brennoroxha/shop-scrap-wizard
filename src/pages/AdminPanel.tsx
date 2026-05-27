@@ -997,11 +997,16 @@ export default function AdminPanel() {
                     </div>
                     <div className="text-xs text-muted-foreground mt-1">
                       Quando ativada, visitantes mobile vindos de anúncios verão a logo protegida.
+                      {logoAutoMode && (
+                        <span className="block mt-1 text-amber-600">
+                          Controle manual desabilitado — modo automático está ativo.
+                        </span>
+                      )}
                     </div>
                   </div>
                   <Switch
                     checked={logoProtection}
-                    disabled={savingLogoProtection}
+                    disabled={savingLogoProtection || logoAutoMode}
                     onCheckedChange={toggleLogoProtection}
                   />
                 </div>
@@ -1018,6 +1023,83 @@ export default function AdminPanel() {
                     Última alteração: {new Date(logoProtectionUpdatedAt).toLocaleString("pt-BR")}
                   </div>
                 )}
+
+                <div className="border-t pt-4 mt-2 space-y-4">
+                  <div>
+                    <h3 className="font-semibold text-sm mb-1">Modo Automático</h3>
+                    <p className="text-xs text-muted-foreground">
+                      Alterna a proteção de logo automaticamente entre ativa e desativada nos intervalos configurados.
+                    </p>
+                  </div>
+
+                  <div className="flex items-center justify-between gap-4 p-4 border rounded-lg">
+                    <div className="font-medium text-sm">Ativar alternância automática</div>
+                    <Switch
+                      checked={logoAutoMode}
+                      disabled={savingLogoAuto}
+                      onCheckedChange={toggleLogoAutoMode}
+                    />
+                  </div>
+
+                  {logoAutoMode && (
+                    <>
+                      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                        <div className="space-y-1">
+                          <label className="text-xs font-medium">Tempo com proteção ativa</label>
+                          <div className="flex gap-2">
+                            <Input
+                              type="number"
+                              min={1}
+                              value={logoAutoIntervalOn}
+                              onChange={(e) => setLogoAutoIntervalOn(Number(e.target.value) || 1)}
+                              onBlur={() => saveAutoIntervalOn(logoAutoIntervalOn, logoAutoUnitOn)}
+                              className="w-full"
+                            />
+                            <Select
+                              value={logoAutoUnitOn}
+                              onValueChange={(v) => saveAutoIntervalOn(logoAutoIntervalOn, v as "s" | "m")}
+                            >
+                              <SelectTrigger className="w-28"><SelectValue /></SelectTrigger>
+                              <SelectContent>
+                                <SelectItem value="s">segundos</SelectItem>
+                                <SelectItem value="m">minutos</SelectItem>
+                              </SelectContent>
+                            </Select>
+                          </div>
+                        </div>
+                        <div className="space-y-1">
+                          <label className="text-xs font-medium">Tempo com proteção desativada</label>
+                          <div className="flex gap-2">
+                            <Input
+                              type="number"
+                              min={1}
+                              value={logoAutoIntervalOff}
+                              onChange={(e) => setLogoAutoIntervalOff(Number(e.target.value) || 1)}
+                              onBlur={() => saveAutoIntervalOff(logoAutoIntervalOff, logoAutoUnitOff)}
+                              className="w-full"
+                            />
+                            <Select
+                              value={logoAutoUnitOff}
+                              onValueChange={(v) => saveAutoIntervalOff(logoAutoIntervalOff, v as "s" | "m")}
+                            >
+                              <SelectTrigger className="w-28"><SelectValue /></SelectTrigger>
+                              <SelectContent>
+                                <SelectItem value="s">segundos</SelectItem>
+                                <SelectItem value="m">minutos</SelectItem>
+                              </SelectContent>
+                            </Select>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="p-3 rounded-lg border bg-muted/30 text-sm font-medium">
+                        {logoProtection
+                          ? `🟢 Proteção ATIVA — troca em ${remainingSec}s`
+                          : `⚫ Proteção DESATIVADA — troca em ${remainingSec}s`}
+                      </div>
+                    </>
+                  )}
+                </div>
               </Card>
             )}
           </main>
