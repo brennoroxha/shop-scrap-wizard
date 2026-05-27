@@ -231,26 +231,6 @@ const ProductPage = () => {
     mpn: skuId,
     brand: { "@type": "Brand", name: brand },
     category: product.category.replace(/-/g, " "),
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: reviewStats.rating.toFixed(1),
-      reviewCount: reviewStats.count,
-      bestRating: "5",
-      worstRating: "1",
-    },
-    review: visibleReviews.slice(0, 5).map((r) => ({
-      "@type": "Review",
-      author: { "@type": "Person", name: r.name },
-      datePublished: r.date,
-      reviewBody: r.text,
-      name: r.title || r.name,
-      reviewRating: {
-        "@type": "Rating",
-        ratingValue: r.rating,
-        bestRating: "5",
-        worstRating: "1",
-      },
-    })),
     offers: {
       "@type": "Offer",
       url: canonicalUrl,
