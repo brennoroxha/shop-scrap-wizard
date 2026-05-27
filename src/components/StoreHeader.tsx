@@ -2,6 +2,7 @@ import { ShoppingCart, Menu } from "lucide-react";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import logo from "@/assets/full-logo.png";
+import LogoSelector from "@/components/LogoSelector";
 
 import { useCart } from "@/contexts/CartContext";
 import SearchBar from "@/components/SearchBar";
