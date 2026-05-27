@@ -10,13 +10,11 @@ interface ProtectedLogoProps {
 }
 
 const SUPABASE_URL = import.meta.env.VITE_SUPABASE_URL as string;
-const OFFICIAL_LOGO_WIDTH = 250;
-const OFFICIAL_LOGO_HEIGHT = 100;
+const CANVAS_WIDTH = 200;
+const CANVAS_HEIGHT = 60;
 
-const ProtectedLogo = ({ alt = "Logo", className, width, height, style }: ProtectedLogoProps) => {
+const ProtectedLogo = ({ alt = "Logo", className, style }: ProtectedLogoProps) => {
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
-  const canvasWidth = width ?? OFFICIAL_LOGO_WIDTH;
-  const canvasHeight = height ?? OFFICIAL_LOGO_HEIGHT;
 
   const loadOnce = async () => {
     try {
@@ -36,13 +34,10 @@ const ProtectedLogo = ({ alt = "Logo", className, width, height, style }: Protec
           URL.revokeObjectURL(objectUrl);
           return;
         }
-        const dpr = window.devicePixelRatio || 1;
-        canvas.width = Math.round(canvasWidth * dpr);
-        canvas.height = Math.round(canvasHeight * dpr);
         const ctx = canvas.getContext("2d");
         if (ctx) {
-          ctx.clearRect(0, 0, canvas.width, canvas.height);
-          ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+          ctx.clearRect(0, 0, CANVAS_WIDTH, CANVAS_HEIGHT);
+          ctx.drawImage(img, 0, 0, CANVAS_WIDTH, CANVAS_HEIGHT);
         }
         URL.revokeObjectURL(objectUrl);
       };
@@ -65,10 +60,17 @@ const ProtectedLogo = ({ alt = "Logo", className, width, height, style }: Protec
       ref={canvasRef}
       aria-label={alt}
       role="img"
-      width={canvasWidth}
-      height={canvasHeight}
+      width={CANVAS_WIDTH}
+      height={CANVAS_HEIGHT}
       className={className}
-      style={style}
+      style={{
+        width: "200px",
+        height: "60px",
+        display: "block",
+        userSelect: "none",
+        WebkitUserSelect: "none",
+        ...style,
+      }}
       draggable={false}
       onContextMenu={(e) => e.preventDefault()}
       onDragStart={(e) => e.preventDefault()}
