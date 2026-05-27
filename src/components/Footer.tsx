@@ -19,7 +19,7 @@ const Footer = () => {
     { label: "Política de Envio", to: "/paginas/shipping" },
     { label: "Política de Privacidade", to: "/paginas/privacy" },
     { label: "Política de Reembolso", to: "/paginas/refund" },
-    { label: "Formas de Pagamento", to: "/paginas/payment" },
+    
     { label: "Perguntas Frequentes", to: "/paginas/faq" },
     { label: "Segurança e Qualidade", to: "/paginas/quality" },
   ];
