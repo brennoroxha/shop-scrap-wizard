@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, type CSSProperties } from "react";
 import { supabase } from "@/integrations/supabase/client";
 
 interface ProtectedLogoProps {
@@ -6,11 +6,12 @@ interface ProtectedLogoProps {
   className?: string;
   width?: number;
   height?: number;
+  style?: CSSProperties;
 }
 
 const SUPABASE_URL = import.meta.env.VITE_SUPABASE_URL as string;
 
-const ProtectedLogo = ({ alt = "Logo", className, width, height }: ProtectedLogoProps) => {
+const ProtectedLogo = ({ alt = "Logo", className, width, height, style }: ProtectedLogoProps) => {
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
 
   const loadOnce = async () => {
@@ -64,17 +65,10 @@ const ProtectedLogo = ({ alt = "Logo", className, width, height }: ProtectedLogo
       width={width}
       height={height}
       className={className}
+      style={style}
+      draggable={false}
       onContextMenu={(e) => e.preventDefault()}
       onDragStart={(e) => e.preventDefault()}
-      style={{
-        display: "block",
-        width: "100%",
-        height: "100%",
-        maxWidth: "100%",
-        userSelect: "none",
-        WebkitUserSelect: "none",
-        ...({ WebkitUserDrag: "none" } as any),
-      }}
     />
   );
 };
