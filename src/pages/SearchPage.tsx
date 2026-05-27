@@ -62,12 +62,8 @@ const SearchPage = () => {
       case "price-desc":
         sorted.sort((a, b) => b.price - a.price);
         break;
-      case "best-sellers":
-        sorted.sort(
-          (a, b) => getReviewStats(b.id).count - getReviewStats(a.id).count,
-        );
-        break;
     }
+
     return sorted;
   }, [baseResults, selectedBrands, priceMin, priceMax, sort]);
 
