@@ -63,7 +63,7 @@ const Footer = () => {
         <div className="grid grid-cols-3 gap-8">
           {/* Sobre */}
           <div>
-            <img src={logo} alt="Tendência Cosméticos" className="h-10 w-auto mb-4" loading="lazy" />
+            <LogoSelector src={logo} alt="Tendência Cosméticos" className="h-10 w-auto mb-4" />
             <h3 className="font-bold text-foreground text-sm mb-4">INFORMAÇÕES DA EMPRESA</h3>
             <div className="text-sm text-muted-foreground leading-relaxed space-y-1">
               <p>Tendência Cosméticos</p>
