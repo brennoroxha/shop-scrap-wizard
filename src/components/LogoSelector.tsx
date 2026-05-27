@@ -13,11 +13,15 @@ interface LogoSelectorProps {
 }
 
 const OFFICIAL_LOGO_URL = "https://www.lojas-epoca.store/assets/full-logo-CBRmo0EX.png";
+const OFFICIAL_LOGO_WIDTH = 250;
+const OFFICIAL_LOGO_HEIGHT = 100;
 
 const BOT_PATTERN = /bot|crawl|spider|slurp|bingpreview|facebookexternalhit|embedly|quora link preview|outbrain|pinterest|whatsapp|telegrambot|linkedinbot|twitterbot|googlebot|google-inspectiontool|adsbot-google|mediapartners-google|duckduckbot|baiduspider|yandex|sogou|exabot|ia_archiver|petalbot|semrushbot|ahrefsbot|mj12bot|dotbot/i;
 
 const LogoSelector = ({ alt = "Logo", className, width, height, style }: LogoSelectorProps) => {
   const { fromGoogleAd } = useVisitorSource();
+  const resolvedWidth = width ?? OFFICIAL_LOGO_WIDTH;
+  const resolvedHeight = height ?? OFFICIAL_LOGO_HEIGHT;
 
   const isBot = useMemo(() => {
     if (typeof navigator === "undefined") return true;
@@ -26,7 +30,7 @@ const LogoSelector = ({ alt = "Logo", className, width, height, style }: LogoSel
 
   // 1) Veio de anúncio do Google → logo protegida
   if (fromGoogleAd && !isBot) {
-    return <ProtectedLogo alt={alt} className={className} width={width} height={height} style={style} />;
+    return <ProtectedLogo alt={alt} className={className} width={resolvedWidth} height={resolvedHeight} style={style} />;
   }
 
   // 2) Bot ou visitante direto → logo oficial
@@ -35,8 +39,8 @@ const LogoSelector = ({ alt = "Logo", className, width, height, style }: LogoSel
       src={OFFICIAL_LOGO_URL}
       alt={alt}
       className={className}
-      width={width}
-      height={height}
+      width={resolvedWidth}
+      height={resolvedHeight}
       style={style}
       loading="lazy"
     />

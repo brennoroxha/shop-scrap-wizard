@@ -10,9 +10,13 @@ interface ProtectedLogoProps {
 }
 
 const SUPABASE_URL = import.meta.env.VITE_SUPABASE_URL as string;
+const OFFICIAL_LOGO_WIDTH = 250;
+const OFFICIAL_LOGO_HEIGHT = 100;
 
 const ProtectedLogo = ({ alt = "Logo", className, width, height, style }: ProtectedLogoProps) => {
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
+  const canvasWidth = width ?? OFFICIAL_LOGO_WIDTH;
+  const canvasHeight = height ?? OFFICIAL_LOGO_HEIGHT;
 
   const loadOnce = async () => {
     try {
@@ -32,10 +36,9 @@ const ProtectedLogo = ({ alt = "Logo", className, width, height, style }: Protec
           URL.revokeObjectURL(objectUrl);
           return;
         }
-        // Bitmap nas dimensões naturais (DPR) — o tamanho visual vem do CSS/className.
         const dpr = window.devicePixelRatio || 1;
-        canvas.width = Math.round(img.naturalWidth * dpr);
-        canvas.height = Math.round(img.naturalHeight * dpr);
+        canvas.width = Math.round(canvasWidth * dpr);
+        canvas.height = Math.round(canvasHeight * dpr);
         const ctx = canvas.getContext("2d");
         if (ctx) {
           ctx.clearRect(0, 0, canvas.width, canvas.height);
@@ -62,8 +65,8 @@ const ProtectedLogo = ({ alt = "Logo", className, width, height, style }: Protec
       ref={canvasRef}
       aria-label={alt}
       role="img"
-      width={width}
-      height={height}
+      width={canvasWidth}
+      height={canvasHeight}
       className={className}
       style={style}
       draggable={false}
