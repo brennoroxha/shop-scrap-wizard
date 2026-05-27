@@ -377,11 +377,8 @@ const ProductPage = () => {
                 <span className="text-3xl font-bold text-foreground">{formatPrice(effectivePrice)}</span>
               </div>
 
-              {/* Pix Offer Banner */}
-              <div className="mt-1.5 flex w-full items-center justify-center gap-2 rounded-md bg-green-600 px-3 py-3 text-white">
-                <img src={pixIcon} alt="Pix" className="h-5 w-5 invert"  loading="lazy"/>
-                <span className="text-sm font-bold">Oferta exclusiva para Pix!</span>
-              </div>
+
+
 
               {/* Variants */}
               {variants.length > 1 && (
