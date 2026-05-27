@@ -87,7 +87,7 @@ const ProtectedLogo = ({ alt = "Logo", className, width, height }: ProtectedLogo
           display: "block",
           pointerEvents: "none",
           userSelect: "none",
-          WebkitUserDrag: "none" as any,
+          ...({ WebkitUserDrag: "none" } as any),
         }}
       />
       {/* Overlay transparente para bloquear interação direta */}
